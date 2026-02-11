@@ -5,19 +5,26 @@ import QuickView from './QuickView';
 
 const leagues = [...new Set(products.map(p => p.league))];
 
+function getBadgePath(teamName) {
+  const safe = teamName.replace(/[^\p{L}\p{N}\s\-]/gu, '').trim().replace(/ /g, '_');
+  return `/images/escudos/${safe}.png`;
+}
+
 const LEAGUE_IMAGES = {
-  "La Liga": "https://placehold.co/600x400/f0f0f0/555?text=La+Liga",
-  "Premier League": "https://placehold.co/600x400/f0f0f0/555?text=Premier+League",
-  "Serie A": "https://placehold.co/600x400/f0f0f0/555?text=Serie+A",
-  "Bundesliga": "https://placehold.co/600x400/f0f0f0/555?text=Bundesliga",
-  "Ligue 1": "https://placehold.co/600x400/f0f0f0/555?text=Ligue+1",
-  "Retro": "https://placehold.co/600x400/f0f0f0/555?text=Retro",
-  "Player": "https://placehold.co/600x400/f0f0f0/555?text=Player+Version",
+  "La Liga": "/images/escudos/leagues/La_Liga.png",
+  "Premier League": "/images/escudos/leagues/Premier_League.png",
+  "Serie A": "/images/escudos/leagues/Serie_A.png",
+  "Bundesliga": "/images/escudos/leagues/Bundesliga.png",
+  "Ligue 1": "/images/escudos/leagues/Ligue_1.png",
+  "Selecciones": "/images/escudos/leagues/Selecciones.png",
+  "Otras Ligas": "/images/escudos/leagues/Otras_Ligas.svg",
+  "Retro": "/images/escudos/leagues/Retro.svg",
 };
 
 export default function Catalog() {
   const [search, setSearch] = useState('');
   const [selectedLeague, setSelectedLeague] = useState(null);
+  const [selectedTeam, setSelectedTeam] = useState(null);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const filtered = search.trim()
@@ -30,16 +37,40 @@ export default function Catalog() {
   const handleLeagueSelect = (league) => {
     setSearch('');
     setSelectedLeague(league);
+    setSelectedTeam(null);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleTeamSelect = (team) => {
+    setSelectedTeam(team);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleBack = () => {
+    if (selectedTeam) {
+      setSelectedTeam(null);
+    } else if (selectedLeague) {
+      setSelectedLeague(null);
+    }
+    setSearch('');
+  };
+
+  const handleBackToCatalog = () => {
     setSelectedLeague(null);
+    setSelectedTeam(null);
     setSearch('');
   };
 
   const leagueProducts = selectedLeague
     ? products.filter(p => p.league === selectedLeague)
+    : [];
+
+  const teamsInLeague = selectedLeague
+    ? [...new Set(leagueProducts.map(p => p.team))]
+    : [];
+
+  const teamProducts = selectedTeam
+    ? leagueProducts.filter(p => p.team === selectedTeam)
     : [];
 
   return (
@@ -60,7 +91,7 @@ export default function Catalog() {
         <div className="league-nav-inner">
           <button
             className={`league-tab ${!selectedLeague && !search ? 'active' : ''}`}
-            onClick={handleBack}
+            onClick={handleBackToCatalog}
           >
             Catálogo
           </button>
@@ -95,17 +126,46 @@ export default function Catalog() {
               <p>No hay resultados para "{search}"</p>
             </div>
           )
+        ) : selectedLeague && selectedTeam ? (
+          <div style={{ paddingTop: 24 }}>
+            <div className="league-header">
+              <button className="back-btn" onClick={handleBack} aria-label="Volver">←</button>
+              <h2>{selectedTeam}</h2>
+              <span>{teamProducts.length} {teamProducts.length === 1 ? 'camiseta' : 'camisetas'}</span>
+            </div>
+            <div className="product-grid">
+              {teamProducts.map((p) => (
+                <ProductCard key={p.id} product={p} onQuickView={() => setSelectedProduct(p)} />
+              ))}
+            </div>
+          </div>
         ) : selectedLeague ? (
           <div style={{ paddingTop: 24 }}>
             <div className="league-header">
               <button className="back-btn" onClick={handleBack} aria-label="Volver">←</button>
               <h2>{selectedLeague}</h2>
-              <span>{leagueProducts.length} camisetas</span>
+              <span>{teamsInLeague.length} equipos</span>
             </div>
-            <div className="product-grid">
-              {leagueProducts.map((p) => (
-                <ProductCard key={p.id} product={p} onQuickView={() => setSelectedProduct(p)} />
-              ))}
+            <div className="league-grid">
+              {teamsInLeague.map((team) => {
+                const teamProds = leagueProducts.filter(p => p.team === team);
+                const teamImg = getBadgePath(team);
+                return (
+                  <button
+                    key={team}
+                    className="league-card"
+                    onClick={() => handleTeamSelect(team)}
+                  >
+                    <div className="league-card-img">
+                      <img src={teamImg} alt={team} loading="lazy" />
+                    </div>
+                    <div className="league-card-info">
+                      <h3>{team}</h3>
+                      <span>{teamProds.length} {teamProds.length === 1 ? 'camiseta' : 'camisetas'}</span>
+                    </div>
+                  </button>
+                );
+              })}
             </div>
           </div>
         ) : (

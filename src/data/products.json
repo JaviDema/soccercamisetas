@@ -1,44 +1,1521 @@
 [
-  {"id": 101, "league": "La Liga", "team": "Real Madrid", "type": "HOME 24/25", "code": "RM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Real+Madrid+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 102, "league": "La Liga", "team": "Real Madrid", "type": "AWAY 24/25", "code": "RM-A24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Real+Madrid+Away", "price": 21, "sizes": "S–XXL"},
-  {"id": 103, "league": "La Liga", "team": "FC Barcelona", "type": "HOME 24/25", "code": "BAR-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Barcelona+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 104, "league": "La Liga", "team": "FC Barcelona", "type": "AWAY 24/25", "code": "BAR-A24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Barcelona+Away", "price": 21, "sizes": "S–XXL"},
-  {"id": 105, "league": "La Liga", "team": "Atletico Madrid", "type": "HOME 24/25", "code": "ATM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Atleti+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 106, "league": "La Liga", "team": "Sevilla FC", "type": "HOME 24/25", "code": "SEV-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Sevilla+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 107, "league": "La Liga", "team": "Real Betis", "type": "HOME 24/25", "code": "BET-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Betis+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 108, "league": "La Liga", "team": "Real Sociedad", "type": "HOME 24/25", "code": "RSO-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Real+Sociedad", "price": 21, "sizes": "S–XXL"},
-  {"id": 109, "league": "La Liga", "team": "Athletic Club", "type": "HOME 24/25", "code": "ATH-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Athletic+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 110, "league": "La Liga", "team": "Valencia CF", "type": "HOME 24/25", "code": "VAL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Valencia+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 111, "league": "La Liga", "team": "Villarreal CF", "type": "HOME 24/25", "code": "VIL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Villarreal+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 201, "league": "Premier League", "team": "Manchester City", "type": "HOME 24/25", "code": "MCI-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Man+City+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 202, "league": "Premier League", "team": "Arsenal", "type": "HOME 24/25", "code": "ARS-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Arsenal+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 203, "league": "Premier League", "team": "Liverpool", "type": "HOME 24/25", "code": "LIV-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Liverpool+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 204, "league": "Premier League", "team": "Manchester United", "type": "HOME 24/25", "code": "MUN-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Man+United+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 205, "league": "Premier League", "team": "Chelsea", "type": "HOME 24/25", "code": "CHE-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Chelsea+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 206, "league": "Premier League", "team": "Tottenham", "type": "HOME 24/25", "code": "TOT-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Tottenham+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 207, "league": "Premier League", "team": "Newcastle", "type": "HOME 24/25", "code": "NEW-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Newcastle+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 208, "league": "Premier League", "team": "Aston Villa", "type": "HOME 24/25", "code": "AVL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Aston+Villa+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 209, "league": "Premier League", "team": "West Ham", "type": "HOME 24/25", "code": "WHU-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=West+Ham+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 210, "league": "Premier League", "team": "Brighton", "type": "HOME 24/25", "code": "BHA-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Brighton+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 301, "league": "Serie A", "team": "Inter Milan", "type": "HOME 24/25", "code": "INT-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Inter+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 302, "league": "Serie A", "team": "AC Milan", "type": "HOME 24/25", "code": "ACM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=AC+Milan+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 303, "league": "Serie A", "team": "Juventus", "type": "HOME 24/25", "code": "JUV-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Juventus+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 304, "league": "Serie A", "team": "Napoli", "type": "HOME 24/25", "code": "NAP-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Napoli+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 305, "league": "Serie A", "team": "AS Roma", "type": "HOME 24/25", "code": "ROM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Roma+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 306, "league": "Serie A", "team": "Lazio", "type": "HOME 24/25", "code": "LAZ-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Lazio+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 307, "league": "Serie A", "team": "Atalanta", "type": "HOME 24/25", "code": "ATA-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Atalanta+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 308, "league": "Serie A", "team": "Fiorentina", "type": "HOME 24/25", "code": "FIO-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Fiorentina+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 401, "league": "Bundesliga", "team": "Bayern Munich", "type": "HOME 24/25", "code": "BAY-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Bayern+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 402, "league": "Bundesliga", "team": "Dortmund", "type": "HOME 24/25", "code": "BVB-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Dortmund+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 403, "league": "Bundesliga", "team": "Leverkusen", "type": "HOME 24/25", "code": "LEV-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Leverkusen+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 404, "league": "Bundesliga", "team": "RB Leipzig", "type": "HOME 24/25", "code": "RBL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Leipzig+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 405, "league": "Bundesliga", "team": "Frankfurt", "type": "HOME 24/25", "code": "SGE-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Frankfurt+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 501, "league": "Ligue 1", "team": "PSG", "type": "HOME 24/25", "code": "PSG-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=PSG+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 502, "league": "Ligue 1", "team": "Marseille", "type": "HOME 24/25", "code": "OM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Marseille+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 503, "league": "Ligue 1", "team": "Monaco", "type": "HOME 24/25", "code": "MON-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Monaco+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 504, "league": "Ligue 1", "team": "Lyon", "type": "HOME 24/25", "code": "OL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Lyon+Home", "price": 21, "sizes": "S–XXL"},
-  {"id": 901, "league": "Retro", "team": "Brasil 2002", "type": "RETRO", "code": "BRA-R02", "image": "https://placehold.co/600x600/f0f0f0/999?text=Brasil+2002", "price": 25, "sizes": "S–XXL"},
-  {"id": 902, "league": "Retro", "team": "Argentina 1986", "type": "RETRO", "code": "ARG-R86", "image": "https://placehold.co/600x600/f0f0f0/999?text=Argentina+86", "price": 25, "sizes": "S–XXL"},
-  {"id": 903, "league": "Retro", "team": "Milan 2007", "type": "RETRO", "code": "ACM-R07", "image": "https://placehold.co/600x600/f0f0f0/999?text=Milan+2007", "price": 25, "sizes": "S–XXL"},
-  {"id": 904, "league": "Player", "team": "Argentina Messi", "type": "PLAYER VERSION", "code": "ARG-PV10", "image": "https://placehold.co/600x600/f0f0f0/999?text=Messi+Player", "price": 24, "sizes": "S–XXL"}
+  {
+    "id": 1001,
+    "league": "La Liga",
+    "team": "Real Madrid",
+    "type": "HOME 25/26",
+    "image": "/images/products/1001_Real_Madrid_HOME_2526.jpg"
+  },
+  {
+    "id": 1002,
+    "league": "La Liga",
+    "team": "Real Madrid",
+    "type": "AWAY 25/26",
+    "image": "/images/products/1002_Real_Madrid_AWAY_2526.jpg"
+  },
+  {
+    "id": 1003,
+    "league": "La Liga",
+    "team": "Real Madrid",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/1003_Real_Madrid_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 1004,
+    "league": "La Liga",
+    "team": "FC Barcelona",
+    "type": "HOME 25/26",
+    "image": "/images/products/1004_FC_Barcelona_HOME_2526.jpg"
+  },
+  {
+    "id": 1005,
+    "league": "La Liga",
+    "team": "FC Barcelona",
+    "type": "AWAY 25/26",
+    "image": "/images/products/1005_FC_Barcelona_AWAY_2526.jpg"
+  },
+  {
+    "id": 1006,
+    "league": "La Liga",
+    "team": "FC Barcelona",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/1006_FC_Barcelona_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 1007,
+    "league": "La Liga",
+    "team": "Atletico Madrid",
+    "type": "HOME 25/26",
+    "image": "/images/products/1007_Atletico_Madrid_HOME_2526.jpg"
+  },
+  {
+    "id": 1008,
+    "league": "La Liga",
+    "team": "Atletico Madrid",
+    "type": "AWAY 25/26",
+    "image": "/images/products/1008_Atletico_Madrid_AWAY_2526.jpg"
+  },
+  {
+    "id": 1009,
+    "league": "La Liga",
+    "team": "Atletico Madrid",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/1009_Atletico_Madrid_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 1010,
+    "league": "La Liga",
+    "team": "Sevilla FC",
+    "type": "HOME 25/26",
+    "image": "/images/products/1010_Sevilla_FC_HOME_2526.jpg"
+  },
+  {
+    "id": 1011,
+    "league": "La Liga",
+    "team": "Sevilla FC",
+    "type": "AWAY 25/26",
+    "image": "/images/products/1011_Sevilla_FC_AWAY_2526.jpg"
+  },
+  {
+    "id": 1012,
+    "league": "La Liga",
+    "team": "Real Betis",
+    "type": "HOME 25/26",
+    "image": "/images/products/1012_Real_Betis_HOME_2526.jpg"
+  },
+  {
+    "id": 1013,
+    "league": "La Liga",
+    "team": "Real Betis",
+    "type": "AWAY 25/26",
+    "image": "/images/products/1013_Real_Betis_AWAY_2526.jpg"
+  },
+  {
+    "id": 1014,
+    "league": "La Liga",
+    "team": "Real Sociedad",
+    "type": "HOME 25/26",
+    "image": "/images/products/1014_Real_Sociedad_HOME_2526.jpg"
+  },
+  {
+    "id": 1015,
+    "league": "La Liga",
+    "team": "Real Sociedad",
+    "type": "AWAY 25/26",
+    "image": "/images/products/1015_Real_Sociedad_AWAY_2526.jpg"
+  },
+  {
+    "id": 1016,
+    "league": "La Liga",
+    "team": "Athletic Bilbao",
+    "type": "HOME 25/26",
+    "image": "/images/products/1016_Athletic_Bilbao_HOME_2526.jpg"
+  },
+  {
+    "id": 1017,
+    "league": "La Liga",
+    "team": "Athletic Bilbao",
+    "type": "AWAY 25/26",
+    "image": "/images/products/1017_Athletic_Bilbao_AWAY_2526.jpg"
+  },
+  {
+    "id": 1018,
+    "league": "La Liga",
+    "team": "Valencia CF",
+    "type": "HOME 25/26",
+    "image": "/images/products/1018_Valencia_CF_HOME_2526.jpg"
+  },
+  {
+    "id": 1019,
+    "league": "La Liga",
+    "team": "Valencia CF",
+    "type": "AWAY 25/26",
+    "image": "/images/products/1019_Valencia_CF_AWAY_2526.jpg"
+  },
+  {
+    "id": 1020,
+    "league": "La Liga",
+    "team": "Villarreal CF",
+    "type": "HOME 25/26",
+    "image": "/images/products/1020_Villarreal_CF_HOME_2526.jpg"
+  },
+  {
+    "id": 1021,
+    "league": "La Liga",
+    "team": "Villarreal CF",
+    "type": "AWAY 25/26",
+    "image": "/images/products/1021_Villarreal_CF_AWAY_2526.jpg"
+  },
+  {
+    "id": 1022,
+    "league": "La Liga",
+    "team": "Girona",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Girona"
+  },
+  {
+    "id": 1023,
+    "league": "La Liga",
+    "team": "Getafe",
+    "type": "HOME 25/26",
+    "image": "/images/products/1023_Getafe_HOME_2526.jpg"
+  },
+  {
+    "id": 1024,
+    "league": "La Liga",
+    "team": "Osasuna",
+    "type": "HOME 25/26",
+    "image": "/images/products/1024_Osasuna_HOME_2526.jpg"
+  },
+  {
+    "id": 1025,
+    "league": "La Liga",
+    "team": "Celta de Vigo",
+    "type": "HOME 25/26",
+    "image": "/images/products/1025_Celta_de_Vigo_HOME_2526.jpg"
+  },
+  {
+    "id": 1026,
+    "league": "La Liga",
+    "team": "RCD Mallorca",
+    "type": "HOME 25/26",
+    "image": "/images/products/1026_RCD_Mallorca_HOME_2526.jpg"
+  },
+  {
+    "id": 1027,
+    "league": "La Liga",
+    "team": "Rayo Vallecano",
+    "type": "HOME 25/26",
+    "image": "/images/products/1027_Rayo_Vallecano_HOME_2526.jpg"
+  },
+  {
+    "id": 1028,
+    "league": "La Liga",
+    "team": "Deportivo Alavés",
+    "type": "HOME 25/26",
+    "image": "/images/products/1028_Deportivo_Alavés_HOME_2526.jpg"
+  },
+  {
+    "id": 1029,
+    "league": "La Liga",
+    "team": "Leganés",
+    "type": "HOME 25/26",
+    "image": "/images/products/1029_Leganés_HOME_2526.jpg"
+  },
+  {
+    "id": 1030,
+    "league": "La Liga",
+    "team": "Espanyol",
+    "type": "HOME 25/26",
+    "image": "/images/products/1030_Espanyol_HOME_2526.jpg"
+  },
+  {
+    "id": 1031,
+    "league": "La Liga",
+    "team": "Las Palmas",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Las+Palmas"
+  },
+  {
+    "id": 1032,
+    "league": "La Liga",
+    "team": "Real Valladolid",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Real+Valladolid"
+  },
+  {
+    "id": 1033,
+    "league": "La Liga",
+    "team": "Almería",
+    "type": "HOME 25/26",
+    "image": "/images/products/1033_Almería_HOME_2526.jpg"
+  },
+  {
+    "id": 1034,
+    "league": "La Liga",
+    "team": "Granada",
+    "type": "HOME 25/26",
+    "image": "/images/products/1034_Granada_HOME_2526.jpg"
+  },
+  {
+    "id": 1035,
+    "league": "La Liga",
+    "team": "Cádiz CF",
+    "type": "HOME 25/26",
+    "image": "/images/products/1035_Cádiz_CF_HOME_2526.jpg"
+  },
+  {
+    "id": 1036,
+    "league": "La Liga",
+    "team": "Elche CF",
+    "type": "HOME 25/26",
+    "image": "/images/products/1036_Elche_CF_HOME_2526.jpg"
+  },
+  {
+    "id": 1037,
+    "league": "La Liga",
+    "team": "Levante",
+    "type": "HOME 25/26",
+    "image": "/images/products/1037_Levante_HOME_2526.jpg"
+  },
+  {
+    "id": 1038,
+    "league": "La Liga",
+    "team": "Málaga CF",
+    "type": "HOME 25/26",
+    "image": "/images/products/1038_Málaga_CF_HOME_2526.jpg"
+  },
+  {
+    "id": 1039,
+    "league": "La Liga",
+    "team": "Deportivo La Coruña",
+    "type": "HOME 25/26",
+    "image": "/images/products/1039_Deportivo_La_Coruña_HOME_2526.jpg"
+  },
+  {
+    "id": 1040,
+    "league": "La Liga",
+    "team": "Real Oviedo",
+    "type": "HOME 25/26",
+    "image": "/images/products/1040_Real_Oviedo_HOME_2526.jpg"
+  },
+  {
+    "id": 1041,
+    "league": "La Liga",
+    "team": "Real Zaragoza",
+    "type": "HOME 25/26",
+    "image": "/images/products/1041_Real_Zaragoza_HOME_2526.jpg"
+  },
+  {
+    "id": 1042,
+    "league": "La Liga",
+    "team": "Racing Santander",
+    "type": "HOME 25/26",
+    "image": "/images/products/1042_Racing_Santander_HOME_2526.jpg"
+  },
+  {
+    "id": 1043,
+    "league": "La Liga",
+    "team": "Sporting Gijón",
+    "type": "HOME 25/26",
+    "image": "/images/products/1043_Sporting_Gijón_HOME_2526.jpg"
+  },
+  {
+    "id": 1044,
+    "league": "La Liga",
+    "team": "CD Tenerife",
+    "type": "HOME 25/26",
+    "image": "/images/products/1044_CD_Tenerife_HOME_2526.jpg"
+  },
+  {
+    "id": 1045,
+    "league": "La Liga",
+    "team": "SD Huesca",
+    "type": "HOME 25/26",
+    "image": "/images/products/1045_SD_Huesca_HOME_2526.jpg"
+  },
+  {
+    "id": 1046,
+    "league": "La Liga",
+    "team": "FC Cartagena",
+    "type": "HOME 25/26",
+    "image": "/images/products/1046_FC_Cartagena_HOME_2526.jpg"
+  },
+  {
+    "id": 1047,
+    "league": "La Liga",
+    "team": "Real Murcia",
+    "type": "HOME 25/26",
+    "image": "/images/products/1047_Real_Murcia_HOME_2526.jpg"
+  },
+  {
+    "id": 2001,
+    "league": "Premier League",
+    "team": "Arsenal",
+    "type": "HOME 25/26",
+    "image": "/images/products/2001_Arsenal_HOME_2526.jpg"
+  },
+  {
+    "id": 2002,
+    "league": "Premier League",
+    "team": "Arsenal",
+    "type": "AWAY 25/26",
+    "image": "/images/products/2002_Arsenal_AWAY_2526.jpg"
+  },
+  {
+    "id": 2003,
+    "league": "Premier League",
+    "team": "Arsenal",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/2003_Arsenal_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 2004,
+    "league": "Premier League",
+    "team": "Liverpool",
+    "type": "HOME 25/26",
+    "image": "/images/products/2004_Liverpool_HOME_2526.jpg"
+  },
+  {
+    "id": 2005,
+    "league": "Premier League",
+    "team": "Liverpool",
+    "type": "AWAY 25/26",
+    "image": "/images/products/2005_Liverpool_AWAY_2526.jpg"
+  },
+  {
+    "id": 2006,
+    "league": "Premier League",
+    "team": "Liverpool",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/2006_Liverpool_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 2007,
+    "league": "Premier League",
+    "team": "Manchester City",
+    "type": "HOME 25/26",
+    "image": "/images/products/2007_Manchester_City_HOME_2526.jpg"
+  },
+  {
+    "id": 2008,
+    "league": "Premier League",
+    "team": "Manchester City",
+    "type": "AWAY 25/26",
+    "image": "/images/products/2008_Manchester_City_AWAY_2526.jpg"
+  },
+  {
+    "id": 2009,
+    "league": "Premier League",
+    "team": "Manchester City",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/2009_Manchester_City_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 2010,
+    "league": "Premier League",
+    "team": "Manchester United",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United"
+  },
+  {
+    "id": 2011,
+    "league": "Premier League",
+    "team": "Manchester United",
+    "type": "AWAY 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United"
+  },
+  {
+    "id": 2012,
+    "league": "Premier League",
+    "team": "Manchester United",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United"
+  },
+  {
+    "id": 2013,
+    "league": "Premier League",
+    "team": "Chelsea",
+    "type": "HOME 25/26",
+    "image": "/images/products/2013_Chelsea_HOME_2526.jpg"
+  },
+  {
+    "id": 2014,
+    "league": "Premier League",
+    "team": "Chelsea",
+    "type": "AWAY 25/26",
+    "image": "/images/products/2014_Chelsea_AWAY_2526.jpg"
+  },
+  {
+    "id": 2015,
+    "league": "Premier League",
+    "team": "Chelsea",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/2015_Chelsea_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 2016,
+    "league": "Premier League",
+    "team": "Tottenham",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Tottenham"
+  },
+  {
+    "id": 2017,
+    "league": "Premier League",
+    "team": "Tottenham",
+    "type": "AWAY 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Tottenham"
+  },
+  {
+    "id": 2018,
+    "league": "Premier League",
+    "team": "Newcastle United",
+    "type": "HOME 25/26",
+    "image": "/images/products/2018_Newcastle_United_HOME_2526.jpg"
+  },
+  {
+    "id": 2019,
+    "league": "Premier League",
+    "team": "Newcastle United",
+    "type": "AWAY 25/26",
+    "image": "/images/products/2019_Newcastle_United_AWAY_2526.jpg"
+  },
+  {
+    "id": 2020,
+    "league": "Premier League",
+    "team": "Aston Villa",
+    "type": "HOME 25/26",
+    "image": "/images/products/2020_Aston_Villa_HOME_2526.jpg"
+  },
+  {
+    "id": 2021,
+    "league": "Premier League",
+    "team": "Aston Villa",
+    "type": "AWAY 25/26",
+    "image": "/images/products/2021_Aston_Villa_AWAY_2526.jpg"
+  },
+  {
+    "id": 2022,
+    "league": "Premier League",
+    "team": "West Ham",
+    "type": "HOME 25/26",
+    "image": "/images/products/2022_West_Ham_HOME_2526.jpg"
+  },
+  {
+    "id": 2023,
+    "league": "Premier League",
+    "team": "Brighton",
+    "type": "HOME 25/26",
+    "image": "/images/products/2023_Brighton_HOME_2526.jpg"
+  },
+  {
+    "id": 2024,
+    "league": "Premier League",
+    "team": "Bournemouth",
+    "type": "HOME 25/26",
+    "image": "/images/products/2024_Bournemouth_HOME_2526.jpg"
+  },
+  {
+    "id": 2025,
+    "league": "Premier League",
+    "team": "Crystal Palace",
+    "type": "HOME 25/26",
+    "image": "/images/products/2025_Crystal_Palace_HOME_2526.jpg"
+  },
+  {
+    "id": 2026,
+    "league": "Premier League",
+    "team": "Everton",
+    "type": "HOME 25/26",
+    "image": "/images/products/2026_Everton_HOME_2526.jpg"
+  },
+  {
+    "id": 2027,
+    "league": "Premier League",
+    "team": "Fulham",
+    "type": "HOME 25/26",
+    "image": "/images/products/2027_Fulham_HOME_2526.jpg"
+  },
+  {
+    "id": 2028,
+    "league": "Premier League",
+    "team": "Leeds United",
+    "type": "HOME 25/26",
+    "image": "/images/products/2028_Leeds_United_HOME_2526.jpg"
+  },
+  {
+    "id": 2029,
+    "league": "Premier League",
+    "team": "Leicester City",
+    "type": "HOME 25/26",
+    "image": "/images/products/2029_Leicester_City_HOME_2526.jpg"
+  },
+  {
+    "id": 2030,
+    "league": "Premier League",
+    "team": "Nottingham Forest",
+    "type": "HOME 25/26",
+    "image": "/images/products/2030_Nottingham_Forest_HOME_2526.jpg"
+  },
+  {
+    "id": 2031,
+    "league": "Premier League",
+    "team": "Southampton",
+    "type": "HOME 25/26",
+    "image": "/images/products/2031_Southampton_HOME_2526.jpg"
+  },
+  {
+    "id": 2032,
+    "league": "Premier League",
+    "team": "Wolves",
+    "type": "HOME 25/26",
+    "image": "/images/products/2032_Wolves_HOME_2526.jpg"
+  },
+  {
+    "id": 2033,
+    "league": "Premier League",
+    "team": "Birmingham FC",
+    "type": "HOME 25/26",
+    "image": "/images/products/2033_Birmingham_FC_HOME_2526.jpg"
+  },
+  {
+    "id": 2034,
+    "league": "Premier League",
+    "team": "Cardiff City",
+    "type": "HOME 25/26",
+    "image": "/images/products/2034_Cardiff_City_HOME_2526.jpg"
+  },
+  {
+    "id": 2035,
+    "league": "Premier League",
+    "team": "Sheffield United",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Sheffield+United"
+  },
+  {
+    "id": 2036,
+    "league": "Premier League",
+    "team": "Sheffield Wednesday",
+    "type": "HOME 25/26",
+    "image": "/images/products/2036_Sheffield_Wednesday_HOME_2526.jpg"
+  },
+  {
+    "id": 2037,
+    "league": "Premier League",
+    "team": "Stoke City",
+    "type": "HOME 25/26",
+    "image": "/images/products/2037_Stoke_City_HOME_2526.jpg"
+  },
+  {
+    "id": 2038,
+    "league": "Premier League",
+    "team": "Sunderland",
+    "type": "HOME 25/26",
+    "image": "/images/products/2038_Sunderland_HOME_2526.jpg"
+  },
+  {
+    "id": 2039,
+    "league": "Premier League",
+    "team": "Swansea City",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Swansea+City"
+  },
+  {
+    "id": 2040,
+    "league": "Premier League",
+    "team": "Watford",
+    "type": "HOME 25/26",
+    "image": "/images/products/2040_Watford_HOME_2526.jpg"
+  },
+  {
+    "id": 2041,
+    "league": "Premier League",
+    "team": "West Brom",
+    "type": "HOME 25/26",
+    "image": "/images/products/2041_West_Brom_HOME_2526.jpg"
+  },
+  {
+    "id": 2042,
+    "league": "Premier League",
+    "team": "Wrexham",
+    "type": "HOME 25/26",
+    "image": "/images/products/2042_Wrexham_HOME_2526.jpg"
+  },
+  {
+    "id": 2043,
+    "league": "Premier League",
+    "team": "Middlesbrough",
+    "type": "HOME 25/26",
+    "image": "/images/products/2043_Middlesbrough_HOME_2526.jpg"
+  },
+  {
+    "id": 3001,
+    "league": "Serie A",
+    "team": "AC Milan",
+    "type": "HOME 25/26",
+    "image": "/images/products/3001_AC_Milan_HOME_2526.jpg"
+  },
+  {
+    "id": 3002,
+    "league": "Serie A",
+    "team": "AC Milan",
+    "type": "AWAY 25/26",
+    "image": "/images/products/3002_AC_Milan_AWAY_2526.jpg"
+  },
+  {
+    "id": 3003,
+    "league": "Serie A",
+    "team": "AC Milan",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/3003_AC_Milan_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 3004,
+    "league": "Serie A",
+    "team": "Inter Milan",
+    "type": "HOME 25/26",
+    "image": "/images/products/3004_Inter_Milan_HOME_2526.jpg"
+  },
+  {
+    "id": 3005,
+    "league": "Serie A",
+    "team": "Inter Milan",
+    "type": "AWAY 25/26",
+    "image": "/images/products/3005_Inter_Milan_AWAY_2526.jpg"
+  },
+  {
+    "id": 3006,
+    "league": "Serie A",
+    "team": "Inter Milan",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/3006_Inter_Milan_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 3007,
+    "league": "Serie A",
+    "team": "Juventus",
+    "type": "HOME 25/26",
+    "image": "/images/products/3007_Juventus_HOME_2526.jpg"
+  },
+  {
+    "id": 3008,
+    "league": "Serie A",
+    "team": "Juventus",
+    "type": "AWAY 25/26",
+    "image": "/images/products/3008_Juventus_AWAY_2526.jpg"
+  },
+  {
+    "id": 3009,
+    "league": "Serie A",
+    "team": "Juventus",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/3009_Juventus_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 3010,
+    "league": "Serie A",
+    "team": "Napoli",
+    "type": "HOME 25/26",
+    "image": "/images/products/3010_Napoli_HOME_2526.jpg"
+  },
+  {
+    "id": 3011,
+    "league": "Serie A",
+    "team": "Napoli",
+    "type": "AWAY 25/26",
+    "image": "/images/products/3011_Napoli_AWAY_2526.jpg"
+  },
+  {
+    "id": 3012,
+    "league": "Serie A",
+    "team": "AS Roma",
+    "type": "HOME 25/26",
+    "image": "/images/products/3012_AS_Roma_HOME_2526.jpg"
+  },
+  {
+    "id": 3013,
+    "league": "Serie A",
+    "team": "AS Roma",
+    "type": "AWAY 25/26",
+    "image": "/images/products/3013_AS_Roma_AWAY_2526.jpg"
+  },
+  {
+    "id": 3014,
+    "league": "Serie A",
+    "team": "Lazio",
+    "type": "HOME 25/26",
+    "image": "/images/products/3014_Lazio_HOME_2526.jpg"
+  },
+  {
+    "id": 3015,
+    "league": "Serie A",
+    "team": "Lazio",
+    "type": "AWAY 25/26",
+    "image": "/images/products/3015_Lazio_AWAY_2526.jpg"
+  },
+  {
+    "id": 3016,
+    "league": "Serie A",
+    "team": "Atalanta",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Atalanta"
+  },
+  {
+    "id": 3017,
+    "league": "Serie A",
+    "team": "Fiorentina",
+    "type": "HOME 25/26",
+    "image": "/images/products/3017_Fiorentina_HOME_2526.jpg"
+  },
+  {
+    "id": 3018,
+    "league": "Serie A",
+    "team": "Bolonia",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Bolonia"
+  },
+  {
+    "id": 3019,
+    "league": "Serie A",
+    "team": "Torino",
+    "type": "HOME 25/26",
+    "image": "/images/products/3019_Torino_HOME_2526.jpg"
+  },
+  {
+    "id": 3020,
+    "league": "Serie A",
+    "team": "Venezia",
+    "type": "HOME 25/26",
+    "image": "/images/products/3020_Venezia_HOME_2526.jpg"
+  },
+  {
+    "id": 3021,
+    "league": "Serie A",
+    "team": "Lecce",
+    "type": "HOME 25/26",
+    "image": "/images/products/3021_Lecce_HOME_2526.jpg"
+  },
+  {
+    "id": 3022,
+    "league": "Serie A",
+    "team": "Parma",
+    "type": "HOME 25/26",
+    "image": "/images/products/3022_Parma_HOME_2526.jpg"
+  },
+  {
+    "id": 3023,
+    "league": "Serie A",
+    "team": "Palermo",
+    "type": "HOME 25/26",
+    "image": "/images/products/3023_Palermo_HOME_2526.jpg"
+  },
+  {
+    "id": 4001,
+    "league": "Bundesliga",
+    "team": "Bayern Munich",
+    "type": "HOME 25/26",
+    "image": "/images/products/4001_Bayern_Munich_HOME_2526.jpg"
+  },
+  {
+    "id": 4002,
+    "league": "Bundesliga",
+    "team": "Bayern Munich",
+    "type": "AWAY 25/26",
+    "image": "/images/products/4002_Bayern_Munich_AWAY_2526.jpg"
+  },
+  {
+    "id": 4003,
+    "league": "Bundesliga",
+    "team": "Bayern Munich",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/4003_Bayern_Munich_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 4004,
+    "league": "Bundesliga",
+    "team": "Borussia Dortmund",
+    "type": "HOME 25/26",
+    "image": "/images/products/4004_Borussia_Dortmund_HOME_2526.jpg"
+  },
+  {
+    "id": 4005,
+    "league": "Bundesliga",
+    "team": "Borussia Dortmund",
+    "type": "AWAY 25/26",
+    "image": "/images/products/4005_Borussia_Dortmund_AWAY_2526.jpg"
+  },
+  {
+    "id": 4006,
+    "league": "Bundesliga",
+    "team": "Borussia Dortmund",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/4006_Borussia_Dortmund_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 4007,
+    "league": "Bundesliga",
+    "team": "Bayer Leverkusen",
+    "type": "HOME 25/26",
+    "image": "/images/products/4007_Bayer_Leverkusen_HOME_2526.jpg"
+  },
+  {
+    "id": 4008,
+    "league": "Bundesliga",
+    "team": "Bayer Leverkusen",
+    "type": "AWAY 25/26",
+    "image": "/images/products/4008_Bayer_Leverkusen_AWAY_2526.jpg"
+  },
+  {
+    "id": 4009,
+    "league": "Bundesliga",
+    "team": "RB Leipzig",
+    "type": "HOME 25/26",
+    "image": "/images/products/4009_RB_Leipzig_HOME_2526.jpg"
+  },
+  {
+    "id": 4010,
+    "league": "Bundesliga",
+    "team": "RB Leipzig",
+    "type": "AWAY 25/26",
+    "image": "/images/products/4010_RB_Leipzig_AWAY_2526.jpg"
+  },
+  {
+    "id": 4011,
+    "league": "Bundesliga",
+    "team": "Eintracht Frankfurt",
+    "type": "HOME 25/26",
+    "image": "/images/products/4011_Eintracht_Frankfurt_HOME_2526.jpg"
+  },
+  {
+    "id": 4012,
+    "league": "Bundesliga",
+    "team": "VfB Stuttgart",
+    "type": "HOME 25/26",
+    "image": "/images/products/4012_VfB_Stuttgart_HOME_2526.jpg"
+  },
+  {
+    "id": 4013,
+    "league": "Bundesliga",
+    "team": "Borussia Mönchengladbach",
+    "type": "HOME 25/26",
+    "image": "/images/products/4013_Borussia_Mönchengladbach_HOME_2526.jpg"
+  },
+  {
+    "id": 4014,
+    "league": "Bundesliga",
+    "team": "VfL Wolfsburgo",
+    "type": "HOME 25/26",
+    "image": "/images/products/4014_VfL_Wolfsburgo_HOME_2526.jpg"
+  },
+  {
+    "id": 4015,
+    "league": "Bundesliga",
+    "team": "Werder Bremen",
+    "type": "HOME 25/26",
+    "image": "/images/products/4015_Werder_Bremen_HOME_2526.jpg"
+  },
+  {
+    "id": 4016,
+    "league": "Bundesliga",
+    "team": "SC Friburgo",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=SC+Friburgo"
+  },
+  {
+    "id": 4017,
+    "league": "Bundesliga",
+    "team": "Hoffenheim",
+    "type": "HOME 25/26",
+    "image": "/images/products/4017_Hoffenheim_HOME_2526.jpg"
+  },
+  {
+    "id": 4018,
+    "league": "Bundesliga",
+    "team": "Union Berlin",
+    "type": "HOME 25/26",
+    "image": "/images/products/4018_Union_Berlin_HOME_2526.jpg"
+  },
+  {
+    "id": 4019,
+    "league": "Bundesliga",
+    "team": "Hertha Berlín",
+    "type": "HOME 25/26",
+    "image": "/images/products/4019_Hertha_Berlín_HOME_2526.jpg"
+  },
+  {
+    "id": 4020,
+    "league": "Bundesliga",
+    "team": "Schalke 04",
+    "type": "HOME 25/26",
+    "image": "/images/products/4020_Schalke_04_HOME_2526.jpg"
+  },
+  {
+    "id": 4021,
+    "league": "Bundesliga",
+    "team": "Hamburger SV",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Hamburger+SV"
+  },
+  {
+    "id": 4022,
+    "league": "Bundesliga",
+    "team": "Heidenheim",
+    "type": "HOME 25/26",
+    "image": "/images/products/4022_Heidenheim_HOME_2526.jpg"
+  },
+  {
+    "id": 4023,
+    "league": "Bundesliga",
+    "team": "St. Pauli",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=St.+Pauli"
+  },
+  {
+    "id": 5001,
+    "league": "Ligue 1",
+    "team": "Paris Saint-Germain",
+    "type": "HOME 25/26",
+    "image": "/images/products/5001_Paris_Saint-Germain_HOME_2526.jpg"
+  },
+  {
+    "id": 5002,
+    "league": "Ligue 1",
+    "team": "Paris Saint-Germain",
+    "type": "AWAY 25/26",
+    "image": "/images/products/5002_Paris_Saint-Germain_AWAY_2526.jpg"
+  },
+  {
+    "id": 5003,
+    "league": "Ligue 1",
+    "team": "Paris Saint-Germain",
+    "type": "3ª EQUIPACIÓN 25/26",
+    "image": "/images/products/5003_Paris_Saint-Germain_3ª_EQUIPACIÓN_2526.jpg"
+  },
+  {
+    "id": 5004,
+    "league": "Ligue 1",
+    "team": "Olympique Marseille",
+    "type": "HOME 25/26",
+    "image": "/images/products/5004_Olympique_Marseille_HOME_2526.jpg"
+  },
+  {
+    "id": 5005,
+    "league": "Ligue 1",
+    "team": "Olympique Marseille",
+    "type": "AWAY 25/26",
+    "image": "/images/products/5005_Olympique_Marseille_AWAY_2526.jpg"
+  },
+  {
+    "id": 5006,
+    "league": "Ligue 1",
+    "team": "Olympique Lyon",
+    "type": "HOME 25/26",
+    "image": "/images/products/5006_Olympique_Lyon_HOME_2526.jpg"
+  },
+  {
+    "id": 5007,
+    "league": "Ligue 1",
+    "team": "Olympique Lyon",
+    "type": "AWAY 25/26",
+    "image": "/images/products/5007_Olympique_Lyon_AWAY_2526.jpg"
+  },
+  {
+    "id": 5008,
+    "league": "Ligue 1",
+    "team": "AS Mónaco",
+    "type": "HOME 25/26",
+    "image": "/images/products/5008_AS_Mónaco_HOME_2526.jpg"
+  },
+  {
+    "id": 5009,
+    "league": "Ligue 1",
+    "team": "Lille",
+    "type": "HOME 25/26",
+    "image": "/images/products/5009_Lille_HOME_2526.jpg"
+  },
+  {
+    "id": 5010,
+    "league": "Ligue 1",
+    "team": "Stade Rennais",
+    "type": "HOME 25/26",
+    "image": "/images/products/5010_Stade_Rennais_HOME_2526.jpg"
+  },
+  {
+    "id": 5011,
+    "league": "Ligue 1",
+    "team": "Paris FC",
+    "type": "HOME 25/26",
+    "image": "/images/products/5011_Paris_FC_HOME_2526.jpg"
+  },
+  {
+    "id": 6001,
+    "league": "Selecciones",
+    "team": "España",
+    "type": "HOME 25/26",
+    "image": "/images/products/6001_España_HOME_2526.jpg"
+  },
+  {
+    "id": 6002,
+    "league": "Selecciones",
+    "team": "España",
+    "type": "AWAY 25/26",
+    "image": "/images/products/6002_España_AWAY_2526.jpg"
+  },
+  {
+    "id": 6003,
+    "league": "Selecciones",
+    "team": "Alemania",
+    "type": "HOME 25/26",
+    "image": "/images/products/6003_Alemania_HOME_2526.jpg"
+  },
+  {
+    "id": 6004,
+    "league": "Selecciones",
+    "team": "Alemania",
+    "type": "AWAY 25/26",
+    "image": "/images/products/6004_Alemania_AWAY_2526.jpg"
+  },
+  {
+    "id": 6005,
+    "league": "Selecciones",
+    "team": "Francia",
+    "type": "HOME 25/26",
+    "image": "/images/products/6005_Francia_HOME_2526.jpg"
+  },
+  {
+    "id": 6006,
+    "league": "Selecciones",
+    "team": "Francia",
+    "type": "AWAY 25/26",
+    "image": "/images/products/6006_Francia_AWAY_2526.jpg"
+  },
+  {
+    "id": 6007,
+    "league": "Selecciones",
+    "team": "Inglaterra",
+    "type": "HOME 25/26",
+    "image": "/images/products/6007_Inglaterra_HOME_2526.jpg"
+  },
+  {
+    "id": 6008,
+    "league": "Selecciones",
+    "team": "Inglaterra",
+    "type": "AWAY 25/26",
+    "image": "/images/products/6008_Inglaterra_AWAY_2526.jpg"
+  },
+  {
+    "id": 6009,
+    "league": "Selecciones",
+    "team": "Portugal",
+    "type": "HOME 25/26",
+    "image": "/images/products/6009_Portugal_HOME_2526.jpg"
+  },
+  {
+    "id": 6010,
+    "league": "Selecciones",
+    "team": "Portugal",
+    "type": "AWAY 25/26",
+    "image": "/images/products/6010_Portugal_AWAY_2526.jpg"
+  },
+  {
+    "id": 6011,
+    "league": "Selecciones",
+    "team": "Italia",
+    "type": "HOME 25/26",
+    "image": "/images/products/6011_Italia_HOME_2526.jpg"
+  },
+  {
+    "id": 6012,
+    "league": "Selecciones",
+    "team": "Italia",
+    "type": "AWAY 25/26",
+    "image": "/images/products/6012_Italia_AWAY_2526.jpg"
+  },
+  {
+    "id": 6013,
+    "league": "Selecciones",
+    "team": "Brasil",
+    "type": "HOME 25/26",
+    "image": "/images/products/6013_Brasil_HOME_2526.jpg"
+  },
+  {
+    "id": 6014,
+    "league": "Selecciones",
+    "team": "Brasil",
+    "type": "AWAY 25/26",
+    "image": "/images/products/6014_Brasil_AWAY_2526.jpg"
+  },
+  {
+    "id": 6015,
+    "league": "Selecciones",
+    "team": "Argentina",
+    "type": "HOME 25/26",
+    "image": "/images/products/6015_Argentina_HOME_2526.jpg"
+  },
+  {
+    "id": 6016,
+    "league": "Selecciones",
+    "team": "Argentina",
+    "type": "AWAY 25/26",
+    "image": "/images/products/6016_Argentina_AWAY_2526.jpg"
+  },
+  {
+    "id": 6017,
+    "league": "Selecciones",
+    "team": "Holanda",
+    "type": "HOME 25/26",
+    "image": "/images/products/6017_Holanda_HOME_2526.jpg"
+  },
+  {
+    "id": 6018,
+    "league": "Selecciones",
+    "team": "Bélgica",
+    "type": "HOME 25/26",
+    "image": "/images/products/6018_Bélgica_HOME_2526.jpg"
+  },
+  {
+    "id": 6019,
+    "league": "Selecciones",
+    "team": "Croacia",
+    "type": "HOME 25/26",
+    "image": "/images/products/6019_Croacia_HOME_2526.jpg"
+  },
+  {
+    "id": 6020,
+    "league": "Selecciones",
+    "team": "Colombia",
+    "type": "HOME 25/26",
+    "image": "/images/products/6020_Colombia_HOME_2526.jpg"
+  },
+  {
+    "id": 6021,
+    "league": "Selecciones",
+    "team": "México",
+    "type": "HOME 25/26",
+    "image": "/images/products/6021_México_HOME_2526.jpg"
+  },
+  {
+    "id": 6022,
+    "league": "Selecciones",
+    "team": "Uruguay",
+    "type": "HOME 25/26",
+    "image": "/images/products/6022_Uruguay_HOME_2526.jpg"
+  },
+  {
+    "id": 6023,
+    "league": "Selecciones",
+    "team": "Chile",
+    "type": "HOME 25/26",
+    "image": "/images/products/6023_Chile_HOME_2526.jpg"
+  },
+  {
+    "id": 6024,
+    "league": "Selecciones",
+    "team": "Japón",
+    "type": "HOME 25/26",
+    "image": "/images/products/6024_Japón_HOME_2526.jpg"
+  },
+  {
+    "id": 6025,
+    "league": "Selecciones",
+    "team": "Marruecos",
+    "type": "HOME 25/26",
+    "image": "/images/products/6025_Marruecos_HOME_2526.jpg"
+  },
+  {
+    "id": 6026,
+    "league": "Selecciones",
+    "team": "Nigeria",
+    "type": "HOME 25/26",
+    "image": "/images/products/6026_Nigeria_HOME_2526.jpg"
+  },
+  {
+    "id": 6027,
+    "league": "Selecciones",
+    "team": "Senegal",
+    "type": "HOME 25/26",
+    "image": "/images/products/6027_Senegal_HOME_2526.jpg"
+  },
+  {
+    "id": 6028,
+    "league": "Selecciones",
+    "team": "Camerún",
+    "type": "HOME 25/26",
+    "image": "/images/products/6028_Camerún_HOME_2526.jpg"
+  },
+  {
+    "id": 6029,
+    "league": "Selecciones",
+    "team": "Dinamarca",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Dinamarca"
+  },
+  {
+    "id": 6030,
+    "league": "Selecciones",
+    "team": "Suecia",
+    "type": "HOME 25/26",
+    "image": "/images/products/6030_Suecia_HOME_2526.jpg"
+  },
+  {
+    "id": 6031,
+    "league": "Selecciones",
+    "team": "Noruega",
+    "type": "HOME 25/26",
+    "image": "/images/products/6031_Noruega_HOME_2526.jpg"
+  },
+  {
+    "id": 6032,
+    "league": "Selecciones",
+    "team": "Polonia",
+    "type": "HOME 25/26",
+    "image": "/images/products/6032_Polonia_HOME_2526.jpg"
+  },
+  {
+    "id": 7001,
+    "league": "Otras Ligas",
+    "team": "Ajax",
+    "type": "HOME 25/26",
+    "image": "/images/products/7001_Ajax_HOME_2526.jpg"
+  },
+  {
+    "id": 7002,
+    "league": "Otras Ligas",
+    "team": "Ajax",
+    "type": "AWAY 25/26",
+    "image": "/images/products/7002_Ajax_AWAY_2526.jpg"
+  },
+  {
+    "id": 7003,
+    "league": "Otras Ligas",
+    "team": "Benfica",
+    "type": "HOME 25/26",
+    "image": "/images/products/7003_Benfica_HOME_2526.jpg"
+  },
+  {
+    "id": 7004,
+    "league": "Otras Ligas",
+    "team": "Benfica",
+    "type": "AWAY 25/26",
+    "image": "/images/products/7004_Benfica_AWAY_2526.jpg"
+  },
+  {
+    "id": 7005,
+    "league": "Otras Ligas",
+    "team": "FC Porto",
+    "type": "HOME 25/26",
+    "image": "/images/products/7005_FC_Porto_HOME_2526.jpg"
+  },
+  {
+    "id": 7006,
+    "league": "Otras Ligas",
+    "team": "Sporting Lisboa",
+    "type": "HOME 25/26",
+    "image": "/images/products/7006_Sporting_Lisboa_HOME_2526.jpg"
+  },
+  {
+    "id": 7007,
+    "league": "Otras Ligas",
+    "team": "Celtic",
+    "type": "HOME 25/26",
+    "image": "/images/products/7007_Celtic_HOME_2526.jpg"
+  },
+  {
+    "id": 7008,
+    "league": "Otras Ligas",
+    "team": "Galatasaray",
+    "type": "HOME 25/26",
+    "image": "/images/products/7008_Galatasaray_HOME_2526.jpg"
+  },
+  {
+    "id": 7009,
+    "league": "Otras Ligas",
+    "team": "Besiktas",
+    "type": "HOME 25/26",
+    "image": "/images/products/7009_Besiktas_HOME_2526.jpg"
+  },
+  {
+    "id": 7010,
+    "league": "Otras Ligas",
+    "team": "Al-Nassr FC",
+    "type": "HOME 25/26",
+    "image": "/images/products/7010_Al-Nassr_FC_HOME_2526.jpg"
+  },
+  {
+    "id": 7011,
+    "league": "Otras Ligas",
+    "team": "Al Hilal",
+    "type": "HOME 25/26",
+    "image": "/images/products/7011_Al_Hilal_HOME_2526.jpg"
+  },
+  {
+    "id": 7012,
+    "league": "Otras Ligas",
+    "team": "Al-Ittihad",
+    "type": "HOME 25/26",
+    "image": "/images/products/7012_Al-Ittihad_HOME_2526.jpg"
+  },
+  {
+    "id": 7013,
+    "league": "Otras Ligas",
+    "team": "Inter Miami",
+    "type": "HOME 25/26",
+    "image": "/images/products/7013_Inter_Miami_HOME_2526.jpg"
+  },
+  {
+    "id": 7014,
+    "league": "Otras Ligas",
+    "team": "LA Galaxy",
+    "type": "HOME 25/26",
+    "image": "/images/products/7014_LA_Galaxy_HOME_2526.jpg"
+  },
+  {
+    "id": 7015,
+    "league": "Otras Ligas",
+    "team": "Boca Juniors",
+    "type": "HOME 25/26",
+    "image": "/images/products/7015_Boca_Juniors_HOME_2526.jpg"
+  },
+  {
+    "id": 7016,
+    "league": "Otras Ligas",
+    "team": "River Plate",
+    "type": "HOME 25/26",
+    "image": "/images/products/7016_River_Plate_HOME_2526.jpg"
+  },
+  {
+    "id": 7017,
+    "league": "Otras Ligas",
+    "team": "Flamengo",
+    "type": "HOME 25/26",
+    "image": "/images/products/7017_Flamengo_HOME_2526.jpg"
+  },
+  {
+    "id": 7018,
+    "league": "Otras Ligas",
+    "team": "Palmeiras",
+    "type": "HOME 25/26",
+    "image": "/images/products/7018_Palmeiras_HOME_2526.jpg"
+  },
+  {
+    "id": 7019,
+    "league": "Otras Ligas",
+    "team": "Corinthians",
+    "type": "HOME 25/26",
+    "image": "/images/products/7019_Corinthians_HOME_2526.jpg"
+  },
+  {
+    "id": 7020,
+    "league": "Otras Ligas",
+    "team": "São Paulo",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=São+Paulo"
+  },
+  {
+    "id": 7021,
+    "league": "Otras Ligas",
+    "team": "Club América",
+    "type": "HOME 25/26",
+    "image": "/images/products/7021_Club_América_HOME_2526.jpg"
+  },
+  {
+    "id": 7022,
+    "league": "Otras Ligas",
+    "team": "Cruz Azul",
+    "type": "HOME 25/26",
+    "image": "/images/products/7022_Cruz_Azul_HOME_2526.jpg"
+  },
+  {
+    "id": 7023,
+    "league": "Otras Ligas",
+    "team": "Colo-Colo",
+    "type": "HOME 25/26",
+    "image": "/images/products/7023_Colo-Colo_HOME_2526.jpg"
+  },
+  {
+    "id": 7024,
+    "league": "Otras Ligas",
+    "team": "Peñarol",
+    "type": "HOME 25/26",
+    "image": "/images/products/7024_Peñarol_HOME_2526.jpg"
+  },
+  {
+    "id": 7025,
+    "league": "Otras Ligas",
+    "team": "PSV Eindhoven",
+    "type": "HOME 25/26",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=PSV+Eindhoven"
+  },
+  {
+    "id": 7026,
+    "league": "Otras Ligas",
+    "team": "Feyenoord",
+    "type": "HOME 25/26",
+    "image": "/images/products/7026_Feyenoord_HOME_2526.jpg"
+  },
+  {
+    "id": 9001,
+    "league": "Retro",
+    "team": "Brasil 2002",
+    "type": "RETRO",
+    "image": "/images/products/9001_Brasil_2002_RETRO.jpg"
+  },
+  {
+    "id": 9002,
+    "league": "Retro",
+    "team": "Argentina 1986",
+    "type": "RETRO",
+    "image": "/images/products/9002_Argentina_1986_RETRO.jpg"
+  },
+  {
+    "id": 9003,
+    "league": "Retro",
+    "team": "AC Milan 2007",
+    "type": "RETRO",
+    "image": "/images/products/9003_AC_Milan_2007_RETRO.jpg"
+  },
+  {
+    "id": 9004,
+    "league": "Retro",
+    "team": "Real Madrid 2002",
+    "type": "RETRO",
+    "image": "/images/products/9004_Real_Madrid_2002_RETRO.jpg"
+  },
+  {
+    "id": 9005,
+    "league": "Retro",
+    "team": "Barcelona 2006",
+    "type": "RETRO",
+    "image": "/images/products/9005_Barcelona_2006_RETRO.jpg"
+  },
+  {
+    "id": 9006,
+    "league": "Retro",
+    "team": "Manchester United 1999",
+    "type": "RETRO",
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United+1999"
+  },
+  {
+    "id": 9007,
+    "league": "Retro",
+    "team": "Juventus 1996",
+    "type": "RETRO",
+    "image": "/images/products/9007_Juventus_1996_RETRO.jpg"
+  },
+  {
+    "id": 9008,
+    "league": "Retro",
+    "team": "Inter Milan 2010",
+    "type": "RETRO",
+    "image": "/images/products/9008_Inter_Milan_2010_RETRO.jpg"
+  },
+  {
+    "id": 9009,
+    "league": "Retro",
+    "team": "Atletico Madrid 2005",
+    "type": "RETRO",
+    "image": "/images/products/9009_Atletico_Madrid_2005_RETRO.jpg"
+  },
+  {
+    "id": 9010,
+    "league": "Retro",
+    "team": "Deportivo La Coruña 2000",
+    "type": "RETRO",
+    "image": "/images/products/9010_Deportivo_La_Coruña_2000_RETRO.jpg"
+  },
+  {
+    "id": 9011,
+    "league": "Retro",
+    "team": "Santos FC 2013",
+    "type": "RETRO",
+    "image": "/images/products/9011_Santos_FC_2013_RETRO.jpg"
+  },
+  {
+    "id": 9012,
+    "league": "Retro",
+    "team": "Boca Juniors 1997",
+    "type": "RETRO",
+    "image": "/images/products/9012_Boca_Juniors_1997_RETRO.jpg"
+  }
 ]
