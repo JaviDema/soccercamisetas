@@ -1,52 +1,61 @@
 import React from 'react';
 
 export default function InfoSection() {
-    return (
-        <section id="info" className="info-section">
-            <div className="container">
-                <div className="info-grid">
-                    <div className="info-card">
-                        <h3>Tallas</h3>
-                        <p><strong>Normal:</strong> Tallaje estándar europeo.</p>
-                        <p><strong>Player:</strong> Más ajustada. Pide una talla más si dudas.</p>
-                        <p><strong>Niño:</strong> Desde talla 16 a 28.</p>
-                    </div>
-                    <div className="info-card">
-                        <h3>Envíos</h3>
-                        <p><strong>10-15 días laborables.</strong></p>
-                        <p>Envío incluido en el precio.</p>
-                        <p>Seguimiento disponible en 3-5 días.</p>
-                    </div>
-                    <div className="info-card">
-                        <h3>Pago</h3>
-                        <ul>
-                            <li>Bizum</li>
-                            <li>PayPal</li>
-                            <li>Transferencia</li>
-                        </ul>
-                    </div>
-                </div>
+  return (
+    <section id="info" className="info-section">
+      <div className="container">
+        <div className="trust-badges">
+          <div className="trust-badge">
+            <div className="trust-badge-icon">⭐</div>
+            <h3>Calidad Thai AAA+</h3>
+            <p>Escudos bordados, etiquetas originales, tejido transpirable</p>
+          </div>
+          <div className="trust-badge">
+            <div className="trust-badge-icon">🚚</div>
+            <h3>Envío gratis</h3>
+            <p>A toda España. Entrega en 10-15 días laborables con seguimiento</p>
+          </div>
+          <div className="trust-badge">
+            <div className="trust-badge-icon">💬</div>
+            <h3>Atención directa</h3>
+            <p>Respondemos por WhatsApp en menos de 2 horas</p>
+          </div>
+          <div className="trust-badge">
+            <div className="trust-badge-icon">💳</div>
+            <h3>Pago seguro</h3>
+            <p>Bizum, PayPal o transferencia. Tú eliges</p>
+          </div>
+        </div>
 
-                <div className="faq-box" id="faq">
-                    <h3 className="faq-title">Preguntas frecuentes</h3>
-                    <details>
-                        <summary>¿Las camisetas son de calidad?</summary>
-                        <p>Calidad Thai AAA+ con todos los detalles, etiquetas y escudos bordados.</p>
-                    </details>
-                    <details>
-                        <summary>¿Puedo personalizar nombre y número?</summary>
-                        <p>Sí, por +2€ puedes poner el nombre y dorsal que quieras.</p>
-                    </details>
-                    <details>
-                        <summary>¿Hacéis devoluciones?</summary>
-                        <p>Solo en caso de defecto de fábrica. Revisa bien la talla antes de pedir.</p>
-                    </details>
-                    <details>
-                        <summary>¿Cuánto tarda en llegar?</summary>
-                        <p>Entre 10 y 15 días laborables con número de seguimiento.</p>
-                    </details>
-                </div>
-            </div>
-        </section>
-    );
+        <div className="faq-box" id="faq">
+          <h3 className="faq-title">Preguntas frecuentes</h3>
+
+          <details>
+            <summary>¿Qué calidad tienen las camisetas?</summary>
+            <p>Calidad Thai AAA+: la más alta en réplicas. Escudos bordados, etiquetas oficiales, tejido idéntico al original. Indistinguibles a simple vista.</p>
+          </details>
+
+          <details>
+            <summary>¿Cuánto tarda el envío?</summary>
+            <p>Entre 10 y 15 días laborables. Recibirás un número de seguimiento en 3-5 días para rastrear tu pedido en todo momento. Envío incluido en el precio.</p>
+          </details>
+
+          <details>
+            <summary>¿Puedo personalizar nombre y número?</summary>
+            <p>Sí, por solo 2€ más. Indícanos el nombre y dorsal que quieras al hacer el pedido por WhatsApp.</p>
+          </details>
+
+          <details>
+            <summary>¿Qué talla debo elegir?</summary>
+            <p>El tallaje es europeo estándar. Si estás entre dos tallas o prefieres holgura, sube una talla. Las versiones "Player" son más ajustadas: pide una talla más de lo habitual.</p>
+          </details>
+
+          <details>
+            <summary>¿Hacéis devoluciones?</summary>
+            <p>Aceptamos devoluciones en caso de defecto de fabricación. Antes de pedir, consulta la guía de tallas para acertar a la primera.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  );
 }

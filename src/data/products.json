@@ -1,338 +1,44 @@
 [
-  {
-    "id": 101,
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Madrid+Home",
-    "price": 21
-  },
-  {
-    "id": 102,
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "type": "AWAY 24/25",
-    "image": "https://placehold.co/600x600?text=Madrid+Away",
-    "price": 21
-  },
-  {
-    "id": 103,
-    "league": "La Liga",
-    "team": "FC Barcelona",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Barca+Home",
-    "price": 21
-  },
-  {
-    "id": 104,
-    "league": "La Liga",
-    "team": "FC Barcelona",
-    "type": "AWAY 24/25",
-    "image": "https://placehold.co/600x600?text=Barca+Away",
-    "price": 21
-  },
-  {
-    "id": 105,
-    "league": "La Liga",
-    "team": "Atletico Madrid",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Atleti+Home",
-    "price": 21
-  },
-  {
-    "id": 106,
-    "league": "La Liga",
-    "team": "Sevilla FC",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Sevilla",
-    "price": 21
-  },
-  {
-    "id": 107,
-    "league": "La Liga",
-    "team": "Real Betis",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Betis",
-    "price": 21
-  },
-  {
-    "id": 108,
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Real+Sociedad",
-    "price": 21
-  },
-  {
-    "id": 109,
-    "league": "La Liga",
-    "team": "Athletic Club",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Athletic",
-    "price": 21
-  },
-  {
-    "id": 110,
-    "league": "La Liga",
-    "team": "Valencia CF",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Valencia",
-    "price": 21
-  },
-  {
-    "id": 111,
-    "league": "La Liga",
-    "team": "Villarreal CF",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Villarreal",
-    "price": 21
-  },
-  {
-    "id": 201,
-    "league": "Premier League",
-    "team": "Manchester City",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=City+Home",
-    "price": 21
-  },
-  {
-    "id": 202,
-    "league": "Premier League",
-    "team": "Arsenal",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Arsenal",
-    "price": 21
-  },
-  {
-    "id": 203,
-    "league": "Premier League",
-    "team": "Liverpool",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Liverpool",
-    "price": 21
-  },
-  {
-    "id": 204,
-    "league": "Premier League",
-    "team": "Manchester United",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=ManUtd",
-    "price": 21
-  },
-  {
-    "id": 205,
-    "league": "Premier League",
-    "team": "Chelsea",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Chelsea",
-    "price": 21
-  },
-  {
-    "id": 206,
-    "league": "Premier League",
-    "team": "Tottenham",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Spurs",
-    "price": 21
-  },
-  {
-    "id": 207,
-    "league": "Premier League",
-    "team": "Newcastle",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Newcastle",
-    "price": 21
-  },
-  {
-    "id": 208,
-    "league": "Premier League",
-    "team": "Aston Villa",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Aston+Villa",
-    "price": 21
-  },
-  {
-    "id": 209,
-    "league": "Premier League",
-    "team": "West Ham",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=West+Ham",
-    "price": 21
-  },
-  {
-    "id": 210,
-    "league": "Premier League",
-    "team": "Brighton",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Brighton",
-    "price": 21
-  },
-  {
-    "id": 301,
-    "league": "Serie A",
-    "team": "Inter Milan",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Inter",
-    "price": 21
-  },
-  {
-    "id": 302,
-    "league": "Serie A",
-    "team": "AC Milan",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Milan",
-    "price": 21
-  },
-  {
-    "id": 303,
-    "league": "Serie A",
-    "team": "Juventus",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Juve",
-    "price": 21
-  },
-  {
-    "id": 304,
-    "league": "Serie A",
-    "team": "Napoli",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Napoli",
-    "price": 21
-  },
-  {
-    "id": 305,
-    "league": "Serie A",
-    "team": "AS Roma",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Roma",
-    "price": 21
-  },
-  {
-    "id": 306,
-    "league": "Serie A",
-    "team": "Lazio",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Lazio",
-    "price": 21
-  },
-  {
-    "id": 307,
-    "league": "Serie A",
-    "team": "Atalanta",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Atalanta",
-    "price": 21
-  },
-  {
-    "id": 308,
-    "league": "Serie A",
-    "team": "Fiorentina",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Fiorentina",
-    "price": 21
-  },
-  {
-    "id": 401,
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Bayern",
-    "price": 21
-  },
-  {
-    "id": 402,
-    "league": "Bundesliga",
-    "team": "Dortmund",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Dortmund",
-    "price": 21
-  },
-  {
-    "id": 403,
-    "league": "Bundesliga",
-    "team": "Leverkusen",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Leverkusen",
-    "price": 21
-  },
-  {
-    "id": 404,
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Leipzig",
-    "price": 21
-  },
-  {
-    "id": 405,
-    "league": "Bundesliga",
-    "team": "Frankfurt",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Frankfurt",
-    "price": 21
-  },
-  {
-    "id": 501,
-    "league": "Ligue 1",
-    "team": "PSG",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=PSG",
-    "price": 21
-  },
-  {
-    "id": 502,
-    "league": "Ligue 1",
-    "team": "Marseille",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Marseille",
-    "price": 21
-  },
-  {
-    "id": 503,
-    "league": "Ligue 1",
-    "team": "Monaco",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Monaco",
-    "price": 21
-  },
-  {
-    "id": 504,
-    "league": "Ligue 1",
-    "team": "Lyon",
-    "type": "HOME 24/25",
-    "image": "https://placehold.co/600x600?text=Lyon",
-    "price": 21
-  },
-  {
-    "id": 901,
-    "league": "Retro",
-    "team": "Brasil 2002",
-    "type": "RETRO",
-    "image": "https://placehold.co/600x600?text=Brasil+2002",
-    "price": 25
-  },
-  {
-    "id": 902,
-    "league": "Retro",
-    "team": "Argentina 1986",
-    "type": "RETRO",
-    "image": "https://placehold.co/600x600?text=Argentina+86",
-    "price": 25
-  },
-  {
-    "id": 903,
-    "league": "Retro",
-    "team": "Milan 2007",
-    "type": "RETRO",
-    "image": "https://placehold.co/600x600?text=Milan+2007",
-    "price": 25
-  },
-  {
-    "id": 904,
-    "league": "Player",
-    "team": "Argentina Messi",
-    "type": "PLAYER VERSION",
-    "image": "https://placehold.co/600x600?text=Messi+Player",
-    "price": 24
-  }
+  {"id": 101, "league": "La Liga", "team": "Real Madrid", "type": "HOME 24/25", "code": "RM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Real+Madrid+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 102, "league": "La Liga", "team": "Real Madrid", "type": "AWAY 24/25", "code": "RM-A24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Real+Madrid+Away", "price": 21, "sizes": "S–XXL"},
+  {"id": 103, "league": "La Liga", "team": "FC Barcelona", "type": "HOME 24/25", "code": "BAR-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Barcelona+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 104, "league": "La Liga", "team": "FC Barcelona", "type": "AWAY 24/25", "code": "BAR-A24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Barcelona+Away", "price": 21, "sizes": "S–XXL"},
+  {"id": 105, "league": "La Liga", "team": "Atletico Madrid", "type": "HOME 24/25", "code": "ATM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Atleti+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 106, "league": "La Liga", "team": "Sevilla FC", "type": "HOME 24/25", "code": "SEV-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Sevilla+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 107, "league": "La Liga", "team": "Real Betis", "type": "HOME 24/25", "code": "BET-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Betis+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 108, "league": "La Liga", "team": "Real Sociedad", "type": "HOME 24/25", "code": "RSO-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Real+Sociedad", "price": 21, "sizes": "S–XXL"},
+  {"id": 109, "league": "La Liga", "team": "Athletic Club", "type": "HOME 24/25", "code": "ATH-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Athletic+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 110, "league": "La Liga", "team": "Valencia CF", "type": "HOME 24/25", "code": "VAL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Valencia+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 111, "league": "La Liga", "team": "Villarreal CF", "type": "HOME 24/25", "code": "VIL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Villarreal+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 201, "league": "Premier League", "team": "Manchester City", "type": "HOME 24/25", "code": "MCI-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Man+City+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 202, "league": "Premier League", "team": "Arsenal", "type": "HOME 24/25", "code": "ARS-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Arsenal+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 203, "league": "Premier League", "team": "Liverpool", "type": "HOME 24/25", "code": "LIV-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Liverpool+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 204, "league": "Premier League", "team": "Manchester United", "type": "HOME 24/25", "code": "MUN-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Man+United+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 205, "league": "Premier League", "team": "Chelsea", "type": "HOME 24/25", "code": "CHE-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Chelsea+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 206, "league": "Premier League", "team": "Tottenham", "type": "HOME 24/25", "code": "TOT-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Tottenham+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 207, "league": "Premier League", "team": "Newcastle", "type": "HOME 24/25", "code": "NEW-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Newcastle+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 208, "league": "Premier League", "team": "Aston Villa", "type": "HOME 24/25", "code": "AVL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Aston+Villa+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 209, "league": "Premier League", "team": "West Ham", "type": "HOME 24/25", "code": "WHU-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=West+Ham+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 210, "league": "Premier League", "team": "Brighton", "type": "HOME 24/25", "code": "BHA-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Brighton+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 301, "league": "Serie A", "team": "Inter Milan", "type": "HOME 24/25", "code": "INT-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Inter+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 302, "league": "Serie A", "team": "AC Milan", "type": "HOME 24/25", "code": "ACM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=AC+Milan+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 303, "league": "Serie A", "team": "Juventus", "type": "HOME 24/25", "code": "JUV-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Juventus+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 304, "league": "Serie A", "team": "Napoli", "type": "HOME 24/25", "code": "NAP-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Napoli+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 305, "league": "Serie A", "team": "AS Roma", "type": "HOME 24/25", "code": "ROM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Roma+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 306, "league": "Serie A", "team": "Lazio", "type": "HOME 24/25", "code": "LAZ-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Lazio+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 307, "league": "Serie A", "team": "Atalanta", "type": "HOME 24/25", "code": "ATA-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Atalanta+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 308, "league": "Serie A", "team": "Fiorentina", "type": "HOME 24/25", "code": "FIO-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Fiorentina+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 401, "league": "Bundesliga", "team": "Bayern Munich", "type": "HOME 24/25", "code": "BAY-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Bayern+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 402, "league": "Bundesliga", "team": "Dortmund", "type": "HOME 24/25", "code": "BVB-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Dortmund+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 403, "league": "Bundesliga", "team": "Leverkusen", "type": "HOME 24/25", "code": "LEV-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Leverkusen+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 404, "league": "Bundesliga", "team": "RB Leipzig", "type": "HOME 24/25", "code": "RBL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Leipzig+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 405, "league": "Bundesliga", "team": "Frankfurt", "type": "HOME 24/25", "code": "SGE-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Frankfurt+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 501, "league": "Ligue 1", "team": "PSG", "type": "HOME 24/25", "code": "PSG-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=PSG+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 502, "league": "Ligue 1", "team": "Marseille", "type": "HOME 24/25", "code": "OM-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Marseille+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 503, "league": "Ligue 1", "team": "Monaco", "type": "HOME 24/25", "code": "MON-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Monaco+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 504, "league": "Ligue 1", "team": "Lyon", "type": "HOME 24/25", "code": "OL-H24", "image": "https://placehold.co/600x600/f0f0f0/999?text=Lyon+Home", "price": 21, "sizes": "S–XXL"},
+  {"id": 901, "league": "Retro", "team": "Brasil 2002", "type": "RETRO", "code": "BRA-R02", "image": "https://placehold.co/600x600/f0f0f0/999?text=Brasil+2002", "price": 25, "sizes": "S–XXL"},
+  {"id": 902, "league": "Retro", "team": "Argentina 1986", "type": "RETRO", "code": "ARG-R86", "image": "https://placehold.co/600x600/f0f0f0/999?text=Argentina+86", "price": 25, "sizes": "S–XXL"},
+  {"id": 903, "league": "Retro", "team": "Milan 2007", "type": "RETRO", "code": "ACM-R07", "image": "https://placehold.co/600x600/f0f0f0/999?text=Milan+2007", "price": 25, "sizes": "S–XXL"},
+  {"id": 904, "league": "Player", "team": "Argentina Messi", "type": "PLAYER VERSION", "code": "ARG-PV10", "image": "https://placehold.co/600x600/f0f0f0/999?text=Messi+Player", "price": 24, "sizes": "S–XXL"}
 ]
