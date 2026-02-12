@@ -4,6 +4,8 @@ export default function InfoSection() {
   return (
     <section id="info" className="info-section">
       <div className="container">
+        <h2 className="info-section-title">¿Por qué elegirnos?</h2>
+        <p className="info-section-subtitle">Miles de clientes satisfechos en toda España</p>
         <div className="trust-badges">
           <div className="trust-badge">
             <div className="trust-badge-icon">⭐</div>
@@ -29,6 +31,7 @@ export default function InfoSection() {
 
         <div className="faq-box" id="faq">
           <h3 className="faq-title">Preguntas frecuentes</h3>
+          <p className="faq-subtitle">Todo lo que necesitas saber antes de hacer tu pedido</p>
 
           <details>
             <summary>¿Qué calidad tienen las camisetas?</summary>

@@ -22,8 +22,18 @@ function App() {
 
       <section className="hero">
         <div className="container">
-          <h1>Camisetas de fútbol<br />al mejor precio</h1>
+          <div className="hero-badge">⚽ Temporada 2024/25</div>
+          <h1>Camisetas de fútbol<br /><span className="accent">al mejor precio</span></h1>
           <p>Calidad Thai AAA+. Elige tu equipo y pide por WhatsApp en 1 minuto.</p>
+          <a
+            href="https://wa.me/34600000000?text=Hola!%20Quiero%20info%20sobre%20vuestras%20camisetas"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-cta"
+          >
+            {WA_ICON}
+            Pedir ahora
+          </a>
         </div>
       </section>
 
@@ -31,16 +41,19 @@ function App() {
         <div className="container">
           <div className="steps-row">
             <div className="step-card">
+              <span className="step-icon">👕</span>
               <div className="step-num">1</div>
               <h3>Elige camiseta</h3>
               <p>Busca tu equipo en el catálogo</p>
             </div>
             <div className="step-card">
+              <span className="step-icon">💬</span>
               <div className="step-num">2</div>
               <h3>Escribe por WhatsApp</h3>
               <p>Dinos qué camiseta quieres</p>
             </div>
             <div className="step-card">
+              <span className="step-icon">📦</span>
               <div className="step-num">3</div>
               <h3>Recibe en casa</h3>
               <p>Paga cómodamente. Llega en 10-15 días</p>
@@ -56,11 +69,14 @@ function App() {
 
       <footer className="footer">
         <div className="container">
-          <p>© {new Date().getFullYear()} Soccer.Camisetas — Camisetas de fútbol al mejor precio</p>
+          <p className="footer-brand">Soccer<span className="accent">.</span>Camisetas</p>
+          <p className="footer-tagline">Las mejores camisetas de fútbol al mejor precio</p>
           <div className="footer-links">
-            <a href="https://instagram.com/soccer.camisetas1" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://wa.me/34600000000" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://instagram.com/soccer.camisetas1" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+            <a href="https://wa.me/34600000000" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
           </div>
+          <div className="footer-divider"></div>
+          <p>© {new Date().getFullYear()} Soccer.Camisetas — Todos los derechos reservados</p>
         </div>
       </footer>
 

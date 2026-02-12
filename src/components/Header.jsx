@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="container">
-        <h1 className="logo">Soccer.Camisetas</h1>
+        <h1 className="logo">Soccer<span className="logo-dot">.</span>Camisetas</h1>
         <div className="header-right">
           <nav className="nav-links">
             <a href="#catalogo">Catálogo</a>

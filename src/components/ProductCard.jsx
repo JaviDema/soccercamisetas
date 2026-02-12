@@ -28,6 +28,9 @@ export default function ProductCard({ product, onQuickView }) {
       </div>
       <div className="product-info">
         <h3>{team}</h3>
+        <div className="product-price">
+          <strong>15€</strong> · Envío incluido
+        </div>
         <a
           href={whatsappUrl}
           target="_blank"
