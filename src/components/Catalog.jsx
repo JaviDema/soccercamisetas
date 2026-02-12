@@ -110,7 +110,7 @@ export default function Catalog() {
       <div className="container">
         {filtered ? (
           filtered.length > 0 ? (
-            <div style={{ paddingTop: 24 }}>
+            <div className="catalog-section">
               <div className="league-header">
                 <h2>Resultados</h2>
                 <span>{filtered.length} camisetas</span>
@@ -127,7 +127,7 @@ export default function Catalog() {
             </div>
           )
         ) : selectedLeague && selectedTeam ? (
-          <div style={{ paddingTop: 24 }}>
+          <div className="catalog-section">
             <div className="league-header">
               <button className="back-btn" onClick={handleBack} aria-label="Volver">←</button>
               <h2>{selectedTeam}</h2>
@@ -140,7 +140,7 @@ export default function Catalog() {
             </div>
           </div>
         ) : selectedLeague ? (
-          <div style={{ paddingTop: 24 }}>
+          <div className="catalog-section">
             <div className="league-header">
               <button className="back-btn" onClick={handleBack} aria-label="Volver">←</button>
               <h2>{selectedLeague}</h2>
@@ -157,7 +157,7 @@ export default function Catalog() {
                     onClick={() => handleTeamSelect(team)}
                   >
                     <div className="league-card-img">
-                      <img src={teamImg} alt={team} loading="lazy" />
+                      <img src={teamImg} alt={team} loading="lazy" decoding="async" />
                     </div>
                     <div className="league-card-info">
                       <h3>{team}</h3>
@@ -169,7 +169,7 @@ export default function Catalog() {
             </div>
           </div>
         ) : (
-          <div style={{ paddingTop: 24 }}>
+          <div className="catalog-section">
             <div className="league-header">
               <h2>Catálogo</h2>
               <span>{leagues.length} ligas</span>
@@ -184,7 +184,7 @@ export default function Catalog() {
                     onClick={() => handleLeagueSelect(league)}
                   >
                     <div className="league-card-img">
-                      <img src={LEAGUE_IMAGES[league]} alt={league} loading="lazy" />
+                      <img src={LEAGUE_IMAGES[league]} alt={league} loading="lazy" decoding="async" />
                     </div>
                     <div className="league-card-info">
                       <h3>{league}</h3>

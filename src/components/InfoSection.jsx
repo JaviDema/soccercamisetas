@@ -18,9 +18,9 @@ export default function InfoSection() {
             <p>A toda España. Entrega en 10-15 días laborables con seguimiento</p>
           </div>
           <div className="trust-badge">
-            <div className="trust-badge-icon">💬</div>
+            <div className="trust-badge-icon">�</div>
             <h3>Atención directa</h3>
-            <p>Respondemos por WhatsApp en menos de 2 horas</p>
+            <p>Respondemos por Instagram en menos de 2 horas</p>
           </div>
           <div className="trust-badge">
             <div className="trust-badge-icon">💳</div>
@@ -45,7 +45,7 @@ export default function InfoSection() {
 
           <details>
             <summary>¿Puedo personalizar nombre y número?</summary>
-            <p>Sí, por solo 2€ más. Indícanos el nombre y dorsal que quieras al hacer el pedido por WhatsApp.</p>
+            <p>Sí, por solo 2€ más. Indícanos el nombre y dorsal que quieras al hacer el pedido por Instagram.</p>
           </details>
 
           <details>

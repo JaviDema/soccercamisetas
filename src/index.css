@@ -10,8 +10,9 @@
   --accent: #E11D48;
   --accent-light: #FB7185;
   --accent-bg: rgba(225,29,72,0.06);
-  --whatsapp: #25D366;
-  --whatsapp-hover: #1EBE5D;
+  --instagram: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  --instagram-solid: #E1306C;
+  --instagram-hover: #C13584;
   --badge-new: #F59E0B;
   --badge-retro: #8B5CF6;
   --badge-player: #3B82F6;
@@ -131,25 +132,25 @@ button { font-family: inherit; }
   color: var(--text);
   background: rgba(0,0,0,0.04);
 }
-.header-wa {
+.header-ig {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--whatsapp);
+  background: var(--instagram);
   color: #fff;
   font-size: 0.8rem;
   font-weight: 600;
   padding: 8px 16px;
   border-radius: var(--radius-pill);
   transition: all var(--transition);
-  box-shadow: 0 2px 8px rgba(37,211,102,0.3);
+  box-shadow: 0 2px 8px rgba(225,48,108,0.3);
 }
-.header-wa:hover {
-  background: var(--whatsapp-hover);
-  box-shadow: 0 4px 14px rgba(37,211,102,0.4);
+.header-ig:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 4px 14px rgba(225,48,108,0.4);
   transform: translateY(-1px);
 }
-.header-wa svg { width: 16px; height: 16px; }
+.header-ig svg { width: 16px; height: 16px; }
 
 /* ===== PROMO BAR ===== */
 .trust-bar {
@@ -255,19 +256,19 @@ button { font-family: inherit; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background: var(--whatsapp);
+  background: var(--instagram);
   color: #fff;
   font-size: 0.9rem;
   font-weight: 700;
   padding: 13px 28px;
   border-radius: var(--radius-pill);
   transition: all var(--transition);
-  box-shadow: 0 4px 16px rgba(37,211,102,0.35);
+  box-shadow: 0 4px 16px rgba(225,48,108,0.35);
 }
 .hero-cta:hover {
-  background: var(--whatsapp-hover);
+  filter: brightness(1.1);
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(37,211,102,0.45);
+  box-shadow: 0 6px 24px rgba(225,48,108,0.45);
 }
 .hero-cta svg { width: 18px; height: 18px; }
 
@@ -528,6 +529,11 @@ button { font-family: inherit; }
   border-radius: var(--radius-pill);
 }
 
+/* ===== CATALOG SECTION ===== */
+.catalog-section {
+  padding-top: 24px;
+}
+
 /* ===== PRODUCT GRID ===== */
 .product-grid {
   display: grid;
@@ -606,12 +612,12 @@ button { font-family: inherit; }
   font-size: 0.95rem;
   font-weight: 800;
 }
-.btn-whatsapp {
+.btn-instagram {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
-  background: var(--whatsapp);
+  background: var(--instagram);
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -624,11 +630,11 @@ button { font-family: inherit; }
   border: none;
   cursor: pointer;
 }
-.btn-whatsapp:hover {
-  background: var(--whatsapp-hover);
-  box-shadow: 0 4px 12px rgba(37,211,102,0.3);
+.btn-instagram:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 4px 12px rgba(225,48,108,0.3);
 }
-.btn-whatsapp svg { width: 14px; height: 14px; }
+.btn-instagram svg { width: 14px; height: 14px; }
 
 /* ===== QUICK VIEW MODAL ===== */
 .modal-overlay {
@@ -744,12 +750,12 @@ button { font-family: inherit; }
   border-radius: var(--radius-btn);
   border: 1px solid var(--border);
 }
-.modal-wa-btn {
+.modal-ig-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: var(--whatsapp);
+  background: var(--instagram);
   color: white;
   text-decoration: none;
   padding: 15px;
@@ -759,11 +765,11 @@ button { font-family: inherit; }
   font-family: inherit;
   width: 100%;
   transition: all var(--transition);
-  box-shadow: 0 4px 14px rgba(37,211,102,0.3);
+  box-shadow: 0 4px 14px rgba(225,48,108,0.3);
 }
-.modal-wa-btn:hover {
-  background: var(--whatsapp-hover);
-  box-shadow: 0 6px 20px rgba(37,211,102,0.4);
+.modal-ig-btn:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 6px 20px rgba(225,48,108,0.4);
   transform: translateY(-1px);
 }
 
@@ -771,6 +777,8 @@ button { font-family: inherit; }
 .info-section {
   padding: 56px 0;
   border-top: 1px solid var(--border);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
 }
 .info-section-title {
   text-align: center;
@@ -948,14 +956,14 @@ details p {
   margin: 0;
 }
 
-/* ===== FLOATING WHATSAPP ===== */
-.floating-wa {
+/* ===== FLOATING INSTAGRAM ===== */
+.floating-ig {
   position: fixed;
   bottom: 24px;
   right: 24px;
   width: 56px;
   height: 56px;
-  background: var(--whatsapp);
+  background: var(--instagram);
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -964,16 +972,16 @@ details p {
   justify-content: center;
   cursor: pointer;
   z-index: 900;
-  box-shadow: 0 4px 16px rgba(37,211,102,0.35);
+  box-shadow: 0 4px 16px rgba(225,48,108,0.35);
   transition: all var(--transition);
   animation: pulse 2s infinite;
 }
-.floating-wa:hover {
+.floating-ig:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 28px rgba(37,211,102,0.5);
+  box-shadow: 0 8px 28px rgba(225,48,108,0.5);
   animation: none;
 }
-.floating-wa svg { width: 28px; height: 28px; }
+.floating-ig svg { width: 28px; height: 28px; }
 
 /* ===== NO RESULTS ===== */
 .no-results {
@@ -1017,9 +1025,9 @@ details p {
   .product-grid { gap: 10px; }
   .product-info { padding: 12px; }
   .product-info h3 { font-size: 0.82rem; }
-  .btn-whatsapp { font-size: 0.74rem; padding: 9px; }
-  .header-wa span { display: none; }
-  .header-wa { padding: 8px 12px; }
+  .btn-instagram { font-size: 0.74rem; padding: 9px; }
+  .header-ig span { display: none; }
+  .header-ig { padding: 8px 12px; }
   .trust-badges { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .trust-badge { padding: 18px 12px; }
   .trust-badge-icon { width: 40px; height: 40px; font-size: 1.2rem; }
