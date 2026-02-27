@@ -1,0 +1,3202 @@
+{
+  "summary": {
+    "valid": 34,
+    "invalid": 407,
+    "local": 195
+  },
+  "stats_by_league": {
+    "La Liga": {
+      "valid": 13,
+      "invalid": 19,
+      "local": 43
+    },
+    "Premier League": {
+      "valid": 9,
+      "invalid": 17,
+      "local": 42
+    },
+    "Serie A": {
+      "valid": 7,
+      "invalid": 12,
+      "local": 22
+    },
+    "Bundesliga": {
+      "valid": 3,
+      "invalid": 10,
+      "local": 21
+    },
+    "Ligue 1": {
+      "valid": 0,
+      "invalid": 0,
+      "local": 12
+    },
+    "Selecciones": {
+      "valid": 1,
+      "invalid": 20,
+      "local": 31
+    },
+    "Otras Ligas": {
+      "valid": 1,
+      "invalid": 1,
+      "local": 24
+    },
+    "Retro": {
+      "valid": 0,
+      "invalid": 328,
+      "local": 0
+    }
+  },
+  "invalid_urls": [
+    {
+      "team": "Atletico Madrid",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-atletico-de-madrid-primera-equipacion-2025-2026-sport-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Valencia CF",
+      "league": "La Liga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-puma-valencia-cf-segunda-equipacion-2025-2026-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Sevilla FC",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-castore-sevilla-fc-primera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Real Sociedad",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-macron-real-sociedad-primera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Real Sociedad",
+      "league": "La Liga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-macron-real-sociedad-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Real Betis",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-hummel-real-betis-primera-equipacion-2025-2026-green-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Athletic Bilbao",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-new-balance-athletic-club-bilbao-primera-equipacion-2025-2026-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Atletico Madrid",
+      "league": "La Liga",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-atletico-de-madrid-tercera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Sevilla FC",
+      "league": "La Liga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-castore-sevilla-fc-segunda-equipacion-2025-2026-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Atletico Madrid",
+      "league": "La Liga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-atletico-de-madrid-segunda-equipacion-2025-2026-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-real-madrid-tercera-equipacion-2025-2026-orange-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Athletic Bilbao",
+      "league": "La Liga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-new-balance-athletic-club-bilbao-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Real Betis",
+      "league": "La Liga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-hummel-real-betis-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-real-madrid-segunda-equipacion-2025-2026-dark-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Arsenal",
+      "league": "Premier League",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-arsenal-segunda-equipacion-2025-2026-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Liverpool",
+      "league": "Premier League",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-liverpool-segunda-equipacion-2025-2026-green-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Villarreal CF",
+      "league": "La Liga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-joma-villarreal-cf-segunda-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Liverpool",
+      "league": "Premier League",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-liverpool-tercera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Arsenal",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-arsenal-primera-equipacion-2025-2026-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Liverpool",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-liverpool-primera-equipacion-2025-2026-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Arsenal",
+      "league": "Premier League",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-arsenal-tercera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Manchester City",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-puma-manchester-city-primera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Manchester City",
+      "league": "Premier League",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-puma-manchester-city-tercera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Manchester United",
+      "league": "Premier League",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-manchester-united-tercera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Manchester United",
+      "league": "Premier League",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-manchester-united-segunda-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Chelsea",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-chelsea-primera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Chelsea",
+      "league": "Premier League",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-chelsea-segunda-equipacion-2025-2026-yellow-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Chelsea",
+      "league": "Premier League",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-chelsea-tercera-equipacion-2025-2026-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "AC Milan",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-puma-ac-milan-primera-equipacion-2025-2026-red-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Newcastle United",
+      "league": "Premier League",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-newcastle-united-segunda-equipacion-2025-2026-green-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "AC Milan",
+      "league": "Serie A",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-puma-ac-milan-tercera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Tottenham",
+      "league": "Premier League",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-tottenham-segunda-equipacion-2025-2026-green-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Inter Milan",
+      "league": "Serie A",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-inter-milan-tercera-equipacion-2025-2026-yellow-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Inter Milan",
+      "league": "Serie A",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-inter-milan-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Inter Milan",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-inter-milan-primera-equipacion-2025-2026-blue-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Newcastle United",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-newcastle-united-primera-equipacion-2025-2026-black-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Tottenham",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-tottenham-primera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Juventus",
+      "league": "Serie A",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-juventus-tercera-equipacion-2025-2026-yellow-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Juventus",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-juventus-primera-equipacion-2025-2026-black-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Napoli",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-ea7-napoli-primera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Napoli",
+      "league": "Serie A",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-ea7-napoli-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "AS Roma",
+      "league": "Serie A",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-as-roma-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Lazio",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-mizuno-lazio-primera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "AS Roma",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-as-roma-primera-equipacion-2025-2026-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "league": "Bundesliga",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-puma-borussia-dortmund-primera-equipacion-2025-2026-yellow-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "RB Leipzig",
+      "league": "Bundesliga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-rb-leipzig-segunda-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Bayern Munich",
+      "league": "Bundesliga",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-bayern-munich-tercera-equipacion-2025-2026-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "league": "Bundesliga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-bayer-leverkusen-segunda-equipacion-2025-2026-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "league": "Bundesliga",
+      "type": "3ª EQUIPACIÓN 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-puma-borussia-dortmund-tercera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Bayern Munich",
+      "league": "Bundesliga",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-bayern-munich-primera-equipacion-2025-2026-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "league": "Bundesliga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-puma-borussia-dortmund-segunda-equipacion-2025-2026-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "RB Leipzig",
+      "league": "Bundesliga",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-rb-leipzig-primera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "league": "Bundesliga",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-bayer-leverkusen-primera-equipacion-2025-2026-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Alemania",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-alemania-primera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Alemania",
+      "league": "Selecciones",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-alemania-segunda-equipacion-2025-2026-pink-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "España",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-espana-primera-equipacion-2025-2026-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "São Paulo",
+      "league": "Otras Ligas",
+      "type": "HOME 25/26",
+      "url": "https://placehold.co/600x600/f0f0f0/999?text=São+Paulo",
+      "error": "Error: 'ascii' codec can't encode character '\\xe3' in position 31: ordinal not in range(128)"
+    },
+    {
+      "team": "España",
+      "league": "Selecciones",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-espana-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Bayern Munich",
+      "league": "Bundesliga",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-bayern-munich-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Francia",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-francia-primera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Francia",
+      "league": "Selecciones",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-francia-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Inglaterra",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-inglaterra-primera-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Portugal",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-portugal-primera-equipacion-2025-2026-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Croacia",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-croacia-primera-equipacion-2025-2026-red-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Brasil",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-brasil-primera-equipacion-2025-2026-yellow-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Portugal",
+      "league": "Selecciones",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-portugal-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Holanda",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-holanda-primera-equipacion-2025-2026-orange-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Italia",
+      "league": "Selecciones",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-italia-segunda-equipacion-2025-2026-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Argentina",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-argentina-primera-equipacion-2025-2026-white-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Uruguay",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-puma-uruguay-primera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Italia",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-italia-primera-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Brasil",
+      "league": "Selecciones",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-brasil-segunda-equipacion-2025-2026-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Inglaterra",
+      "league": "Selecciones",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-inglaterra-segunda-equipacion-2025-2026-purple-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Argentina",
+      "league": "Selecciones",
+      "type": "AWAY 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-argentina-segunda-equipacion-2025-2026-purple-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Bélgica",
+      "league": "Selecciones",
+      "type": "HOME 25/26",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-belgica-primera-equipacion-2025-2026-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Argentina",
+      "league": "Retro",
+      "type": "RETRO HOME 94",
+      "url": "https://photo.yupoo.com/minkang/14a8868c/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Ajax",
+      "league": "Retro",
+      "type": "RETRO HOME 89/90",
+      "url": "https://photo.yupoo.com/minkang/39ce0a6e/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Argentina",
+      "league": "Retro",
+      "type": "RETRO HOME 08/10",
+      "url": "https://photo.yupoo.com/minkang/2e235f86/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Ajax",
+      "league": "Retro",
+      "type": "RETRO AWAY 95/96",
+      "url": "https://photo.yupoo.com/minkang/c6287be9/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Alemania",
+      "league": "Retro",
+      "type": "RETRO HOME 14",
+      "url": "https://photo.yupoo.com/minkang/3f6345fb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Arsenal",
+      "league": "Retro",
+      "type": "RETRO HOME 16/17",
+      "url": "https://photo.yupoo.com/minkang/5ba5dbda/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Ajax",
+      "league": "Retro",
+      "type": "RETRO AWAY 89",
+      "url": "https://photo.yupoo.com/minkang/7a83135e/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Argentina",
+      "league": "Retro",
+      "type": "RETRO HOME 14",
+      "url": "https://photo.yupoo.com/minkang/a15fed08/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Alemania",
+      "league": "Retro",
+      "type": "RETRO HOME 86",
+      "url": "https://photo.yupoo.com/minkang/65fbb760/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "AC Milan",
+      "league": "Retro",
+      "type": "RETRO HOME 04/05",
+      "url": "https://photo.yupoo.com/minkang/a9b24575/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "AC Milan",
+      "league": "Retro",
+      "type": "RETRO HOME 88/89",
+      "url": "https://photo.yupoo.com/minkang/a60d700b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "AC Milan",
+      "league": "Retro",
+      "type": "RETRO HOME 10/11",
+      "url": "https://photo.yupoo.com/minkang/bffc7855/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Alemania",
+      "league": "Retro",
+      "type": "RETRO HOME 94",
+      "url": "https://photo.yupoo.com/minkang/139dad5b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Ajax",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/7226aaea/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "AC Milan",
+      "league": "Retro",
+      "type": "RETRO HOME 02/03",
+      "url": "https://photo.yupoo.com/minkang/38d4fb56/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Albacete",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/d16c883b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Alemania",
+      "league": "Retro",
+      "type": "RETRO HOME 98",
+      "url": "https://photo.yupoo.com/minkang/f0a35aa8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Arsenal",
+      "league": "Retro",
+      "type": "RETRO HOME 94/96",
+      "url": "https://photo.yupoo.com/minkang/a354bb10/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Argentina",
+      "league": "Retro",
+      "type": "RETRO HOME 00/01",
+      "url": "https://photo.yupoo.com/minkang/51eeaa38/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "AS Mónaco",
+      "league": "Retro",
+      "type": "RETRO HOME 16/17",
+      "url": "https://photo.yupoo.com/minkang/e2d243cf/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Arsenal",
+      "league": "Retro",
+      "type": "RETRO HOME 10",
+      "url": "https://photo.yupoo.com/minkang/c12206ed/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Arsenal",
+      "league": "Retro",
+      "type": "RETRO HOME 08/10",
+      "url": "https://photo.yupoo.com/minkang/ae178468/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "AS Roma",
+      "league": "Retro",
+      "type": "RETRO HOME 06/07",
+      "url": "https://photo.yupoo.com/minkang/6d6a9518/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Atletico Madrid",
+      "league": "Retro",
+      "type": "RETRO HOME 96/97",
+      "url": "https://photo.yupoo.com/minkang/8b5d7968/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "AS Roma",
+      "league": "Retro",
+      "type": "RETRO HOME 83/84",
+      "url": "https://photo.yupoo.com/minkang/271876b7/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Atletico Madrid",
+      "league": "Retro",
+      "type": "RETRO HOME 11/12",
+      "url": "https://photo.yupoo.com/minkang/293d7074/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "AS Roma",
+      "league": "Retro",
+      "type": "RETRO HOME 82/83",
+      "url": "https://photo.yupoo.com/minkang/2040d6fb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Atletico Madrid",
+      "league": "Retro",
+      "type": "RETRO HOME 16/17",
+      "url": "https://photo.yupoo.com/minkang/7a69db03/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "AS Roma",
+      "league": "Retro",
+      "type": "RETRO HOME 92/94",
+      "url": "https://photo.yupoo.com/minkang/6ccf3781/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Athletic Bilbao",
+      "league": "Retro",
+      "type": "RETRO HOME 95/97",
+      "url": "https://photo.yupoo.com/minkang/207cc488/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Athletic Bilbao",
+      "league": "Retro",
+      "type": "RETRO HOME 11/12",
+      "url": "https://photo.yupoo.com/minkang/00af1e27/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Athletic Bilbao",
+      "league": "Retro",
+      "type": "RETRO HOME 05/08",
+      "url": "https://photo.yupoo.com/minkang/98ed216a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Aston Villa",
+      "league": "Retro",
+      "type": "RETRO HOME 09/10",
+      "url": "https://photo.yupoo.com/minkang/865e7fe9/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Atlético Mineiro",
+      "league": "Retro",
+      "type": "RETRO HOME 03",
+      "url": "https://photo.yupoo.com/minkang/1428a63a/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Athletic Bilbao",
+      "league": "Retro",
+      "type": "RETRO HOME 86/87",
+      "url": "https://photo.yupoo.com/minkang/0c99c23b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Atalanta",
+      "league": "Retro",
+      "type": "RETRO HOME 91/93",
+      "url": "https://photo.yupoo.com/minkang/63a0abea/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Atletico Madrid",
+      "league": "Retro",
+      "type": "RETRO HOME 82/83",
+      "url": "https://photo.yupoo.com/minkang/b71afe2a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Aston Villa",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/a6799dc5/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "league": "Retro",
+      "type": "RETRO HOME 00/01",
+      "url": "https://photo.yupoo.com/minkang/c0e1151f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Bayern Munich",
+      "league": "Retro",
+      "type": "RETRO HOME 03/04",
+      "url": "https://photo.yupoo.com/minkang/a3607d80/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Bayer Leverkusen",
+      "league": "Retro",
+      "type": "RETRO HOME 01/02",
+      "url": "https://photo.yupoo.com/minkang/f22c652b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Bayern Munich",
+      "league": "Retro",
+      "type": "RETRO HOME 06/07",
+      "url": "https://photo.yupoo.com/minkang/5148686e/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Bayern Munich",
+      "league": "Retro",
+      "type": "RETRO HOME 12/13",
+      "url": "https://photo.yupoo.com/minkang/27b669a4/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Benfica",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/32020dbf/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Benfica",
+      "league": "Retro",
+      "type": "RETRO HOME 09/10",
+      "url": "https://photo.yupoo.com/minkang/0c1f800a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Benfica",
+      "league": "Retro",
+      "type": "RETRO HOME 98/99",
+      "url": "https://photo.yupoo.com/minkang/d28f05b2/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Benfica",
+      "league": "Retro",
+      "type": "RETRO HOME 90",
+      "url": "https://photo.yupoo.com/minkang/3a17eb09/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Bélgica",
+      "league": "Retro",
+      "type": "RETRO HOME 95",
+      "url": "https://photo.yupoo.com/minkang/b6cd077a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Bayern Munich",
+      "league": "Retro",
+      "type": "RETRO HOME 02/03",
+      "url": "https://photo.yupoo.com/minkang/73d1ee67/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Boca Juniors",
+      "league": "Retro",
+      "type": "RETRO HOME 86/88",
+      "url": "https://photo.yupoo.com/minkang/edf0c69a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "league": "Retro",
+      "type": "RETRO HOME 96/97",
+      "url": "https://photo.yupoo.com/minkang/28b6a006/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Blackburn Rovers",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/cab56b04/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Birmingham FC",
+      "league": "Retro",
+      "type": "RETRO HOME 96/97",
+      "url": "https://photo.yupoo.com/minkang/b48eb554/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Boca Juniors",
+      "league": "Retro",
+      "type": "RETRO HOME 14/15",
+      "url": "https://photo.yupoo.com/minkang/e314c52c/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Birmingham FC",
+      "league": "Retro",
+      "type": "RETRO HOME 02/03",
+      "url": "https://photo.yupoo.com/minkang/3bae87b8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Bolonia",
+      "league": "Retro",
+      "type": "RETRO HOME 96/97",
+      "url": "https://photo.yupoo.com/minkang/186df484/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Boca Juniors",
+      "league": "Retro",
+      "type": "RETRO HOME 95/97",
+      "url": "https://photo.yupoo.com/minkang/9487415f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Boca Juniors",
+      "league": "Retro",
+      "type": "RETRO HOME 85/86",
+      "url": "https://photo.yupoo.com/minkang/9dc4df22/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Borussia Mönchengladbach",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/46b3dc73/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/c47c658f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/44cb7de9/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "league": "Retro",
+      "type": "RETRO HOME 97",
+      "url": "https://photo.yupoo.com/minkang/0b588906/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Brasil",
+      "league": "Retro",
+      "type": "RETRO HOME 14",
+      "url": "https://photo.yupoo.com/minkang/94e6e452/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Brasil",
+      "league": "Retro",
+      "type": "RETRO HOME 1958",
+      "url": "https://photo.yupoo.com/minkang/89990754/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Borussia Mönchengladbach",
+      "league": "Retro",
+      "type": "RETRO HOME 08/09",
+      "url": "https://photo.yupoo.com/minkang/836e7e9a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Botafogo",
+      "league": "Retro",
+      "type": "RETRO HOME 95",
+      "url": "https://photo.yupoo.com/minkang/c369bf4c/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Brasil",
+      "league": "Retro",
+      "type": "RETRO HOME 12/13",
+      "url": "https://photo.yupoo.com/minkang/b7b09ed4/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Camerún",
+      "league": "Retro",
+      "type": "RETRO HOME 98",
+      "url": "https://photo.yupoo.com/minkang/8a5287c1/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Brescia",
+      "league": "Retro",
+      "type": "RETRO HOME 03/04",
+      "url": "https://photo.yupoo.com/minkang/0e6125f2/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Cádiz CF",
+      "league": "Retro",
+      "type": "RETRO HOME 83/84",
+      "url": "https://photo.yupoo.com/minkang/c5e89e92/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Brasil",
+      "league": "Retro",
+      "type": "RETRO HOME 97",
+      "url": "https://photo.yupoo.com/minkang/0c843a24/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "CD Tenerife",
+      "league": "Retro",
+      "type": "RETRO AWAY 95/96",
+      "url": "https://photo.yupoo.com/minkang/aeb585b8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Celtic",
+      "league": "Retro",
+      "type": "RETRO HOME 80/81",
+      "url": "https://photo.yupoo.com/minkang/d84a4e5b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Celta de Vigo",
+      "league": "Retro",
+      "type": "RETRO HOME 97/99",
+      "url": "https://photo.yupoo.com/minkang/046e92fb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Celtic",
+      "league": "Retro",
+      "type": "RETRO HOME 06",
+      "url": "https://photo.yupoo.com/minkang/d9981c0c/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Chelsea",
+      "league": "Retro",
+      "type": "RETRO HOME 98/00",
+      "url": "https://photo.yupoo.com/minkang/e12befd4/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Celtic",
+      "league": "Retro",
+      "type": "RETRO HOME 80",
+      "url": "https://photo.yupoo.com/minkang/2d4888d8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Celtic",
+      "league": "Retro",
+      "type": "RETRO HOME 89",
+      "url": "https://photo.yupoo.com/minkang/09331649/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Celta de Vigo",
+      "league": "Retro",
+      "type": "RETRO HOME 01/02",
+      "url": "https://photo.yupoo.com/minkang/e444c746/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Brescia",
+      "league": "Retro",
+      "type": "RETRO AWAY 03/04",
+      "url": "https://photo.yupoo.com/minkang/239cd6d6/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "CD Tenerife",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/9f1992cf/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Camerún",
+      "league": "Retro",
+      "type": "RETRO HOME 90",
+      "url": "https://photo.yupoo.com/minkang/9e80420a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Colo Colo",
+      "league": "Retro",
+      "type": "RETRO HOME 06",
+      "url": "https://photo.yupoo.com/minkang/a32323cb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Colombia",
+      "league": "Retro",
+      "type": "RETRO HOME 94",
+      "url": "https://photo.yupoo.com/minkang/4e0a5179/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Chile",
+      "league": "Retro",
+      "type": "RETRO HOME 03",
+      "url": "https://photo.yupoo.com/minkang/7c810563/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Chelsea",
+      "league": "Retro",
+      "type": "RETRO HOME 16/17",
+      "url": "https://photo.yupoo.com/minkang/16d262a3/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Colo Colo",
+      "league": "Retro",
+      "type": "RETRO HOME 03",
+      "url": "https://photo.yupoo.com/minkang/a622e375/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Colombia",
+      "league": "Retro",
+      "type": "RETRO HOME 03/05",
+      "url": "https://photo.yupoo.com/minkang/9f85bff5/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Córdoba CF",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/d533ac63/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Chelsea",
+      "league": "Retro",
+      "type": "RETRO HOME 09/10",
+      "url": "https://photo.yupoo.com/minkang/1205f508/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Chelsea",
+      "league": "Retro",
+      "type": "RETRO HOME 01/03",
+      "url": "https://photo.yupoo.com/minkang/a4172b3a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Chile",
+      "league": "Retro",
+      "type": "RETRO HOME 93",
+      "url": "https://photo.yupoo.com/minkang/6fa14ab8/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Crystal Palace",
+      "league": "Retro",
+      "type": "RETRO HOME 98/99",
+      "url": "https://photo.yupoo.com/minkang/85d89cb8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Corinthians",
+      "league": "Retro",
+      "type": "RETRO HOME 12",
+      "url": "https://photo.yupoo.com/minkang/2d44e161/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Corinthians",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/a5ee19d6/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Croacia",
+      "league": "Retro",
+      "type": "RETRO AWAY 10",
+      "url": "https://photo.yupoo.com/minkang/3c15ffc1/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Corea del Sur",
+      "league": "Retro",
+      "type": "RETRO HOME 02",
+      "url": "https://photo.yupoo.com/minkang/509f7bd9/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Córdoba CF",
+      "league": "Retro",
+      "type": "RETRO HOME 96/97",
+      "url": "https://photo.yupoo.com/minkang/b1b67572/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Cruzeiro",
+      "league": "Retro",
+      "type": "RETRO AWAY 93/94",
+      "url": "https://photo.yupoo.com/minkang/dc595494/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Crystal Palace",
+      "league": "Retro",
+      "type": "RETRO HOME 96/98",
+      "url": "https://photo.yupoo.com/minkang/fc90c107/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Croacia",
+      "league": "Retro",
+      "type": "RETRO HOME 98",
+      "url": "https://photo.yupoo.com/minkang/825bc6dc/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Cruzeiro",
+      "league": "Retro",
+      "type": "RETRO HOME 93/94",
+      "url": "https://photo.yupoo.com/minkang/74230949/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Escocia",
+      "league": "Retro",
+      "type": "RETRO HOME 87/88",
+      "url": "https://photo.yupoo.com/minkang/d7e65b82/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Deportivo La Coruña",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/ed26a0a0/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Espanyol",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/abe91988/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Deportivo Alavés",
+      "league": "Retro",
+      "type": "RETRO HOME 00/01",
+      "url": "https://photo.yupoo.com/minkang/1c85d840/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Dinamarca",
+      "league": "Retro",
+      "type": "RETRO HOME 88",
+      "url": "https://photo.yupoo.com/minkang/e09e2e4f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Deportivo La Coruña",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/8dfa079e/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Deportivo Alavés",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/aa0596e0/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Escocia",
+      "league": "Retro",
+      "type": "RETRO HOME 78",
+      "url": "https://photo.yupoo.com/minkang/6a6f5809/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/2c3ba040/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Dinamarca",
+      "league": "Retro",
+      "type": "RETRO HOME 86",
+      "url": "https://photo.yupoo.com/minkang/23be6948/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "España",
+      "league": "Retro",
+      "type": "RETRO HOME 12",
+      "url": "https://photo.yupoo.com/minkang/17628b2a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Estados Unidos",
+      "league": "Retro",
+      "type": "RETRO AWAY 14",
+      "url": "https://photo.yupoo.com/minkang/c18640e0/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "España",
+      "league": "Retro",
+      "type": "RETRO HOME 13",
+      "url": "https://photo.yupoo.com/minkang/e1d555d9/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "FC Barcelona",
+      "league": "Retro",
+      "type": "RETRO HOME 07/08",
+      "url": "https://photo.yupoo.com/minkang/9a74f94d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "FC Barcelona",
+      "league": "Retro",
+      "type": "RETRO HOME 06/07",
+      "url": "https://photo.yupoo.com/minkang/78988e33/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "España",
+      "league": "Retro",
+      "type": "RETRO HOME 10",
+      "url": "https://photo.yupoo.com/minkang/cf08fc91/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "España",
+      "league": "Retro",
+      "type": "RETRO HOME 00",
+      "url": "https://photo.yupoo.com/minkang/15043a18/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Everton",
+      "league": "Retro",
+      "type": "RETRO AWAY 88/90",
+      "url": "https://photo.yupoo.com/minkang/51f51945/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Everton",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/f7eb71a9/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Espanyol",
+      "league": "Retro",
+      "type": "RETRO HOME 84/89",
+      "url": "https://photo.yupoo.com/minkang/e6ec5cc4/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "FC Köln",
+      "league": "Retro",
+      "type": "RETRO HOME 90/91",
+      "url": "https://photo.yupoo.com/minkang/686abda4/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Fenerbahçe",
+      "league": "Retro",
+      "type": "RETRO HOME 08/09",
+      "url": "https://photo.yupoo.com/minkang/dee22382/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "FC Porto",
+      "league": "Retro",
+      "type": "RETRO HOME 09/10",
+      "url": "https://photo.yupoo.com/minkang/72c301b1/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "FC Barcelona",
+      "league": "Retro",
+      "type": "RETRO HOME 05/06",
+      "url": "https://photo.yupoo.com/minkang/e24b6aa3/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "FC Barcelona",
+      "league": "Retro",
+      "type": "RETRO HOME 14/15",
+      "url": "https://photo.yupoo.com/minkang/2ac4b487/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "FC Porto",
+      "league": "Retro",
+      "type": "RETRO HOME 13/14",
+      "url": "https://photo.yupoo.com/minkang/f57a9b16/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "FC Porto",
+      "league": "Retro",
+      "type": "RETRO HOME 12/13",
+      "url": "https://photo.yupoo.com/minkang/495165dd/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Finlandia",
+      "league": "Retro",
+      "type": "RETRO HOME 82",
+      "url": "https://photo.yupoo.com/minkang/f4c1e94c/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "FC Porto",
+      "league": "Retro",
+      "type": "RETRO HOME 14/15",
+      "url": "https://photo.yupoo.com/minkang/92c3d608/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Fenerbahçe",
+      "league": "Retro",
+      "type": "RETRO HOME 07/08",
+      "url": "https://photo.yupoo.com/minkang/a30831c9/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Flamengo",
+      "league": "Retro",
+      "type": "RETRO HOME 81",
+      "url": "https://photo.yupoo.com/minkang/08275c17/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Fluminense",
+      "league": "Retro",
+      "type": "RETRO HOME 15",
+      "url": "https://photo.yupoo.com/minkang/b13d0f77/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Fluminense",
+      "league": "Retro",
+      "type": "RETRO HOME 10",
+      "url": "https://photo.yupoo.com/minkang/fc5edf0b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Fiorentina",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/d743b504/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Fiorentina",
+      "league": "Retro",
+      "type": "RETRO HOME 83/85",
+      "url": "https://photo.yupoo.com/minkang/88ef1942/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Flamengo",
+      "league": "Retro",
+      "type": "RETRO HOME 82",
+      "url": "https://photo.yupoo.com/minkang/eb4bd99d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Flamengo",
+      "league": "Retro",
+      "type": "RETRO HOME 90",
+      "url": "https://photo.yupoo.com/minkang/f261fd7d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Fiorentina",
+      "league": "Retro",
+      "type": "RETRO HOME 7980",
+      "url": "https://photo.yupoo.com/minkang/a692b21d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Fiorentina",
+      "league": "Retro",
+      "type": "RETRO HOME 98",
+      "url": "https://photo.yupoo.com/minkang/fc75a069/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Flamengo",
+      "league": "Retro",
+      "type": "RETRO HOME 99",
+      "url": "https://photo.yupoo.com/minkang/4b9cf425/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Francia",
+      "league": "Retro",
+      "type": "RETRO HOME 06",
+      "url": "https://photo.yupoo.com/minkang/c198c2f1/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Francia",
+      "league": "Retro",
+      "type": "RETRO HOME 84",
+      "url": "https://photo.yupoo.com/minkang/146e7cdc/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Galatasaray",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/30af3e45/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Francia",
+      "league": "Retro",
+      "type": "RETRO HOME 94",
+      "url": "https://photo.yupoo.com/minkang/db26a062/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Francia",
+      "league": "Retro",
+      "type": "RETRO HOME 14",
+      "url": "https://photo.yupoo.com/minkang/382645c7/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Gales",
+      "league": "Retro",
+      "type": "RETRO HOME 94",
+      "url": "https://photo.yupoo.com/minkang/798d0e97/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Getafe",
+      "league": "Retro",
+      "type": "RETRO HOME 98/99",
+      "url": "https://photo.yupoo.com/minkang/66abcd07/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Galatasaray",
+      "league": "Retro",
+      "type": "RETRO HOME 96/97",
+      "url": "https://photo.yupoo.com/minkang/bf0fe9c8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Grêmio",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/065718d7/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Grecia",
+      "league": "Retro",
+      "type": "RETRO HOME 04",
+      "url": "https://photo.yupoo.com/minkang/2852e175/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Hamburger SV",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/7b8c549b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Honduras",
+      "league": "Retro",
+      "type": "RETRO AWAY 80/82",
+      "url": "https://photo.yupoo.com/minkang/71af9cd8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Independiente",
+      "league": "Retro",
+      "type": "RETRO HOME 86/88",
+      "url": "https://photo.yupoo.com/minkang/c1f7db3a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Hamburger SV",
+      "league": "Retro",
+      "type": "RETRO HOME 83",
+      "url": "https://photo.yupoo.com/minkang/4ff0bfe7/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Grêmio",
+      "league": "Retro",
+      "type": "RETRO HOME 00/01",
+      "url": "https://photo.yupoo.com/minkang/c29b3a6a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Inter Milan",
+      "league": "Retro",
+      "type": "RETRO HOME 09/10",
+      "url": "https://photo.yupoo.com/minkang/490e388b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Independiente",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/b6a069b4/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Inglaterra",
+      "league": "Retro",
+      "type": "RETRO HOME 92",
+      "url": "https://photo.yupoo.com/minkang/68484955/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Inglaterra",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/8577aa8b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Inglaterra",
+      "league": "Retro",
+      "type": "RETRO HOME 04",
+      "url": "https://photo.yupoo.com/minkang/9da597bb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Italia",
+      "league": "Retro",
+      "type": "RETRO HOME 12",
+      "url": "https://photo.yupoo.com/minkang/aaec470b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Irlanda",
+      "league": "Retro",
+      "type": "RETRO HOME 90",
+      "url": "https://photo.yupoo.com/minkang/5df66138/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Inter Milan",
+      "league": "Retro",
+      "type": "RETRO HOME 98",
+      "url": "https://photo.yupoo.com/minkang/6a39eddb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Inglaterra",
+      "league": "Retro",
+      "type": "RETRO HOME 90",
+      "url": "https://photo.yupoo.com/minkang/9fcbf089/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Italia",
+      "league": "Retro",
+      "type": "RETRO HOME 95",
+      "url": "https://photo.yupoo.com/minkang/80dac904/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Inter Milan",
+      "league": "Retro",
+      "type": "RETRO HOME 04/05",
+      "url": "https://photo.yupoo.com/minkang/2e6f1ee6/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Italia",
+      "league": "Retro",
+      "type": "RETRO HOME 00",
+      "url": "https://photo.yupoo.com/minkang/0e2acf0d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Italia",
+      "league": "Retro",
+      "type": "RETRO HOME 06",
+      "url": "https://photo.yupoo.com/minkang/00dccbf2/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Inter Milan",
+      "league": "Retro",
+      "type": "RETRO HOME 07/08",
+      "url": "https://photo.yupoo.com/minkang/e7c1ac17/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Japón",
+      "league": "Retro",
+      "type": "RETRO HOME 06",
+      "url": "https://photo.yupoo.com/minkang/5f3ba941/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Japón",
+      "league": "Retro",
+      "type": "RETRO HOME 10",
+      "url": "https://photo.yupoo.com/minkang/b505d8be/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Juventus",
+      "league": "Retro",
+      "type": "RETRO HOME 02/03",
+      "url": "https://photo.yupoo.com/minkang/af10595f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Juventus",
+      "league": "Retro",
+      "type": "RETRO HOME 01/02",
+      "url": "https://photo.yupoo.com/minkang/9426fbd8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Juventus",
+      "league": "Retro",
+      "type": "RETRO HOME 11",
+      "url": "https://photo.yupoo.com/minkang/83d7d49f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Lazio",
+      "league": "Retro",
+      "type": "RETRO HOME 14/15",
+      "url": "https://photo.yupoo.com/minkang/63123197/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Las Palmas",
+      "league": "Retro",
+      "type": "RETRO HOME 00/01",
+      "url": "https://photo.yupoo.com/minkang/56b422ef/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Juventus",
+      "league": "Retro",
+      "type": "RETRO HOME 17/18",
+      "url": "https://photo.yupoo.com/minkang/d8a8d9e7/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Las Palmas",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/cc62266a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Lazio",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/7ca9e8ef/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Jamaica",
+      "league": "Retro",
+      "type": "RETRO HOME 98",
+      "url": "https://photo.yupoo.com/minkang/6c41e524/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Lille",
+      "league": "Retro",
+      "type": "RETRO AWAY 95/96",
+      "url": "https://photo.yupoo.com/minkang/ebd6d7e6/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Liverpool",
+      "league": "Retro",
+      "type": "RETRO HOME 08/10",
+      "url": "https://photo.yupoo.com/minkang/503f2694/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Lazio",
+      "league": "Retro",
+      "type": "RETRO HOME 91/92",
+      "url": "https://photo.yupoo.com/minkang/8c6a6a02/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Leicester City",
+      "league": "Retro",
+      "type": "RETRO HOME 16/17",
+      "url": "https://photo.yupoo.com/minkang/b34526e7/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Leeds United",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/2bce150a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Lazio",
+      "league": "Retro",
+      "type": "RETRO HOME 98/99",
+      "url": "https://photo.yupoo.com/minkang/f0cc7039/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Liverpool",
+      "league": "Retro",
+      "type": "RETRO HOME 1965",
+      "url": "https://photo.yupoo.com/minkang/3b0a3cb4/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Liverpool",
+      "league": "Retro",
+      "type": "RETRO HOME 01/02",
+      "url": "https://photo.yupoo.com/minkang/96756724/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Manchester City",
+      "league": "Retro",
+      "type": "RETRO HOME 86/87",
+      "url": "https://photo.yupoo.com/minkang/919969d5/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Manchester City",
+      "league": "Retro",
+      "type": "RETRO HOME 02/03",
+      "url": "https://photo.yupoo.com/minkang/0d2a74d9/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Málaga CF",
+      "league": "Retro",
+      "type": "RETRO HOME 12/13",
+      "url": "https://photo.yupoo.com/minkang/959099b9/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Málaga CF",
+      "league": "Retro",
+      "type": "RETRO HOME 01/02",
+      "url": "https://photo.yupoo.com/minkang/ff0b358b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Manchester City",
+      "league": "Retro",
+      "type": "RETRO HOME 13/14",
+      "url": "https://photo.yupoo.com/minkang/09392ea2/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Liverpool",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/c3d871c0/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Manchester City",
+      "league": "Retro",
+      "type": "RETRO HOME 15/16",
+      "url": "https://photo.yupoo.com/minkang/8b8acca6/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Manchester United",
+      "league": "Retro",
+      "type": "RETRO HOME 07/08",
+      "url": "https://photo.yupoo.com/minkang/688dddd8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Marruecos",
+      "league": "Retro",
+      "type": "RETRO HOME 94",
+      "url": "https://photo.yupoo.com/minkang/37c0bcb0/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Manchester United",
+      "league": "Retro",
+      "type": "RETRO HOME 11",
+      "url": "https://photo.yupoo.com/minkang/667b128a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Manchester United",
+      "league": "Retro",
+      "type": "RETRO HOME 13",
+      "url": "https://photo.yupoo.com/minkang/1b0ae3d6/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Manchester United",
+      "league": "Retro",
+      "type": "RETRO HOME 06/07",
+      "url": "https://photo.yupoo.com/minkang/c16e03e0/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Napoli",
+      "league": "Retro",
+      "type": "RETRO HOME 13/14",
+      "url": "https://photo.yupoo.com/minkang/e21bc9f4/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "México",
+      "league": "Retro",
+      "type": "RETRO HOME 10",
+      "url": "https://photo.yupoo.com/minkang/47b87032/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "México",
+      "league": "Retro",
+      "type": "RETRO HOME 14",
+      "url": "https://photo.yupoo.com/minkang/77aaf4ca/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Newcastle United",
+      "league": "Retro",
+      "type": "RETRO HOME 03/05",
+      "url": "https://photo.yupoo.com/minkang/5d038c82/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Napoli",
+      "league": "Retro",
+      "type": "RETRO HOME 98/99",
+      "url": "https://photo.yupoo.com/minkang/1d39d553/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Newcastle United",
+      "league": "Retro",
+      "type": "RETRO HOME 96/97",
+      "url": "https://photo.yupoo.com/minkang/634b3d83/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Napoli",
+      "league": "Retro",
+      "type": "RETRO HOME 90/91",
+      "url": "https://photo.yupoo.com/minkang/f45c7d7d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Napoli",
+      "league": "Retro",
+      "type": "RETRO HOME 89/90",
+      "url": "https://photo.yupoo.com/minkang/50996d47/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Newell's Old Boys",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/c5ec4a04/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Nigeria",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/e50fcf5a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Nottingham Forest",
+      "league": "Retro",
+      "type": "RETRO HOME 77/80",
+      "url": "https://photo.yupoo.com/minkang/ba24a576/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Noruega",
+      "league": "Retro",
+      "type": "RETRO HOME 98",
+      "url": "https://photo.yupoo.com/minkang/9f0c5115/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Nottingham Forest",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/df1c562d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Nigeria",
+      "league": "Retro",
+      "type": "RETRO HOME 94",
+      "url": "https://photo.yupoo.com/minkang/c4bdf1b1/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympique Lyon",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/2f3c5a9b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympique Lyon",
+      "league": "Retro",
+      "type": "RETRO HOME 95",
+      "url": "https://photo.yupoo.com/minkang/7a87a802/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympique Lyon",
+      "league": "Retro",
+      "type": "RETRO HOME 08/09",
+      "url": "https://photo.yupoo.com/minkang/7cc0bfa3/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympiacos",
+      "league": "Retro",
+      "type": "RETRO HOME 02/03",
+      "url": "https://photo.yupoo.com/minkang/d679f93b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympique Marseille",
+      "league": "Retro",
+      "type": "RETRO HOME 93/94",
+      "url": "https://photo.yupoo.com/minkang/3185146a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympique Lyon",
+      "league": "Retro",
+      "type": "RETRO HOME 10/11",
+      "url": "https://photo.yupoo.com/minkang/30ec9df1/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Países Bajos",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/1bcb43e2/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Osasuna",
+      "league": "Retro",
+      "type": "RETRO HOME 95/97",
+      "url": "https://photo.yupoo.com/minkang/3ce0a081/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympique Marseille",
+      "league": "Retro",
+      "type": "RETRO HOME 94/98",
+      "url": "https://photo.yupoo.com/minkang/007fed90/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympique Marseille",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/423c71a2/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "OGC Nice",
+      "league": "Retro",
+      "type": "RETRO HOME 77/78",
+      "url": "https://photo.yupoo.com/minkang/d916c40c/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Osasuna",
+      "league": "Retro",
+      "type": "RETRO HOME 00/02",
+      "url": "https://photo.yupoo.com/minkang/392da683/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympiacos",
+      "league": "Retro",
+      "type": "RETRO HOME 01/02",
+      "url": "https://photo.yupoo.com/minkang/1f5f76d8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Olympique Marseille",
+      "league": "Retro",
+      "type": "RETRO HOME 81/82",
+      "url": "https://photo.yupoo.com/minkang/154d8e6a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Países Bajos",
+      "league": "Retro",
+      "type": "RETRO HOME 98",
+      "url": "https://photo.yupoo.com/minkang/5ad49c93/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Países Bajos",
+      "league": "Retro",
+      "type": "RETRO HOME 00",
+      "url": "https://photo.yupoo.com/minkang/0ca41e13/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Palmeiras",
+      "league": "Retro",
+      "type": "RETRO HOME 92/93",
+      "url": "https://photo.yupoo.com/minkang/544c1295/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Paris Saint-Germain",
+      "league": "Retro",
+      "type": "RETRO HOME 04/05",
+      "url": "https://photo.yupoo.com/minkang/0e989af7/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Panathinaikos",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/df2fe081/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Paris Saint-Germain",
+      "league": "Retro",
+      "type": "RETRO HOME 91/92",
+      "url": "https://photo.yupoo.com/minkang/8ce5e545/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Palmeiras",
+      "league": "Retro",
+      "type": "RETRO HOME 93/94",
+      "url": "https://photo.yupoo.com/minkang/683a8878/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Panamá",
+      "league": "Retro",
+      "type": "RETRO HOME 98/99",
+      "url": "https://photo.yupoo.com/minkang/e4581965/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Países Bajos",
+      "league": "Retro",
+      "type": "RETRO HOME 04",
+      "url": "https://photo.yupoo.com/minkang/0df4fea3/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Parma",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/9fb9eefb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Paris Saint-Germain",
+      "league": "Retro",
+      "type": "RETRO HOME 92/93",
+      "url": "https://photo.yupoo.com/minkang/fb85a1c7/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Polonia",
+      "league": "Retro",
+      "type": "RETRO HOME 97",
+      "url": "https://photo.yupoo.com/minkang/124e9d68/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Portugal",
+      "league": "Retro",
+      "type": "RETRO HOME 06",
+      "url": "https://photo.yupoo.com/minkang/5ed82448/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Paris Saint-Germain",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/17039776/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Portugal",
+      "league": "Retro",
+      "type": "RETRO HOME 10",
+      "url": "https://photo.yupoo.com/minkang/fe69f252/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Portugal",
+      "league": "Retro",
+      "type": "RETRO HOME 12",
+      "url": "https://photo.yupoo.com/minkang/aec8810b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "PSV Eindhoven",
+      "league": "Retro",
+      "type": "RETRO HOME 09/10",
+      "url": "https://photo.yupoo.com/minkang/feeef727/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Portugal",
+      "league": "Retro",
+      "type": "RETRO HOME 14",
+      "url": "https://photo.yupoo.com/minkang/da4792cd/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "PSV Eindhoven",
+      "league": "Retro",
+      "type": "RETRO HOME 04/05",
+      "url": "https://photo.yupoo.com/minkang/69be11e7/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Parma",
+      "league": "Retro",
+      "type": "RETRO HOME 02/03",
+      "url": "https://photo.yupoo.com/minkang/e32ea2a2/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "RCD Mallorca",
+      "league": "Retro",
+      "type": "RETRO HOME 00/01",
+      "url": "https://photo.yupoo.com/minkang/f2c5d700/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Racing Club",
+      "league": "Retro",
+      "type": "RETRO HOME 95",
+      "url": "https://photo.yupoo.com/minkang/6c095f72/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "RCD Mallorca",
+      "league": "Retro",
+      "type": "RETRO HOME 96/97",
+      "url": "https://photo.yupoo.com/minkang/6d25b808/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Rangers",
+      "league": "Retro",
+      "type": "RETRO HOME 97/99",
+      "url": "https://photo.yupoo.com/minkang/91aec0d9/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Racing Club",
+      "league": "Retro",
+      "type": "RETRO HOME 00/01",
+      "url": "https://photo.yupoo.com/minkang/d4c5313e/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Rangers",
+      "league": "Retro",
+      "type": "RETRO HOME 99/01",
+      "url": "https://photo.yupoo.com/minkang/464ad226/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Rayo Vallecano",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/b61a4cd2/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Betis",
+      "league": "Retro",
+      "type": "RETRO HOME 88/89",
+      "url": "https://photo.yupoo.com/minkang/6bdef833/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Betis",
+      "league": "Retro",
+      "type": "RETRO HOME 01/02",
+      "url": "https://photo.yupoo.com/minkang/56a405d4/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Madrid",
+      "league": "Retro",
+      "type": "RETRO HOME 90/91",
+      "url": "https://photo.yupoo.com/minkang/0fd19a0f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Oviedo",
+      "league": "Retro",
+      "type": "RETRO HOME 90/91",
+      "url": "https://photo.yupoo.com/minkang/7203b1ea/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Betis",
+      "league": "Retro",
+      "type": "RETRO HOME 93/94",
+      "url": "https://photo.yupoo.com/minkang/8b892ce6/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Madrid",
+      "league": "Retro",
+      "type": "RETRO HOME 98/00",
+      "url": "https://photo.yupoo.com/minkang/fef9133c/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Betis",
+      "league": "Retro",
+      "type": "RETRO HOME 93",
+      "url": "https://photo.yupoo.com/minkang/c0999a4f/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Madrid",
+      "league": "Retro",
+      "type": "RETRO HOME 06/07",
+      "url": "https://photo.yupoo.com/minkang/6558f9ca/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Valladolid",
+      "league": "Retro",
+      "type": "RETRO HOME 84",
+      "url": "https://photo.yupoo.com/minkang/245db7da/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Zaragoza",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/17a9541d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Sociedad",
+      "league": "Retro",
+      "type": "RETRO HOME 02/03",
+      "url": "https://photo.yupoo.com/minkang/1f54ce91/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Madrid",
+      "league": "Retro",
+      "type": "RETRO HOME 88",
+      "url": "https://photo.yupoo.com/minkang/f790317b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Sociedad",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/8897596f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "River Plate",
+      "league": "Retro",
+      "type": "RETRO HOME 00/01",
+      "url": "https://photo.yupoo.com/minkang/0d52b8bd/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Zaragoza",
+      "league": "Retro",
+      "type": "RETRO HOME 92/93",
+      "url": "https://photo.yupoo.com/minkang/f2744834/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "River Plate",
+      "league": "Retro",
+      "type": "RETRO HOME 13/14",
+      "url": "https://photo.yupoo.com/minkang/09e55ff3/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Rumanía",
+      "league": "Retro",
+      "type": "RETRO HOME 00",
+      "url": "https://photo.yupoo.com/minkang/4dd97638/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "River Plate",
+      "league": "Retro",
+      "type": "RETRO HOME 06/07",
+      "url": "https://photo.yupoo.com/minkang/1c7ce917/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "River Plate",
+      "league": "Retro",
+      "type": "RETRO HOME 03/04",
+      "url": "https://photo.yupoo.com/minkang/5c1243e0/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sampdoria",
+      "league": "Retro",
+      "type": "RETRO HOME 93/94",
+      "url": "https://photo.yupoo.com/minkang/f53ed07e/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sampdoria",
+      "league": "Retro",
+      "type": "RETRO HOME 03/04",
+      "url": "https://photo.yupoo.com/minkang/4337b656/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "San Lorenzo",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/1219ea1c/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Santos",
+      "league": "Retro",
+      "type": "RETRO AWAY 13",
+      "url": "https://photo.yupoo.com/minkang/c011b056/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Santos",
+      "league": "Retro",
+      "type": "RETRO AWAY 12/13",
+      "url": "https://photo.yupoo.com/minkang/c5cc5789/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Santos",
+      "league": "Retro",
+      "type": "RETRO HOME 12/13",
+      "url": "https://photo.yupoo.com/minkang/43f13061/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Santos",
+      "league": "Retro",
+      "type": "RETRO HOME 13",
+      "url": "https://photo.yupoo.com/minkang/dbc993e1/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sassuolo",
+      "league": "Retro",
+      "type": "RETRO HOME 11/12",
+      "url": "https://photo.yupoo.com/minkang/82b11990/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "San Lorenzo",
+      "league": "Retro",
+      "type": "RETRO HOME 13/14",
+      "url": "https://photo.yupoo.com/minkang/72f92022/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Schalke 04",
+      "league": "Retro",
+      "type": "RETRO HOME 88/89",
+      "url": "https://photo.yupoo.com/minkang/d04f784d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "São Paulo",
+      "league": "Retro",
+      "type": "RETRO HOME 00",
+      "url": "https://photo.yupoo.com/minkang/06dcb8cb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Schalke 04",
+      "league": "Retro",
+      "type": "RETRO HOME 93/94",
+      "url": "https://photo.yupoo.com/minkang/d18dc510/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Senegal",
+      "league": "Retro",
+      "type": "RETRO HOME 02",
+      "url": "https://photo.yupoo.com/minkang/c1407900/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "São Paulo",
+      "league": "Retro",
+      "type": "RETRO HOME 07/08",
+      "url": "https://photo.yupoo.com/minkang/f5e699fa/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sheffield Wednesday",
+      "league": "Retro",
+      "type": "RETRO HOME 94/95",
+      "url": "https://photo.yupoo.com/minkang/954306db/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sevilla FC",
+      "league": "Retro",
+      "type": "RETRO HOME 87/90",
+      "url": "https://photo.yupoo.com/minkang/c213ad35/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sevilla FC",
+      "league": "Retro",
+      "type": "RETRO HOME 98/99",
+      "url": "https://photo.yupoo.com/minkang/4d78f6eb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sevilla FC",
+      "league": "Retro",
+      "type": "RETRO HOME 15/16",
+      "url": "https://photo.yupoo.com/minkang/3c32f85d/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sevilla FC",
+      "league": "Retro",
+      "type": "RETRO HOME 91/92",
+      "url": "https://photo.yupoo.com/minkang/0a11da9c/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sheffield Wednesday",
+      "league": "Retro",
+      "type": "RETRO HOME 92/93",
+      "url": "https://photo.yupoo.com/minkang/22955327/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Southampton",
+      "league": "Retro",
+      "type": "RETRO HOME 15/16",
+      "url": "https://photo.yupoo.com/minkang/75ebd7c7/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Southampton",
+      "league": "Retro",
+      "type": "RETRO AWAY 92",
+      "url": "https://photo.yupoo.com/minkang/b36ae5de/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sporting CP",
+      "league": "Retro",
+      "type": "RETRO HOME 03/04",
+      "url": "https://photo.yupoo.com/minkang/a6402936/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Tottenham",
+      "league": "Retro",
+      "type": "RETRO HOME 95/97",
+      "url": "https://photo.yupoo.com/minkang/5c9e5210/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Tottenham",
+      "league": "Retro",
+      "type": "RETRO HOME 09/10",
+      "url": "https://photo.yupoo.com/minkang/23deff83/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sporting CP",
+      "league": "Retro",
+      "type": "RETRO HOME 01/03",
+      "url": "https://photo.yupoo.com/minkang/a4f19a49/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sudáfrica",
+      "league": "Retro",
+      "type": "RETRO HOME 94",
+      "url": "https://photo.yupoo.com/minkang/ce2467ec/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Suecia",
+      "league": "Retro",
+      "type": "RETRO HOME 94",
+      "url": "https://photo.yupoo.com/minkang/6fd96d66/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Tottenham",
+      "league": "Retro",
+      "type": "RETRO HOME 87/89",
+      "url": "https://photo.yupoo.com/minkang/13a26a1e/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "U. de Chile",
+      "league": "Retro",
+      "type": "RETRO HOME 96",
+      "url": "https://photo.yupoo.com/minkang/82c716da/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sporting Gijón",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/2fa21719/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sporting Gijón",
+      "league": "Retro",
+      "type": "RETRO HOME 95/96",
+      "url": "https://photo.yupoo.com/minkang/ff356f49/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Suecia",
+      "league": "Retro",
+      "type": "RETRO AWAY 94",
+      "url": "https://photo.yupoo.com/minkang/f9b3ab4f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Unión Soviética",
+      "league": "Retro",
+      "type": "RETRO HOME 90",
+      "url": "https://photo.yupoo.com/minkang/985aaa38/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Tottenham",
+      "league": "Retro",
+      "type": "RETRO HOME 86",
+      "url": "https://photo.yupoo.com/minkang/e21669dd/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Valencia CF",
+      "league": "Retro",
+      "type": "RETRO HOME 04/05",
+      "url": "https://photo.yupoo.com/minkang/2f8eb3d3/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sunderland",
+      "league": "Retro",
+      "type": "RETRO HOME 05/06",
+      "url": "https://photo.yupoo.com/minkang/65e79503/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Sunderland",
+      "league": "Retro",
+      "type": "RETRO AWAY 92/93",
+      "url": "https://photo.yupoo.com/minkang/262a0d33/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Valencia CF",
+      "league": "Retro",
+      "type": "RETRO HOME 06",
+      "url": "https://photo.yupoo.com/minkang/ff4a8d3f/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Valencia CF",
+      "league": "Retro",
+      "type": "RETRO HOME 96/97",
+      "url": "https://photo.yupoo.com/minkang/ca27257a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Valencia CF",
+      "league": "Retro",
+      "type": "RETRO HOME 99/00",
+      "url": "https://photo.yupoo.com/minkang/2fba6316/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Vasco da Gama",
+      "league": "Retro",
+      "type": "RETRO HOME 97",
+      "url": "https://photo.yupoo.com/minkang/b7ae8cdb/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Vasco da Gama",
+      "league": "Retro",
+      "type": "RETRO HOME 88",
+      "url": "https://photo.yupoo.com/minkang/1eb078d8/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Werder Bremen",
+      "league": "Retro",
+      "type": "RETRO HOME 03/04",
+      "url": "https://photo.yupoo.com/minkang/714b8cf5/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "VfL Wolfsburgo",
+      "league": "Retro",
+      "type": "RETRO HOME 97/98",
+      "url": "https://photo.yupoo.com/minkang/0031b03b/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "West Ham",
+      "league": "Retro",
+      "type": "RETRO HOME 99/01",
+      "url": "https://photo.yupoo.com/minkang/89152476/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Wolves",
+      "league": "Retro",
+      "type": "RETRO HOME 98/99",
+      "url": "https://photo.yupoo.com/minkang/64c9b06a/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Wolves",
+      "league": "Retro",
+      "type": "RETRO HOME 85/86",
+      "url": "https://photo.yupoo.com/minkang/921baf8c/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Venezuela",
+      "league": "Retro",
+      "type": "RETRO HOME 00",
+      "url": "https://photo.yupoo.com/minkang/8d1bceb1/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Villarreal CF",
+      "league": "Retro",
+      "type": "RETRO HOME 05/06",
+      "url": "https://photo.yupoo.com/minkang/6c4fbc31/small.jpeg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Yugoslavia",
+      "league": "Retro",
+      "type": "RETRO HOME 98",
+      "url": "https://photo.yupoo.com/minkang/a449b39e/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "West Ham",
+      "league": "Retro",
+      "type": "RETRO HOME 10",
+      "url": "https://photo.yupoo.com/minkang/4cb9b2f1/medium.jpg",
+      "error": "HTTP Error: 567"
+    },
+    {
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "type": "HOME 25/26 NIÑO",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-real-madrid-primera-equipacion-2025-2026-nino-white-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Real Madrid",
+      "league": "La Liga",
+      "type": "AWAY 25/26 NIÑO",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-adidas-real-madrid-segunda-equipacion-2025-2026-nino-dark-blue-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Atletico Madrid",
+      "league": "La Liga",
+      "type": "AWAY 25/26 NIÑO",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-atletico-de-madrid-segunda-equipacion-2025-2026-nino-black-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    },
+    {
+      "team": "Atletico Madrid",
+      "league": "La Liga",
+      "type": "HOME 25/26 NIÑO",
+      "url": "https://camisetasfutbolsorpresa.com/cdn/shop/files/camiseta-nike-atletico-de-madrid-primera-equipacion-2025-2026-nino-sport-red-0-camisetas-futbol-sorpresa-1.webp",
+      "error": "HTTP Error: 404"
+    }
+  ],
+  "local_urls": [
+    {
+      "team": "Getafe",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1023_Getafe_HOME_2526.jpg"
+    },
+    {
+      "team": "Osasuna",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1024_Osasuna_HOME_2526.jpg"
+    },
+    {
+      "team": "Celta de Vigo",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1025_Celta_de_Vigo_HOME_2526.jpg"
+    },
+    {
+      "team": "RCD Mallorca",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1026_RCD_Mallorca_HOME_2526.jpg"
+    },
+    {
+      "team": "Rayo Vallecano",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1027_Rayo_Vallecano_HOME_2526.jpg"
+    },
+    {
+      "team": "Deportivo Alavés",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1028_Deportivo_Alavés_HOME_2526.jpg"
+    },
+    {
+      "team": "Leganés",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1029_Leganés_HOME_2526.jpg"
+    },
+    {
+      "team": "Espanyol",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1030_Espanyol_HOME_2526.jpg"
+    },
+    {
+      "team": "Almería",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1033_Almería_HOME_2526.jpg"
+    },
+    {
+      "team": "Granada",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1034_Granada_HOME_2526.jpg"
+    },
+    {
+      "team": "Cádiz CF",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1035_Cádiz_CF_HOME_2526.jpg"
+    },
+    {
+      "team": "Elche CF",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1036_Elche_CF_HOME_2526.jpg"
+    },
+    {
+      "team": "Levante",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1037_Levante_HOME_2526.jpg"
+    },
+    {
+      "team": "Málaga CF",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1038_Málaga_CF_HOME_2526.jpg"
+    },
+    {
+      "team": "Deportivo La Coruña",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1039_Deportivo_La_Coruña_HOME_2526.jpg"
+    },
+    {
+      "team": "Real Oviedo",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1040_Real_Oviedo_HOME_2526.jpg"
+    },
+    {
+      "team": "Real Zaragoza",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1041_Real_Zaragoza_HOME_2526.jpg"
+    },
+    {
+      "team": "Racing Santander",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1042_Racing_Santander_HOME_2526.jpg"
+    },
+    {
+      "team": "Sporting Gijón",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1043_Sporting_Gijón_HOME_2526.jpg"
+    },
+    {
+      "team": "CD Tenerife",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1044_CD_Tenerife_HOME_2526.jpg"
+    },
+    {
+      "team": "SD Huesca",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1045_SD_Huesca_HOME_2526.jpg"
+    },
+    {
+      "team": "FC Cartagena",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1046_FC_Cartagena_HOME_2526.jpg"
+    },
+    {
+      "team": "Real Murcia",
+      "league": "La Liga",
+      "type": "HOME 25/26",
+      "url": "/images/products/1047_Real_Murcia_HOME_2526.jpg"
+    },
+    {
+      "team": "Aston Villa",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2020_Aston_Villa_HOME_2526.jpg"
+    },
+    {
+      "team": "Aston Villa",
+      "league": "Premier League",
+      "type": "AWAY 25/26",
+      "url": "/images/products/2021_Aston_Villa_AWAY_2526.jpg"
+    },
+    {
+      "team": "West Ham",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2022_West_Ham_HOME_2526.jpg"
+    },
+    {
+      "team": "Brighton",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2023_Brighton_HOME_2526.jpg"
+    },
+    {
+      "team": "Bournemouth",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2024_Bournemouth_HOME_2526.jpg"
+    },
+    {
+      "team": "Crystal Palace",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2025_Crystal_Palace_HOME_2526.jpg"
+    },
+    {
+      "team": "Everton",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2026_Everton_HOME_2526.jpg"
+    },
+    {
+      "team": "Fulham",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2027_Fulham_HOME_2526.jpg"
+    },
+    {
+      "team": "Leeds United",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2028_Leeds_United_HOME_2526.jpg"
+    },
+    {
+      "team": "Leicester City",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2029_Leicester_City_HOME_2526.jpg"
+    },
+    {
+      "team": "Nottingham Forest",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2030_Nottingham_Forest_HOME_2526.jpg"
+    },
+    {
+      "team": "Southampton",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2031_Southampton_HOME_2526.jpg"
+    },
+    {
+      "team": "Wolves",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2032_Wolves_HOME_2526.jpg"
+    },
+    {
+      "team": "Birmingham FC",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2033_Birmingham_FC_HOME_2526.jpg"
+    },
+    {
+      "team": "Cardiff City",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2034_Cardiff_City_HOME_2526.jpg"
+    },
+    {
+      "team": "Sheffield Wednesday",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2036_Sheffield_Wednesday_HOME_2526.jpg"
+    },
+    {
+      "team": "Stoke City",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2037_Stoke_City_HOME_2526.jpg"
+    },
+    {
+      "team": "Sunderland",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2038_Sunderland_HOME_2526.jpg"
+    },
+    {
+      "team": "Watford",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2040_Watford_HOME_2526.jpg"
+    },
+    {
+      "team": "West Brom",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2041_West_Brom_HOME_2526.jpg"
+    },
+    {
+      "team": "Wrexham",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2042_Wrexham_HOME_2526.jpg"
+    },
+    {
+      "team": "Middlesbrough",
+      "league": "Premier League",
+      "type": "HOME 25/26",
+      "url": "/images/products/2043_Middlesbrough_HOME_2526.jpg"
+    },
+    {
+      "team": "Fiorentina",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "/images/products/3017_Fiorentina_HOME_2526.jpg"
+    },
+    {
+      "team": "Torino",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "/images/products/3019_Torino_HOME_2526.jpg"
+    },
+    {
+      "team": "Venezia",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "/images/products/3020_Venezia_HOME_2526.jpg"
+    },
+    {
+      "team": "Lecce",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "/images/products/3021_Lecce_HOME_2526.jpg"
+    },
+    {
+      "team": "Parma",
+      "league": "Serie A",
+      "type": "HOME 25/26",
+      "url": "/images/products/3022_Parma_HOME_2526.jpg"
+    }
+  ]
+}
