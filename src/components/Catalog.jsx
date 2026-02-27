@@ -22,13 +22,17 @@ const normalizeType = (type) => {
   return value;
 };
 
-const seenProducts = new Set();
-const catalogProducts = products.filter((product) => {
-  const key = `${product.league}|${product.team}|${normalizeType(product.type)}|${product.image}`.toLowerCase();
-  if (seenProducts.has(key)) return false;
-  seenProducts.add(key);
-  return true;
-});
+const deduplicateProducts = (list) => {
+  const seen = new Set();
+  return list.filter((product) => {
+    const key = `${product.league}|${product.team}|${normalizeType(product.type)}|${product.image}`.toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+};
+
+const catalogProducts = deduplicateProducts(products);
 
 const leaguesInData = new Set(catalogProducts.map(p => p.league));
 const leagues = LEAGUE_ORDER.filter(l => leaguesInData.has(l));
