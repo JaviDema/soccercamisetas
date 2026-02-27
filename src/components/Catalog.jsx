@@ -15,17 +15,22 @@ const LEAGUE_ORDER = [
 ];
 
 const normalizeType = (type) => {
-  const value = type?.toLowerCase();
+  if (!type) return type;
+  let value = type.toLowerCase().trim();
+  // Remove season suffixes like "25/26" or "2025/26"
+  value = value.replace(/\s+\d{2,4}\/\d{2}$/, '').trim();
   if (value === 'local') return 'home';
   if (value === 'visitante') return 'away';
   if (value === 'tercera') return 'third';
+  if (value.includes('3ª equipación') || value.includes('tercera equipación')) return 'third';
+  if (value === 'tercera niño') return 'third niño';
   return value;
 };
 
 const deduplicateProducts = (list) => {
   const seen = new Set();
   return list.filter((product) => {
-    const key = `${product.league}|${product.team}|${normalizeType(product.type)}|${product.image}`.toLowerCase();
+    const key = `${product.league}|${product.team}|${normalizeType(product.type)}`.toLowerCase();
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
