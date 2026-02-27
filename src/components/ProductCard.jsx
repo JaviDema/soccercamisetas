@@ -3,6 +3,7 @@ import { InstagramIcon, INSTAGRAM_URL } from './Icons';
 
 function getBadgeClass(type) {
   const t = type.toLowerCase();
+  if (t.includes('niño')) return 'badge badge-nino';
   if (t.includes('retro')) return 'badge badge-retro';
   if (t.includes('player')) return 'badge badge-player';
   if (t.includes('away')) return 'badge badge-away';

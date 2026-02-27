@@ -589,6 +589,7 @@ button { font-family: inherit; }
 .badge-away { background: rgba(255,255,255,0.85); color: var(--text); border: 1px solid rgba(0,0,0,0.08); }
 .badge-retro { background: rgba(139,92,246,0.9); color: #fff; }
 .badge-player { background: rgba(59,130,246,0.9); color: #fff; }
+.badge-nino { background: rgba(245,158,11,0.9); color: #fff; }
 .product-info {
   padding: 14px;
 }
