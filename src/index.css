@@ -275,8 +275,8 @@ button { font-family: inherit; }
 /* ===== LEAGUE GRID (category view) ===== */
 .league-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 .league-card {
   background: var(--surface);
@@ -295,14 +295,18 @@ button { font-family: inherit; }
 }
 .league-card-img {
   width: 100%;
-  aspect-ratio: 3/2;
-  background: #f0f0f0;
+  aspect-ratio: 1/1;
+  background: #fff;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
 }
 .league-card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 .league-card:hover .league-card-img img {
@@ -705,11 +709,11 @@ details p {
 /* ===== RESPONSIVE ===== */
 @media (min-width: 640px) {
   .product-grid { grid-template-columns: repeat(3, 1fr); }
-  .league-grid { grid-template-columns: repeat(3, 1fr); }
+  .league-grid { grid-template-columns: repeat(4, 1fr); }
 }
 @media (min-width: 900px) {
   .product-grid { grid-template-columns: repeat(4, 1fr); gap: 16px; }
-  .league-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .league-grid { grid-template-columns: repeat(5, 1fr); gap: 14px; }
   .modal-content {
     border-radius: 20px;
     align-self: center;
