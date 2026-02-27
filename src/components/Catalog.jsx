@@ -14,11 +14,27 @@ const LEAGUE_ORDER = [
   "Otras Ligas",
 ];
 
-const leaguesInData = new Set(products.map(p => p.league));
+const normalizeType = (type) => {
+  const value = type?.toLowerCase();
+  if (value === 'local') return 'home';
+  if (value === 'visitante') return 'away';
+  if (value === 'tercera') return 'third';
+  return value;
+};
+
+const seenProducts = new Set();
+const catalogProducts = products.filter((product) => {
+  const key = `${product.league}|${product.team}|${normalizeType(product.type)}|${product.image}`.toLowerCase();
+  if (seenProducts.has(key)) return false;
+  seenProducts.add(key);
+  return true;
+});
+
+const leaguesInData = new Set(catalogProducts.map(p => p.league));
 const leagues = LEAGUE_ORDER.filter(l => leaguesInData.has(l));
 
 function getBadgePath(teamName) {
-  const safe = teamName.replace(/[^\p{L}\p{N}\s\-]/gu, '').trim().replace(/ /g, '_');
+  const safe = teamName.replace(/[^\p{L}\p{N}\s-]/gu, '').trim().replace(/ /g, '_');
   return `/images/escudos/${safe}.png`;
 }
 
@@ -40,7 +56,7 @@ export default function Catalog() {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const filtered = search.trim()
-    ? products.filter(p =>
+    ? catalogProducts.filter(p =>
         p.team.toLowerCase().includes(search.toLowerCase()) ||
         p.type.toLowerCase().includes(search.toLowerCase())
       )
@@ -74,7 +90,7 @@ export default function Catalog() {
   };
 
   const leagueProducts = selectedLeague
-    ? products.filter(p => p.league === selectedLeague)
+    ? catalogProducts.filter(p => p.league === selectedLeague)
     : [];
 
   const teamsInLeague = selectedLeague
@@ -188,7 +204,7 @@ export default function Catalog() {
             </div>
             <div className="league-grid">
               {leagues.map((league) => {
-                const count = products.filter(p => p.league === league).length;
+                const count = catalogProducts.filter(p => p.league === league).length;
                 return (
                   <button
                     key={league}
