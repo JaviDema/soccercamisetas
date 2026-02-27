@@ -15,17 +15,22 @@ const LEAGUE_ORDER = [
 ];
 
 const normalizeType = (type) => {
-  const value = type?.toLowerCase();
-  if (value === 'local') return 'home';
-  if (value === 'visitante') return 'away';
-  if (value === 'tercera') return 'third';
+  const value = (type || '').toLowerCase().trim();
+  // Kids variations (check before adult)
+  if (value === 'home niño' || value === 'home nino') return 'home niño';
+  if (value === 'away niño' || value === 'away nino') return 'away niño';
+  if (value === 'tercera niño' || value === 'tercera nino' || value === 'third niño' || value === 'third nino') return 'third niño';
+  // Adult variations
+  if (value === 'local' || value === 'home 25/26') return 'home';
+  if (value === 'visitante' || value === 'away 25/26') return 'away';
+  if (value === 'tercera' || value === '3ª equipación 25/26') return 'third';
   return value;
 };
 
 const deduplicateProducts = (list) => {
   const seen = new Set();
   return list.filter((product) => {
-    const key = `${product.league}|${product.team}|${normalizeType(product.type)}|${product.image}`.toLowerCase();
+    const key = `${product.league}|${product.team}|${normalizeType(product.type)}`.toLowerCase();
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
