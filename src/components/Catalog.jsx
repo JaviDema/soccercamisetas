@@ -3,7 +3,19 @@ import products from '../data/products.json';
 import ProductCard from './ProductCard';
 import QuickView from './QuickView';
 
-const leagues = [...new Set(products.map(p => p.league))];
+const LEAGUE_ORDER = [
+  "Premier League",
+  "La Liga",
+  "Serie A",
+  "Bundesliga",
+  "Ligue 1",
+  "Selecciones",
+  "Retro",
+  "Otras Ligas",
+];
+
+const leaguesInData = new Set(products.map(p => p.league));
+const leagues = LEAGUE_ORDER.filter(l => leaguesInData.has(l));
 
 function getBadgePath(teamName) {
   const safe = teamName.replace(/[^\p{L}\p{N}\s\-]/gu, '').trim().replace(/ /g, '_');
@@ -11,14 +23,14 @@ function getBadgePath(teamName) {
 }
 
 const LEAGUE_IMAGES = {
-  "La Liga": "/images/escudos/leagues/La_Liga.png",
   "Premier League": "/images/escudos/leagues/Premier_League.png",
+  "La Liga": "/images/escudos/leagues/La_Liga.png",
   "Serie A": "/images/escudos/leagues/Serie_A.png",
   "Bundesliga": "/images/escudos/leagues/Bundesliga.png",
   "Ligue 1": "/images/escudos/leagues/Ligue_1.png",
   "Selecciones": "/images/escudos/leagues/Selecciones.png",
-  "Otras Ligas": "/images/escudos/leagues/Otras_Ligas.svg",
   "Retro": "/images/escudos/leagues/Retro.svg",
+  "Otras Ligas": "/images/escudos/leagues/Otras_Ligas.svg",
 };
 
 export default function Catalog() {

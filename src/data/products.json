@@ -44,21 +44,21 @@
   {
     "id": 1007,
     "league": "La Liga",
-    "team": "Atletico Madrid",
+    "team": "Atlético de Madrid",
     "type": "HOME 25/26",
     "image": "/images/products/1007_Atletico_Madrid_HOME_2526.jpg"
   },
   {
     "id": 1008,
     "league": "La Liga",
-    "team": "Atletico Madrid",
+    "team": "Atlético de Madrid",
     "type": "AWAY 25/26",
     "image": "/images/products/1008_Atletico_Madrid_AWAY_2526.jpg"
   },
   {
     "id": 1009,
     "league": "La Liga",
-    "team": "Atletico Madrid",
+    "team": "Atlético de Madrid",
     "type": "3ª EQUIPACIÓN 25/26",
     "image": "/images/products/1009_Atletico_Madrid_3ª_EQUIPACIÓN_2526.jpg"
   },
@@ -519,7 +519,7 @@
   },
   {
     "id": 2028,
-    "league": "Premier League",
+    "league": "Otras Ligas",
     "team": "Leeds United",
     "type": "HOME 25/26",
     "image": "/images/products/2028_Leeds_United_HOME_2526.jpg"
@@ -568,7 +568,7 @@
   },
   {
     "id": 2035,
-    "league": "Premier League",
+    "league": "Otras Ligas",
     "team": "Sheffield United",
     "type": "HOME 25/26",
     "image": "https://placehold.co/600x600/f0f0f0/999?text=Sheffield+United"
@@ -925,14 +925,14 @@
   },
   {
     "id": 4020,
-    "league": "Bundesliga",
+    "league": "Otras Ligas",
     "team": "Schalke 04",
     "type": "HOME 25/26",
     "image": "/images/products/4020_Schalke_04_HOME_2526.jpg"
   },
   {
     "id": 4021,
-    "league": "Bundesliga",
+    "league": "Otras Ligas",
     "team": "Hamburger SV",
     "type": "HOME 25/26",
     "image": "https://placehold.co/600x600/f0f0f0/999?text=Hamburger+SV"
@@ -1465,7 +1465,7 @@
   {
     "id": 9005,
     "league": "Retro",
-    "team": "Barcelona 2006",
+    "team": "FC Barcelona 2006",
     "type": "RETRO",
     "image": "/images/products/9005_Barcelona_2006_RETRO.jpg"
   },
@@ -1493,7 +1493,7 @@
   {
     "id": 9009,
     "league": "Retro",
-    "team": "Atletico Madrid 2005",
+    "team": "Atlético de Madrid 2005",
     "type": "RETRO",
     "image": "/images/products/9009_Atletico_Madrid_2005_RETRO.jpg"
   },
@@ -1905,7 +1905,7 @@
   {
     "id": 9078,
     "league": "La Liga",
-    "team": "Barcelona",
+    "team": "FC Barcelona",
     "type": "AWAY NIÑO",
     "image": "/images/products/kids_201157627.jpg",
     "price": 18
@@ -1913,7 +1913,7 @@
   {
     "id": 9079,
     "league": "La Liga",
-    "team": "Atletico Madrid",
+    "team": "Atlético de Madrid",
     "type": "HOME NIÑO",
     "image": "/images/products/kids_201157601.jpg",
     "price": 18
@@ -1985,7 +1985,7 @@
   {
     "id": 9089,
     "league": "La Liga",
-    "team": "Atletico Madrid",
+    "team": "Atlético de Madrid",
     "type": "AWAY NIÑO",
     "image": "/images/products/kids_200444826.jpg",
     "price": 18
@@ -2065,7 +2065,7 @@
   {
     "id": 9104,
     "league": "La Liga",
-    "team": "Barcelona",
+    "team": "FC Barcelona",
     "type": "AWAY NIÑO",
     "image": "/images/products/kids_197153058.jpg",
     "price": 18
@@ -2073,7 +2073,7 @@
   {
     "id": 9105,
     "league": "La Liga",
-    "team": "Barcelona",
+    "team": "FC Barcelona",
     "type": "TERCERA NIÑO",
     "image": "/images/products/kids_197153036.jpg",
     "price": 18
@@ -2456,7 +2456,7 @@
   },
   {
     "id": 9167,
-    "league": "Selecciones",
+    "league": "Otras Ligas",
     "team": "FC Famalicao",
     "type": "LOCAL",
     "image": "/images/products/album_214585216.jpg",
@@ -2464,7 +2464,7 @@
   },
   {
     "id": 9168,
-    "league": "Selecciones",
+    "league": "Otras Ligas",
     "team": "FC Famalicao",
     "type": "VISITANTE",
     "image": "/images/products/album_214585196.jpg",
@@ -2496,7 +2496,7 @@
   },
   {
     "id": 9172,
-    "league": "Serie A",
+    "league": "Otras Ligas",
     "team": "Unione Sportiva Cremonese",
     "type": "LOCAL",
     "image": "/images/products/album_214586591.jpg",
@@ -2504,7 +2504,7 @@
   },
   {
     "id": 9173,
-    "league": "Serie A",
+    "league": "Otras Ligas",
     "team": "Unione Sportiva Cremonese",
     "type": "VISITANTE",
     "image": "/images/products/album_214586548.jpg",
@@ -2512,7 +2512,7 @@
   },
   {
     "id": 9174,
-    "league": "Serie A",
+    "league": "Otras Ligas",
     "team": "U.S. Sassuolo Calcio",
     "type": "TERCERA",
     "image": "/images/products/album_214586521.jpg",
@@ -2520,7 +2520,7 @@
   },
   {
     "id": 9175,
-    "league": "Serie A",
+    "league": "Otras Ligas",
     "team": "U.S. Sassuolo Calcio",
     "type": "VISITANTE",
     "image": "/images/products/album_214586504.jpg",
@@ -2528,7 +2528,7 @@
   },
   {
     "id": 9176,
-    "league": "Bundesliga",
+    "league": "Otras Ligas",
     "team": "Hamburger SV",
     "type": "VISITANTE",
     "image": "/images/products/album_216986120.jpg",
@@ -2536,7 +2536,7 @@
   },
   {
     "id": 9177,
-    "league": "Bundesliga",
+    "league": "Otras Ligas",
     "team": "1. FC Köln",
     "type": "TERCERA",
     "image": "/images/products/album_210861843.jpg",
@@ -2544,7 +2544,7 @@
   },
   {
     "id": 9178,
-    "league": "Ligue 1",
+    "league": "Otras Ligas",
     "team": "Rangers",
     "type": "VISITANTE",
     "image": "/images/products/album_204445792.jpg",
@@ -2752,7 +2752,7 @@
   },
   {
     "id": 9204,
-    "league": "Ligue 1",
+    "league": "Otras Ligas",
     "team": "Rangers",
     "type": "TERCERA",
     "image": "/images/products/album_204445775.jpg",
@@ -2768,7 +2768,7 @@
   },
   {
     "id": 9206,
-    "league": "Ligue 1",
+    "league": "Otras Ligas",
     "team": "Rangers",
     "type": "LOCAL",
     "image": "/images/products/album_197152499.jpg",
@@ -2888,7 +2888,7 @@
   },
   {
     "id": 9221,
-    "league": "Selecciones",
+    "league": "Otras Ligas",
     "team": "New England Revolution",
     "type": "VISITANTE",
     "image": "/images/products/album_189778085.jpg",
@@ -2960,7 +2960,7 @@
   },
   {
     "id": 9230,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Sporting de Gijón",
     "type": "third niño",
     "image": "/images/products/album_216213672.jpg",
@@ -2968,7 +2968,7 @@
   },
   {
     "id": 9231,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Palmeiras",
     "type": "third niño",
     "image": "/images/products/album_215454661.jpg",
@@ -2976,7 +2976,7 @@
   },
   {
     "id": 9232,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Botafogo",
     "type": "third niño",
     "image": "/images/products/album_215454566.jpg",
@@ -3008,7 +3008,7 @@
   },
   {
     "id": 9236,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Real Oviedo",
     "type": "third niño",
     "image": "/images/products/album_214584133.jpg",
@@ -3024,7 +3024,7 @@
   },
   {
     "id": 9238,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "FC Porto",
     "type": "third niño",
     "image": "/images/products/album_206570661.jpg",
@@ -3040,7 +3040,7 @@
   },
   {
     "id": 9240,
-    "league": "Saudi Pro League",
+    "league": "Otras Ligas",
     "team": "Al-Nassr",
     "type": "third niño",
     "image": "/images/products/album_201157490.jpg",
@@ -3056,7 +3056,7 @@
   },
   {
     "id": 9242,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "FC Porto",
     "type": "home niño",
     "image": "/images/products/album_195260306.jpg",
@@ -3080,7 +3080,7 @@
   },
   {
     "id": 9245,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Santos",
     "type": "home niño",
     "image": "/images/products/album_194436707.jpg",
@@ -3096,7 +3096,7 @@
   },
   {
     "id": 9247,
-    "league": "Liga MX",
+    "league": "Otras Ligas",
     "team": "Tigres UANL",
     "type": "home niño",
     "image": "/images/products/album_192521483.jpg",
@@ -3104,7 +3104,7 @@
   },
   {
     "id": 9248,
-    "league": "Liga MX",
+    "league": "Otras Ligas",
     "team": "Tigres UANL",
     "type": "away niño",
     "image": "/images/products/album_192521468.jpg",
@@ -3112,7 +3112,7 @@
   },
   {
     "id": 9249,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Sao Paulo",
     "type": "home niño",
     "image": "/images/products/album_192521455.jpg",
@@ -3120,7 +3120,7 @@
   },
   {
     "id": 9250,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "River Plate",
     "type": "third niño",
     "image": "/images/products/album_192521422.jpg",
@@ -3136,7 +3136,7 @@
   },
   {
     "id": 9252,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Palmeiras",
     "type": "home niño",
     "image": "/images/products/album_192521322.jpg",
@@ -3152,7 +3152,7 @@
   },
   {
     "id": 9254,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Inter Miami",
     "type": "third niño",
     "image": "/images/products/album_192521217.jpg",
@@ -3160,7 +3160,7 @@
   },
   {
     "id": 9255,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Cruzeiro",
     "type": "home niño",
     "image": "/images/products/album_192521134.jpg",
@@ -3193,14 +3193,14 @@
   {
     "id": 9259,
     "league": "La Liga",
-    "team": "Barcelona",
+    "team": "FC Barcelona",
     "type": "home niño",
     "image": "/images/products/album_189777850.jpg",
     "price": 19.99
   },
   {
     "id": 9260,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "New York Red Bulls",
     "type": "home niño",
     "image": "/images/products/album_187691808.jpg",
@@ -3208,7 +3208,7 @@
   },
   {
     "id": 9261,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Orlando City",
     "type": "home niño",
     "image": "/images/products/album_187683677.jpg",
@@ -3224,7 +3224,7 @@
   },
   {
     "id": 9263,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "New York City",
     "type": "home niño",
     "image": "/images/products/album_187440179.jpg",
@@ -3232,7 +3232,7 @@
   },
   {
     "id": 9264,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "LA Galaxy",
     "type": "away niño",
     "image": "/images/products/album_187440114.jpg",
@@ -3240,7 +3240,7 @@
   },
   {
     "id": 9265,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Inter Miami",
     "type": "home niño",
     "image": "/images/products/album_187440097.jpg",
@@ -3248,7 +3248,7 @@
   },
   {
     "id": 9266,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Flamengo",
     "type": "home niño",
     "image": "/images/products/album_187440078.jpg",
@@ -3256,7 +3256,7 @@
   },
   {
     "id": 9267,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "Colo Colo",
     "type": "away niño",
     "image": "/images/products/album_187439997.jpg",
@@ -3264,7 +3264,7 @@
   },
   {
     "id": 9268,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Charlotte FC",
     "type": "away niño",
     "image": "/images/products/album_187439884.jpg",
@@ -3272,7 +3272,7 @@
   },
   {
     "id": 9269,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Austin",
     "type": "home niño",
     "image": "/images/products/album_187439797.jpg",
@@ -3280,7 +3280,7 @@
   },
   {
     "id": 9270,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Atletico Mineiro",
     "type": "home niño",
     "image": "/images/products/album_187439777.jpg",
@@ -3288,7 +3288,7 @@
   },
   {
     "id": 9271,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Atlanta United",
     "type": "home niño",
     "image": "/images/products/album_187439751.jpg",
@@ -3296,7 +3296,7 @@
   },
   {
     "id": 9272,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Los Angeles FC",
     "type": "away niño",
     "image": "/images/products/album_187080986.jpg",
@@ -3304,7 +3304,7 @@
   },
   {
     "id": 9273,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Inter Miami",
     "type": "away niño",
     "image": "/images/products/album_184617450.jpg",
@@ -3312,7 +3312,7 @@
   },
   {
     "id": 9274,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "Colo Colo",
     "type": "home niño",
     "image": "/images/products/album_184617429.jpg",
@@ -3320,7 +3320,7 @@
   },
   {
     "id": 9275,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Cultural Leonesa",
     "type": "home",
     "image": "/images/products/album_222988663.jpg",
@@ -3328,7 +3328,7 @@
   },
   {
     "id": 9276,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Cultural Leonesa",
     "type": "away",
     "image": "/images/products/album_222988622.jpg",
@@ -3336,7 +3336,7 @@
   },
   {
     "id": 9277,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Real Murcia",
     "type": "away",
     "image": "/images/products/album_218379772.jpg",
@@ -3344,7 +3344,7 @@
   },
   {
     "id": 9278,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Cartagena",
     "type": "home",
     "image": "/images/products/album_218379684.jpg",
@@ -3352,7 +3352,7 @@
   },
   {
     "id": 9279,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "AD Ceuta FC",
     "type": "home",
     "image": "/images/products/album_218379617.jpg",
@@ -3360,7 +3360,7 @@
   },
   {
     "id": 9280,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "AD Ceuta FC",
     "type": "away",
     "image": "/images/products/album_218379605.jpg",
@@ -3368,7 +3368,7 @@
   },
   {
     "id": 9281,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Albacete",
     "type": "third",
     "image": "/images/products/album_218287222.jpg",
@@ -3376,7 +3376,7 @@
   },
   {
     "id": 9282,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Real Murcia",
     "type": "home",
     "image": "/images/products/album_215456340.jpg",
@@ -3384,7 +3384,7 @@
   },
   {
     "id": 9283,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Sporting de Gijon",
     "type": "third",
     "image": "/images/products/album_214586401.jpg",
@@ -3400,7 +3400,7 @@
   },
   {
     "id": 9285,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Malaga",
     "type": "third",
     "image": "/images/products/album_214585520.jpg",
@@ -3408,7 +3408,7 @@
   },
   {
     "id": 9286,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "CD Castellon",
     "type": "home",
     "image": "/images/products/album_214584940.jpg",
@@ -3433,14 +3433,14 @@
   {
     "id": 9289,
     "league": "La Liga",
-    "team": "Atletico Madrid",
+    "team": "Atlético de Madrid",
     "type": "third",
     "image": "/images/products/album_214584611.jpg",
     "price": 19.99
   },
   {
     "id": 9290,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Sporting de Gijón",
     "type": "away",
     "image": "/images/products/album_210862319.jpg",
@@ -3448,7 +3448,7 @@
   },
   {
     "id": 9291,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Racing de Santander",
     "type": "home",
     "image": "/images/products/album_210862254.jpg",
@@ -3456,7 +3456,7 @@
   },
   {
     "id": 9292,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Levante UD",
     "type": "away",
     "image": "/images/products/album_210862112.jpg",
@@ -3464,7 +3464,7 @@
   },
   {
     "id": 9293,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Cordoba CF",
     "type": "third",
     "image": "/images/products/album_210861993.jpg",
@@ -3472,7 +3472,7 @@
   },
   {
     "id": 9294,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "CD Tenerife",
     "type": "third",
     "image": "/images/products/album_210861958.jpg",
@@ -3480,7 +3480,7 @@
   },
   {
     "id": 9295,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Burgos CF",
     "type": "away",
     "image": "/images/products/album_210861930.jpg",
@@ -3488,7 +3488,7 @@
   },
   {
     "id": 9296,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Deportivo de La Coruna",
     "type": "third",
     "image": "/images/products/album_210419755.jpg",
@@ -3496,7 +3496,7 @@
   },
   {
     "id": 9297,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Cordoba CF",
     "type": "home",
     "image": "/images/products/album_210419730.jpg",
@@ -3512,7 +3512,7 @@
   },
   {
     "id": 9299,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "CD Tenerife",
     "type": "away",
     "image": "/images/products/album_210419649.jpg",
@@ -3624,7 +3624,7 @@
   },
   {
     "id": 9313,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Albacete",
     "type": "away",
     "image": "/images/products/album_206582019.jpg",
@@ -3632,7 +3632,7 @@
   },
   {
     "id": 9314,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Real Zaragoza",
     "type": "away",
     "image": "/images/products/album_206581581.jpg",
@@ -3640,7 +3640,7 @@
   },
   {
     "id": 9315,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Albacete",
     "type": "home",
     "image": "/images/products/album_206571168.jpg",
@@ -3656,7 +3656,7 @@
   },
   {
     "id": 9317,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Deportivo de La Coruna",
     "type": "home",
     "image": "/images/products/album_206570734.jpg",
@@ -3688,7 +3688,7 @@
   },
   {
     "id": 9321,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Sporting de Gijon",
     "type": "home",
     "image": "/images/products/album_205547124.jpg",
@@ -3712,7 +3712,7 @@
   },
   {
     "id": 9324,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Deportivo de La Coruna",
     "type": "away",
     "image": "/images/products/album_205547003.jpg",
@@ -3729,7 +3729,7 @@
   {
     "id": 9326,
     "league": "La Liga",
-    "team": "Barcelona",
+    "team": "FC Barcelona",
     "type": "third",
     "image": "/images/products/album_205546781.jpg",
     "price": 19.99
@@ -3760,7 +3760,7 @@
   },
   {
     "id": 9330,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Cordoba CF",
     "type": "away",
     "image": "/images/products/album_202614916.jpg",
@@ -3769,7 +3769,7 @@
   {
     "id": 9331,
     "league": "La Liga",
-    "team": "Barcelona",
+    "team": "FC Barcelona",
     "type": "away",
     "image": "/images/products/album_202609330.jpg",
     "price": 19.99
@@ -3792,7 +3792,7 @@
   },
   {
     "id": 9334,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Real Oviedo",
     "type": "home",
     "image": "/images/products/album_202524475.jpg",
@@ -3800,7 +3800,7 @@
   },
   {
     "id": 9335,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Malaga",
     "type": "home",
     "image": "/images/products/album_202524282.jpg",
@@ -3865,7 +3865,7 @@
   {
     "id": 9343,
     "league": "La Liga",
-    "team": "Atletico Madrid",
+    "team": "Atlético de Madrid",
     "type": "away",
     "image": "/images/products/album_198551642.jpg",
     "price": 19.99
@@ -3873,7 +3873,7 @@
   {
     "id": 9344,
     "league": "La Liga",
-    "team": "Barcelona",
+    "team": "FC Barcelona",
     "type": "home",
     "image": "/images/products/album_197818923.jpg",
     "price": 19.99
@@ -3928,7 +3928,7 @@
   },
   {
     "id": 9351,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Hercules CF",
     "type": "away",
     "image": "/images/products/album_194633951.jpg",
@@ -3936,7 +3936,7 @@
   },
   {
     "id": 9352,
-    "league": "Segunda División",
+    "league": "Otras Ligas",
     "team": "Hercules CF",
     "type": "home",
     "image": "/images/products/album_194633925.jpg",
@@ -3945,7 +3945,7 @@
   {
     "id": 9353,
     "league": "La Liga",
-    "team": "Atletico Madrid",
+    "team": "Atlético de Madrid",
     "type": "home",
     "image": "/images/products/album_190852301.jpg",
     "price": 19.99
@@ -4360,7 +4360,7 @@
   },
   {
     "id": 9405,
-    "league": "Serie A",
+    "league": "Otras Ligas",
     "team": "Unione Sportiva Cremonese",
     "type": "home",
     "image": "/images/products/album_214586591.jpg",
@@ -4368,7 +4368,7 @@
   },
   {
     "id": 9406,
-    "league": "Serie A",
+    "league": "Otras Ligas",
     "team": "Unione Sportiva Cremonese",
     "type": "away",
     "image": "/images/products/album_214586548.jpg",
@@ -4376,7 +4376,7 @@
   },
   {
     "id": 9407,
-    "league": "Serie A",
+    "league": "Otras Ligas",
     "team": "U.S. Sassuolo Calcio",
     "type": "third",
     "image": "/images/products/album_214586521.jpg",
@@ -4384,7 +4384,7 @@
   },
   {
     "id": 9408,
-    "league": "Serie A",
+    "league": "Otras Ligas",
     "team": "U.S. Sassuolo Calcio",
     "type": "away",
     "image": "/images/products/album_214586504.jpg",
@@ -4472,7 +4472,7 @@
   },
   {
     "id": 9419,
-    "league": "Otras Ligas",
+    "league": "Serie A",
     "team": "Genoa CFC",
     "type": "home",
     "image": "/images/products/album_206581699.jpg",
@@ -4512,7 +4512,7 @@
   },
   {
     "id": 9424,
-    "league": "Otras Ligas",
+    "league": "Serie A",
     "team": "Cagliari Calcio",
     "type": "third",
     "image": "/images/products/album_199252240.jpg",
@@ -4592,7 +4592,7 @@
   },
   {
     "id": 9434,
-    "league": "Bundesliga",
+    "league": "Otras Ligas",
     "team": "Hamburger SV",
     "type": "away",
     "image": "/images/products/album_216986120.jpg",
@@ -4600,7 +4600,7 @@
   },
   {
     "id": 9435,
-    "league": "Bundesliga",
+    "league": "Otras Ligas",
     "team": "1. FC Köln",
     "type": "third",
     "image": "/images/products/album_210861843.jpg",
@@ -4616,7 +4616,7 @@
   },
   {
     "id": 9437,
-    "league": "Bundesliga",
+    "league": "Otras Ligas",
     "team": "Hamburger SV",
     "type": "home",
     "image": "/images/products/album_205547024.jpg",
@@ -4624,7 +4624,7 @@
   },
   {
     "id": 9438,
-    "league": "Bundesliga",
+    "league": "Otras Ligas",
     "team": "1. FC Köln",
     "type": "home",
     "image": "/images/products/album_205546757.jpg",
@@ -4672,7 +4672,7 @@
   },
   {
     "id": 9444,
-    "league": "Otras Ligas",
+    "league": "Bundesliga",
     "team": "FC St. Pauli",
     "type": "third",
     "image": "/images/products/album_201608910.jpg",
@@ -4680,7 +4680,7 @@
   },
   {
     "id": 9445,
-    "league": "Otras Ligas",
+    "league": "Bundesliga",
     "team": "FC St. Pauli",
     "type": "away",
     "image": "/images/products/album_201608883.jpg",
@@ -4688,7 +4688,7 @@
   },
   {
     "id": 9446,
-    "league": "Otras Ligas",
+    "league": "Bundesliga",
     "team": "FC Heidenheim",
     "type": "home",
     "image": "/images/products/album_201608825.jpg",
@@ -4696,7 +4696,7 @@
   },
   {
     "id": 9447,
-    "league": "Otras Ligas",
+    "league": "Bundesliga",
     "team": "FC Heidenheim",
     "type": "away",
     "image": "/images/products/album_201608803.jpg",
@@ -4704,7 +4704,7 @@
   },
   {
     "id": 9448,
-    "league": "Otras Ligas",
+    "league": "Bundesliga",
     "team": "FC Augsburg",
     "type": "home",
     "image": "/images/products/album_199248576.jpg",
@@ -4720,7 +4720,7 @@
   },
   {
     "id": 9450,
-    "league": "Otras Ligas",
+    "league": "Bundesliga",
     "team": "FC St. Pauli",
     "type": "home",
     "image": "/images/products/album_197913791.jpg",
@@ -4912,7 +4912,7 @@
   },
   {
     "id": 9474,
-    "league": "Otras Ligas",
+    "league": "Ligue 1",
     "team": "Lille OSC",
     "type": "home",
     "image": "/images/products/album_200445810.jpg",
@@ -4920,7 +4920,7 @@
   },
   {
     "id": 9475,
-    "league": "Otras Ligas",
+    "league": "Ligue 1",
     "team": "Lille OSC",
     "type": "away",
     "image": "/images/products/album_200445800.jpg",
@@ -5312,7 +5312,7 @@
   },
   {
     "id": 9524,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Fluminense",
     "type": "third",
     "image": "/images/products/album_216985967.jpg",
@@ -5344,7 +5344,7 @@
   },
   {
     "id": 9528,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Sport Recife",
     "type": "third",
     "image": "/images/products/album_215295195.jpg",
@@ -5352,7 +5352,7 @@
   },
   {
     "id": 9529,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Sport Recife",
     "type": "away",
     "image": "/images/products/album_215295135.jpg",
@@ -5360,7 +5360,7 @@
   },
   {
     "id": 9530,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Sao Paulo",
     "type": "third",
     "image": "/images/products/album_215295107.jpg",
@@ -5384,7 +5384,7 @@
   },
   {
     "id": 9533,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Palmeiras",
     "type": "third",
     "image": "/images/products/album_215295009.jpg",
@@ -5392,7 +5392,7 @@
   },
   {
     "id": 9534,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Cruzeiro",
     "type": "third",
     "image": "/images/products/album_215294961.jpg",
@@ -5400,7 +5400,7 @@
   },
   {
     "id": 9535,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Botafogo",
     "type": "third",
     "image": "/images/products/album_215294937.jpg",
@@ -5416,7 +5416,7 @@
   },
   {
     "id": 9537,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Atlético Mineiro",
     "type": "third",
     "image": "/images/products/album_215294837.jpg",
@@ -5432,7 +5432,7 @@
   },
   {
     "id": 9539,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Corinthians",
     "type": "third",
     "image": "/images/products/album_214585052.jpg",
@@ -5440,7 +5440,7 @@
   },
   {
     "id": 9540,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Flamengo",
     "type": "third",
     "image": "/images/products/album_207476772.jpg",
@@ -5448,7 +5448,7 @@
   },
   {
     "id": 9541,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Botafogo",
     "type": "away",
     "image": "/images/products/album_207476740.jpg",
@@ -5456,7 +5456,7 @@
   },
   {
     "id": 9542,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Botafogo",
     "type": "home",
     "image": "/images/products/album_202609190.jpg",
@@ -5464,7 +5464,7 @@
   },
   {
     "id": 9543,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Cruzeiro",
     "type": "away",
     "image": "/images/products/album_202609141.jpg",
@@ -5472,7 +5472,7 @@
   },
   {
     "id": 9544,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Gremio",
     "type": "away",
     "image": "/images/products/album_201157786.jpg",
@@ -5504,7 +5504,7 @@
   },
   {
     "id": 9548,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Fluminense",
     "type": "away",
     "image": "/images/products/album_200445695.jpg",
@@ -5512,7 +5512,7 @@
   },
   {
     "id": 9549,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Atletico Mineiro",
     "type": "away",
     "image": "/images/products/album_200444847.jpg",
@@ -5528,7 +5528,7 @@
   },
   {
     "id": 9551,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Sao Paulo",
     "type": "away",
     "image": "/images/products/album_195471464.jpg",
@@ -5536,7 +5536,7 @@
   },
   {
     "id": 9552,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Santos",
     "type": "away",
     "image": "/images/products/album_195471427.jpg",
@@ -5552,7 +5552,7 @@
   },
   {
     "id": 9554,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Vasco da gama",
     "type": "home",
     "image": "/images/products/album_194633600.jpg",
@@ -5576,7 +5576,7 @@
   },
   {
     "id": 9557,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Flamengo",
     "type": "away",
     "image": "/images/products/album_193838006.jpg",
@@ -5592,7 +5592,7 @@
   },
   {
     "id": 9559,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Corinthians",
     "type": "away",
     "image": "/images/products/album_193054009.jpg",
@@ -5600,7 +5600,7 @@
   },
   {
     "id": 9560,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Corinthians",
     "type": "home",
     "image": "/images/products/album_193053992.jpg",
@@ -5624,7 +5624,7 @@
   },
   {
     "id": 9563,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Sport Recife",
     "type": "home",
     "image": "/images/products/album_193053868.jpg",
@@ -5640,7 +5640,7 @@
   },
   {
     "id": 9565,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Santos",
     "type": "home",
     "image": "/images/products/album_192298738.jpg",
@@ -5648,7 +5648,7 @@
   },
   {
     "id": 9566,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Cruzeiro",
     "type": "home",
     "image": "/images/products/album_192297947.jpg",
@@ -5680,7 +5680,7 @@
   },
   {
     "id": 9570,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Fluminense",
     "type": "home",
     "image": "/images/products/album_190852425.jpg",
@@ -5696,7 +5696,7 @@
   },
   {
     "id": 9572,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Atletico Mineiro",
     "type": "home",
     "image": "/images/products/album_187691755.jpg",
@@ -5712,7 +5712,7 @@
   },
   {
     "id": 9574,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Palmeiras",
     "type": "away",
     "image": "/images/products/album_186945119.jpg",
@@ -5720,7 +5720,7 @@
   },
   {
     "id": 9575,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Palmeiras",
     "type": "home",
     "image": "/images/products/album_186945096.jpg",
@@ -5728,7 +5728,7 @@
   },
   {
     "id": 9576,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Sao Paulo",
     "type": "home",
     "image": "/images/products/album_186945050.jpg",
@@ -5736,7 +5736,7 @@
   },
   {
     "id": 9577,
-    "league": "Brasileirão",
+    "league": "Otras Ligas",
     "team": "Flamengo",
     "type": "home",
     "image": "/images/products/album_185833407.jpg",
@@ -5744,7 +5744,7 @@
   },
   {
     "id": 9578,
-    "league": "Scottish PL",
+    "league": "Otras Ligas",
     "team": "Rangers",
     "type": "away",
     "image": "/images/products/album_204445792.jpg",
@@ -5752,7 +5752,7 @@
   },
   {
     "id": 9579,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Boca Juniors",
     "type": "away",
     "image": "/images/products/album_201727131.jpg",
@@ -5760,7 +5760,7 @@
   },
   {
     "id": 9580,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "River Plate",
     "type": "away",
     "image": "/images/products/album_200263889.jpg",
@@ -5768,7 +5768,7 @@
   },
   {
     "id": 9581,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "San Lorenzo de Almagro",
     "type": "home",
     "image": "/images/products/album_193357557.jpg",
@@ -5776,7 +5776,7 @@
   },
   {
     "id": 9582,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Rosario Central",
     "type": "home",
     "image": "/images/products/album_193357540.jpg",
@@ -5784,7 +5784,7 @@
   },
   {
     "id": 9583,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Rosario Central",
     "type": "away",
     "image": "/images/products/album_193357515.jpg",
@@ -5792,7 +5792,7 @@
   },
   {
     "id": 9584,
-    "league": "Liga Pro Ecuador",
+    "league": "Otras Ligas",
     "team": "Emelec Guayaquil",
     "type": "home",
     "image": "/images/products/album_193357027.jpg",
@@ -5800,7 +5800,7 @@
   },
   {
     "id": 9585,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "CA Independiente",
     "type": "third",
     "image": "/images/products/album_193356504.jpg",
@@ -5808,7 +5808,7 @@
   },
   {
     "id": 9586,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Argentinos Juniors",
     "type": "home",
     "image": "/images/products/album_193356206.jpg",
@@ -5816,7 +5816,7 @@
   },
   {
     "id": 9587,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Lanus",
     "type": "home",
     "image": "/images/products/album_193038798.jpg",
@@ -5824,7 +5824,7 @@
   },
   {
     "id": 9588,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Argentinos Juniors",
     "type": "away",
     "image": "/images/products/album_193038355.jpg",
@@ -5832,7 +5832,7 @@
   },
   {
     "id": 9589,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "San Lorenzo de Almagro",
     "type": "away",
     "image": "/images/products/album_192919530.jpg",
@@ -5840,7 +5840,7 @@
   },
   {
     "id": 9590,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "River Plate",
     "type": "third",
     "image": "/images/products/album_187081102.jpg",
@@ -5848,7 +5848,7 @@
   },
   {
     "id": 9591,
-    "league": "Liga MX",
+    "league": "Otras Ligas",
     "team": "Deportivo Toluca F.C.",
     "type": "third",
     "image": "/images/products/album_217533736.jpg",
@@ -5856,7 +5856,7 @@
   },
   {
     "id": 9592,
-    "league": "Liga MX",
+    "league": "Otras Ligas",
     "team": "Monterrey",
     "type": "away",
     "image": "/images/products/album_206570455.jpg",
@@ -5864,7 +5864,7 @@
   },
   {
     "id": 9593,
-    "league": "Liga MX",
+    "league": "Otras Ligas",
     "team": "Monterrey",
     "type": "home",
     "image": "/images/products/album_206570426.jpg",
@@ -5872,7 +5872,7 @@
   },
   {
     "id": 9594,
-    "league": "Liga MX",
+    "league": "Otras Ligas",
     "team": "Chivas",
     "type": "away",
     "image": "/images/products/album_201726806.jpg",
@@ -5880,7 +5880,7 @@
   },
   {
     "id": 9595,
-    "league": "Liga MX",
+    "league": "Otras Ligas",
     "team": "Tigres UANL",
     "type": "away",
     "image": "/images/products/album_192298751.jpg",
@@ -5888,7 +5888,7 @@
   },
   {
     "id": 9596,
-    "league": "Liga MX",
+    "league": "Otras Ligas",
     "team": "Tigres UANL",
     "type": "home",
     "image": "/images/products/album_189778187.jpg",
@@ -5896,7 +5896,7 @@
   },
   {
     "id": 9597,
-    "league": "Scottish PL",
+    "league": "Otras Ligas",
     "team": "Rangers",
     "type": "third",
     "image": "/images/products/album_204445775.jpg",
@@ -5904,7 +5904,7 @@
   },
   {
     "id": 9598,
-    "league": "Scottish PL",
+    "league": "Otras Ligas",
     "team": "Celtic",
     "type": "home",
     "image": "/images/products/album_200445027.jpg",
@@ -5912,7 +5912,7 @@
   },
   {
     "id": 9599,
-    "league": "Scottish PL",
+    "league": "Otras Ligas",
     "team": "Rangers",
     "type": "home",
     "image": "/images/products/album_197152499.jpg",
@@ -5920,7 +5920,7 @@
   },
   {
     "id": 9600,
-    "league": "Scottish PL",
+    "league": "Otras Ligas",
     "team": "Celtic",
     "type": "away",
     "image": "/images/products/album_193490020.jpg",
@@ -5928,7 +5928,7 @@
   },
   {
     "id": 9601,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Inter Miami",
     "type": "third",
     "image": "/images/products/album_191121796.jpg",
@@ -5936,7 +5936,7 @@
   },
   {
     "id": 9602,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Vancouver Whitecaps FC",
     "type": "home",
     "image": "/images/products/album_189778242.jpg",
@@ -5944,7 +5944,7 @@
   },
   {
     "id": 9603,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Toronto FC",
     "type": "home",
     "image": "/images/products/album_189778207.jpg",
@@ -5952,7 +5952,7 @@
   },
   {
     "id": 9604,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "San Jose Earthquakes",
     "type": "home",
     "image": "/images/products/album_189778175.jpg",
@@ -5960,7 +5960,7 @@
   },
   {
     "id": 9605,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "San Diego FC",
     "type": "home",
     "image": "/images/products/album_189778165.jpg",
@@ -5968,7 +5968,7 @@
   },
   {
     "id": 9606,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Portland Timbers",
     "type": "home",
     "image": "/images/products/album_189778134.jpg",
@@ -5976,7 +5976,7 @@
   },
   {
     "id": 9607,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Philadelphia Union",
     "type": "away",
     "image": "/images/products/album_189778120.jpg",
@@ -5984,7 +5984,7 @@
   },
   {
     "id": 9608,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "New York City",
     "type": "home",
     "image": "/images/products/album_189778098.jpg",
@@ -5992,7 +5992,7 @@
   },
   {
     "id": 9609,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "New England Revolution",
     "type": "away",
     "image": "/images/products/album_189778085.jpg",
@@ -6000,7 +6000,7 @@
   },
   {
     "id": 9610,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "D.C. United",
     "type": "away",
     "image": "/images/products/album_189778022.jpg",
@@ -6008,7 +6008,7 @@
   },
   {
     "id": 9611,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Charlotte FC",
     "type": "away",
     "image": "/images/products/album_189777920.jpg",
@@ -6024,7 +6024,7 @@
   },
   {
     "id": 9613,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Austin",
     "type": "home",
     "image": "/images/products/album_189777833.jpg",
@@ -6032,7 +6032,7 @@
   },
   {
     "id": 9614,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Atlanta United",
     "type": "home",
     "image": "/images/products/album_189777813.jpg",
@@ -6048,7 +6048,7 @@
   },
   {
     "id": 9616,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Orlando City",
     "type": "home",
     "image": "/images/products/album_189225191.jpg",
@@ -6056,7 +6056,7 @@
   },
   {
     "id": 9617,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "New York Red Bulls",
     "type": "home",
     "image": "/images/products/album_187683647.jpg",
@@ -6064,7 +6064,7 @@
   },
   {
     "id": 9618,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Los Angeles FC",
     "type": "away",
     "image": "/images/products/album_187440162.jpg",
@@ -6072,7 +6072,7 @@
   },
   {
     "id": 9619,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "San Diego FC",
     "type": "away",
     "image": "/images/products/album_187081136.jpg",
@@ -6080,7 +6080,7 @@
   },
   {
     "id": 9620,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Inter Miami",
     "type": "home",
     "image": "/images/products/album_186702452.jpg",
@@ -6088,7 +6088,7 @@
   },
   {
     "id": 9621,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "LA Galaxy",
     "type": "away",
     "image": "/images/products/album_186702176.jpg",
@@ -6096,7 +6096,7 @@
   },
   {
     "id": 9622,
-    "league": "MLS",
+    "league": "Otras Ligas",
     "team": "Inter Miami",
     "type": "away",
     "image": "/images/products/album_184415829.jpg",
@@ -6104,7 +6104,7 @@
   },
   {
     "id": 9623,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "Colo Colo",
     "type": "third",
     "image": "/images/products/album_216054813.jpg",
@@ -6112,7 +6112,7 @@
   },
   {
     "id": 9624,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "Universidad De Chile",
     "type": "third",
     "image": "/images/products/album_214586649.jpg",
@@ -6120,7 +6120,7 @@
   },
   {
     "id": 9625,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "CD Palestino",
     "type": "third",
     "image": "/images/products/album_193356690.jpg",
@@ -6128,7 +6128,7 @@
   },
   {
     "id": 9626,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "CD Palestino",
     "type": "home",
     "image": "/images/products/album_193356642.jpg",
@@ -6136,7 +6136,7 @@
   },
   {
     "id": 9627,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "CD Palestino",
     "type": "away",
     "image": "/images/products/album_193356595.jpg",
@@ -6144,7 +6144,7 @@
   },
   {
     "id": 9628,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "Universidad De Chile",
     "type": "away",
     "image": "/images/products/album_191917096.jpg",
@@ -6152,7 +6152,7 @@
   },
   {
     "id": 9629,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "Colo Colo",
     "type": "away",
     "image": "/images/products/album_186702567.jpg",
@@ -6160,7 +6160,7 @@
   },
   {
     "id": 9630,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "Universidad De Chile",
     "type": "home",
     "image": "/images/products/album_186396495.jpg",
@@ -6168,7 +6168,7 @@
   },
   {
     "id": 9631,
-    "league": "Primera División Chile",
+    "league": "Otras Ligas",
     "team": "Colo Colo",
     "type": "home",
     "image": "/images/products/album_184415547.jpg",
@@ -6176,7 +6176,7 @@
   },
   {
     "id": 9632,
-    "league": "Saudi Pro League",
+    "league": "Otras Ligas",
     "team": "Al-Nassr",
     "type": "home",
     "image": "/images/products/album_206571103.jpg",
@@ -6184,7 +6184,7 @@
   },
   {
     "id": 9633,
-    "league": "Saudi Pro League",
+    "league": "Otras Ligas",
     "team": "Al-Nassr",
     "type": "third",
     "image": "/images/products/album_201608613.jpg",
@@ -6192,7 +6192,7 @@
   },
   {
     "id": 9634,
-    "league": "Saudi Pro League",
+    "league": "Otras Ligas",
     "team": "Al Hilal SC",
     "type": "home",
     "image": "/images/products/album_201157470.jpg",
@@ -6232,7 +6232,7 @@
   },
   {
     "id": 9639,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "Braga",
     "type": "away",
     "image": "/images/products/album_210861907.jpg",
@@ -6256,7 +6256,7 @@
   },
   {
     "id": 9642,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "Sporting CP",
     "type": "away",
     "image": "/images/products/album_206570132.jpg",
@@ -6264,7 +6264,7 @@
   },
   {
     "id": 9643,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "Sporting CP",
     "type": "third",
     "image": "/images/products/album_204445667.jpg",
@@ -6272,7 +6272,7 @@
   },
   {
     "id": 9644,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "Benfica",
     "type": "away",
     "image": "/images/products/album_202524185.jpg",
@@ -6280,7 +6280,7 @@
   },
   {
     "id": 9645,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "FC Porto",
     "type": "away",
     "image": "/images/products/album_201726584.jpg",
@@ -6288,7 +6288,7 @@
   },
   {
     "id": 9646,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "FC Porto",
     "type": "third",
     "image": "/images/products/album_201726547.jpg",
@@ -6296,7 +6296,7 @@
   },
   {
     "id": 9647,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "FC Porto",
     "type": "home",
     "image": "/images/products/album_201608851.jpg",
@@ -6304,7 +6304,7 @@
   },
   {
     "id": 9648,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "Sporting CP",
     "type": "home",
     "image": "/images/products/album_201158021.jpg",
@@ -6312,7 +6312,7 @@
   },
   {
     "id": 9649,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "Benfica",
     "type": "home",
     "image": "/images/products/album_201157645.jpg",
@@ -6320,7 +6320,7 @@
   },
   {
     "id": 9650,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "Benfica",
     "type": "third niño",
     "image": "/images/products/album_200808933.jpg",
@@ -6328,7 +6328,7 @@
   },
   {
     "id": 9651,
-    "league": "Liga Portugal",
+    "league": "Otras Ligas",
     "team": "Benfica",
     "type": "third",
     "image": "/images/products/album_200808889.jpg",
@@ -6336,7 +6336,7 @@
   },
   {
     "id": 9652,
-    "league": "Pro League",
+    "league": "Otras Ligas",
     "team": "Club Brugge KV",
     "type": "away",
     "image": "/images/products/album_214585007.jpg",
@@ -6352,7 +6352,7 @@
   },
   {
     "id": 9654,
-    "league": "Swiss Super League",
+    "league": "Otras Ligas",
     "team": "Servette FC",
     "type": "home",
     "image": "/images/products/album_204446775.jpg",
@@ -6360,7 +6360,7 @@
   },
   {
     "id": 9655,
-    "league": "Super League Greece",
+    "league": "Otras Ligas",
     "team": "Panathinaikos F.C.",
     "type": "away",
     "image": "/images/products/album_204445805.jpg",
@@ -6368,7 +6368,7 @@
   },
   {
     "id": 9656,
-    "league": "League of Ireland",
+    "league": "Otras Ligas",
     "team": "Bohemians",
     "type": "third",
     "image": "/images/products/album_203492732.jpg",
@@ -6376,7 +6376,7 @@
   },
   {
     "id": 9657,
-    "league": "League of Ireland",
+    "league": "Otras Ligas",
     "team": "Bohemians",
     "type": "home",
     "image": "/images/products/album_203492701.jpg",
@@ -6384,7 +6384,7 @@
   },
   {
     "id": 9658,
-    "league": "SuperLiga Serbia",
+    "league": "Otras Ligas",
     "team": "Red Star Belgrade",
     "type": "home",
     "image": "/images/products/album_201609352.jpg",
@@ -6392,7 +6392,7 @@
   },
   {
     "id": 9659,
-    "league": "Primera Liga Ucraniana",
+    "league": "Otras Ligas",
     "team": "FC Shakhtar Donetsk",
     "type": "home",
     "image": "/images/products/album_199248703.jpg",
@@ -6400,7 +6400,7 @@
   },
   {
     "id": 9660,
-    "league": "Süper Lig",
+    "league": "Otras Ligas",
     "team": "Besiktas",
     "type": "home",
     "image": "/images/products/album_199248469.jpg",
@@ -6408,7 +6408,7 @@
   },
   {
     "id": 9661,
-    "league": "Süper Lig",
+    "league": "Otras Ligas",
     "team": "Besiktas",
     "type": "away",
     "image": "/images/products/album_199248415.jpg",
@@ -6416,7 +6416,7 @@
   },
   {
     "id": 9662,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Atletico Nacional",
     "type": "away",
     "image": "/images/products/album_197153125.jpg",
@@ -6424,7 +6424,7 @@
   },
   {
     "id": 9663,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Atletico Nacional",
     "type": "third",
     "image": "/images/products/album_197153095.jpg",
@@ -6432,7 +6432,7 @@
   },
   {
     "id": 9664,
-    "league": "Scottish PL",
+    "league": "Otras Ligas",
     "team": "Aberdeen F.C.",
     "type": "away",
     "image": "/images/products/album_196205216.jpg",
@@ -6440,7 +6440,7 @@
   },
   {
     "id": 9665,
-    "league": "Liga georgiana",
+    "league": "Otras Ligas",
     "team": "FC Dinamo Tbilisi",
     "type": "home",
     "image": "/images/products/album_195260269.jpg",
@@ -6448,7 +6448,7 @@
   },
   {
     "id": 9666,
-    "league": "Scottish PL",
+    "league": "Otras Ligas",
     "team": "Ayr United F.C.",
     "type": "home",
     "image": "/images/products/album_195260102.jpg",
@@ -6456,7 +6456,7 @@
   },
   {
     "id": 9667,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Junior Barranquilla",
     "type": "home",
     "image": "/images/products/album_194633880.jpg",
@@ -6464,7 +6464,7 @@
   },
   {
     "id": 9668,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Independiente de Medellin",
     "type": "home",
     "image": "/images/products/album_193661246.jpg",
@@ -6472,7 +6472,7 @@
   },
   {
     "id": 9669,
-    "league": "Liga Pro Ecuador",
+    "league": "Otras Ligas",
     "team": "Emelec Guayaquil",
     "type": "away",
     "image": "/images/products/album_193356848.jpg",
@@ -6480,7 +6480,7 @@
   },
   {
     "id": 9670,
-    "league": "Liga 1 Perú",
+    "league": "Otras Ligas",
     "team": "Alianza Lima",
     "type": "home",
     "image": "/images/products/album_193038304.jpg",
@@ -6488,7 +6488,7 @@
   },
   {
     "id": 9671,
-    "league": "Liga 1 Perú",
+    "league": "Otras Ligas",
     "team": "Alianza Lima",
     "type": "away",
     "image": "/images/products/album_192918164.jpg",
@@ -6496,7 +6496,7 @@
   },
   {
     "id": 9672,
-    "league": "Championship",
+    "league": "Otras Ligas",
     "team": "Stoke City",
     "type": "home",
     "image": "/images/products/album_190767518.jpg",
@@ -6504,7 +6504,7 @@
   },
   {
     "id": 9673,
-    "league": "Bundesliga",
+    "league": "Otras Ligas",
     "team": "FC Red Bull Salzburg",
     "type": "away",
     "image": "/images/products/album_187683552.jpg",
@@ -6512,7 +6512,7 @@
   },
   {
     "id": 9674,
-    "league": "División de Honor Paraguay",
+    "league": "Otras Ligas",
     "team": "Cerro Porteno",
     "type": "home",
     "image": "/images/products/album_187080682.jpg",
@@ -6520,7 +6520,7 @@
   },
   {
     "id": 9675,
-    "league": "División de Honor Paraguay",
+    "league": "Otras Ligas",
     "team": "Cerro Porteno",
     "type": "away",
     "image": "/images/products/album_187080570.jpg",
@@ -6528,7 +6528,7 @@
   },
   {
     "id": 9676,
-    "league": "Superliga Argentina",
+    "league": "Otras Ligas",
     "team": "Atletico Nacional",
     "type": "home",
     "image": "/images/products/album_186395875.jpg",
@@ -6544,7 +6544,7 @@
   },
   {
     "id": 9678,
-    "league": "Eredivisie",
+    "league": "Otras Ligas",
     "team": "Ajax",
     "type": "away",
     "image": "/images/products/album_206582045.jpg",
@@ -6552,7 +6552,7 @@
   },
   {
     "id": 9679,
-    "league": "Eredivisie",
+    "league": "Otras Ligas",
     "team": "PSV Eindhoven",
     "type": "home niño",
     "image": "/images/products/album_206570252.jpg",
@@ -6560,7 +6560,7 @@
   },
   {
     "id": 9680,
-    "league": "Eredivisie",
+    "league": "Otras Ligas",
     "team": "PSV Eindhoven",
     "type": "home",
     "image": "/images/products/album_201609147.jpg",
@@ -6568,7 +6568,7 @@
   },
   {
     "id": 9681,
-    "league": "Eredivisie",
+    "league": "Otras Ligas",
     "team": "PSV Eindhoven",
     "type": "away",
     "image": "/images/products/album_201609119.jpg",
@@ -6576,7 +6576,7 @@
   },
   {
     "id": 9682,
-    "league": "Eredivisie",
+    "league": "Otras Ligas",
     "team": "Feyenoord Rotterdam",
     "type": "home",
     "image": "/images/products/album_199248900.jpg",
@@ -6584,7 +6584,7 @@
   },
   {
     "id": 9683,
-    "league": "Eredivisie",
+    "league": "Otras Ligas",
     "team": "Ajax",
     "type": "home",
     "image": "/images/products/album_198551621.jpg",
