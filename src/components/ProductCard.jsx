@@ -6,6 +6,7 @@ function getBadgeClass(type) {
   if (t.includes('niño')) return 'badge badge-nino';
   if (t.includes('retro')) return 'badge badge-retro';
   if (t.includes('player')) return 'badge badge-player';
+  if (t.includes('third')) return 'badge badge-away';
   if (t.includes('away')) return 'badge badge-away';
   return 'badge badge-home';
 }
@@ -22,7 +23,7 @@ export default function ProductCard({ product, onQuickView }) {
       <div className="product-info">
         <h3>{team}</h3>
         <div className="product-price">
-          <strong>15€</strong> · Envío incluido
+          <strong>{product.price ? `${product.price}€` : '15€'}</strong> · Envío incluido
         </div>
         <a
           href={INSTAGRAM_URL}

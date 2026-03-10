@@ -26,7 +26,7 @@ export default function QuickView({ product, onClose }) {
         <div className="modal-body">
           <h2>{team}</h2>
           <p className="modal-type">{type}</p>
-          <div className="modal-price">15€</div>
+          <div className="modal-price">{product.price ? `${product.price}€` : '15€'}</div>
 
           <div className="modal-detail-row">
             <div className="modal-detail">

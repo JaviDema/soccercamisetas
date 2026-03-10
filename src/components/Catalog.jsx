@@ -14,18 +14,10 @@ const LEAGUE_ORDER = [
   "Otras Ligas",
 ];
 
-const normalizeType = (type) => {
-  const value = type?.toLowerCase();
-  if (value === 'local') return 'home';
-  if (value === 'visitante') return 'away';
-  if (value === 'tercera') return 'third';
-  return value;
-};
-
 const deduplicateProducts = (list) => {
   const seen = new Set();
   return list.filter((product) => {
-    const key = `${product.league}|${product.team}|${normalizeType(product.type)}|${product.image}`.toLowerCase();
+    const key = `${product.league}|${product.team}|${product.type}`.toLowerCase();
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
