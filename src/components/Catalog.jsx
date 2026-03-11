@@ -15,17 +15,17 @@ const LEAGUE_ORDER = [
 ];
 
 const normalizeType = (type) => {
-  const value = type?.toLowerCase();
-  if (value === 'local') return 'home';
-  if (value === 'visitante') return 'away';
-  if (value === 'tercera') return 'third';
-  return value;
+  let t = type.toLowerCase().trim();
+  t = t.replace(/\s*\d{2}\/\d{2}\s*/g, '');  // remove season suffix like "25/26"
+  t = t.replace('3ª equipación', 'third').replace('tercera', 'third');
+  t = t.replace('local', 'home').replace('visitante', 'away');
+  return t.trim();
 };
 
 const deduplicateProducts = (list) => {
   const seen = new Set();
   return list.filter((product) => {
-    const key = `${product.league}|${product.team}|${normalizeType(product.type)}|${product.image}`.toLowerCase();
+    const key = `${product.league}|${product.team}|${normalizeType(product.type)}`.toLowerCase();
     if (seen.has(key)) return false;
     seen.add(key);
     return true;

@@ -13,13 +13,13 @@ function App() {
         <div className="trust-bar-inner">
           <div className="trust-item"><span>✓</span> Calidad Thai AAA+</div>
           <div className="trust-item"><span>📦</span> Envío gratis a España</div>
-          <div className="trust-item"><span>�</span> Atención por Instagram</div>
+          <div className="trust-item"><span>💬</span> Atención por Instagram</div>
         </div>
       </div>
 
       <section className="hero">
         <div className="container">
-          <div className="hero-badge">⚽ Temporada 2024/25</div>
+          <div className="hero-badge">⚽ Temporada 2025/26</div>
           <h1>Camisetas de fútbol<br /><span className="accent">al mejor precio</span></h1>
           <p>Calidad Thai AAA+. Elige tu equipo y pide por Instagram en 1 minuto.</p>
           <a
@@ -44,7 +44,7 @@ function App() {
               <p>Busca tu equipo en el catálogo</p>
             </div>
             <div className="step-card">
-              <span className="step-icon">�</span>
+              <span className="step-icon">💬</span>
               <div className="step-num">2</div>
               <h3>Escríbenos por Instagram</h3>
               <p>Dinos qué camiseta quieres</p>
