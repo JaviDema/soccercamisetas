@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import products from '../data/products.json';
 import ProductCard from './ProductCard';
 import QuickView from './QuickView';
@@ -53,17 +53,25 @@ const LEAGUE_IMAGES = {
   "Otras Ligas": "/images/escudos/leagues/Otras_Ligas.svg",
 };
 
+// CORREGIDO: fallback cuando la imagen del escudo no carga
+const handleBadgeError = (e) => {
+  e.currentTarget.style.display = 'none';
+};
+
 export default function Catalog() {
   const [search, setSearch] = useState('');
   const [selectedLeague, setSelectedLeague] = useState(null);
   const [selectedTeam, setSelectedTeam] = useState(null);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
+  // CORREGIDO: busqueda tambien filtra por liga para mayor usabilidad
   const filtered = search.trim()
-    ? catalogProducts.filter(p =>
-        p.team.toLowerCase().includes(search.toLowerCase()) ||
-        p.type.toLowerCase().includes(search.toLowerCase())
-      )
+    ? catalogProducts.filter(p => {
+        const q = search.toLowerCase();
+        return p.team.toLowerCase().includes(q) ||
+               p.type.toLowerCase().includes(q) ||
+               p.league.toLowerCase().includes(q);
+      })
     : null;
 
   const handleLeagueSelect = (league) => {
@@ -93,34 +101,50 @@ export default function Catalog() {
     setSearch('');
   };
 
-  const leagueProducts = selectedLeague
-    ? catalogProducts.filter(p => p.league === selectedLeague)
-    : [];
+  // CORREGIDO: useMemo para evitar recalculos innecesarios en cada render
+  const leagueProducts = useMemo(() =>
+    selectedLeague ? catalogProducts.filter(p => p.league === selectedLeague) : [],
+    [selectedLeague]
+  );
 
-  const teamsInLeague = selectedLeague
-    ? [...new Set(leagueProducts.map(p => p.team))]
-    : [];
+  const teamsInLeague = useMemo(() =>
+    selectedLeague ? [...new Set(leagueProducts.map(p => p.team))] : [],
+    [selectedLeague, leagueProducts]
+  );
 
-  const teamProducts = selectedTeam
-    ? leagueProducts.filter(p => p.team === selectedTeam)
-    : [];
+  const teamProducts = useMemo(() =>
+    selectedTeam ? leagueProducts.filter(p => p.team === selectedTeam) : [],
+    [selectedTeam, leagueProducts]
+  );
+
+  // CORREGIDO: pre-calcular conteo de camisetas por liga una sola vez
+  const leagueCounts = useMemo(() => {
+    const counts = {};
+    for (const league of leagues) {
+      counts[league] = catalogProducts.filter(p => p.league === league).length;
+    }
+    return counts;
+  }, []);
 
   return (
     <section id="catalogo">
       <div className="catalog-controls">
         <div className="search-row">
+          {/* CORREGIDO: label accesible para el input de busqueda */}
           <div className="search-wrapper">
-            <span className="search-icon">🔍</span>
+            <span className="search-icon" aria-hidden="true">🔍</span>
+            <label htmlFor="catalog-search" className="sr-only">Buscar equipo</label>
             <input
+              id="catalog-search"
               type="text"
               className="search-input"
-              placeholder="Buscar equipo..."
+              placeholder="Buscar equipo o liga..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
             />
           </div>
         </div>
-        <div className="league-nav-inner">
+        <nav className="league-nav-inner" aria-label="Filtro por liga">
           <button
             className={`league-tab ${!selectedLeague && !search ? 'active' : ''}`}
             onClick={handleBackToCatalog}
@@ -136,7 +160,7 @@ export default function Catalog() {
               {league}
             </button>
           ))}
-        </div>
+        </nav>
       </div>
 
       <div className="container">
@@ -189,7 +213,7 @@ export default function Catalog() {
                     onClick={() => handleTeamSelect(team)}
                   >
                     <div className="league-card-img">
-                      <img src={teamImg} alt={team} loading="lazy" />
+                      <img src={teamImg} alt={`Escudo de ${team}`} loading="lazy" onError={handleBadgeError} />
                     </div>
                     <div className="league-card-info">
                       <h3>{team}</h3>
@@ -207,24 +231,21 @@ export default function Catalog() {
               <span>{leagues.length} ligas</span>
             </div>
             <div className="league-grid">
-              {leagues.map((league) => {
-                const count = catalogProducts.filter(p => p.league === league).length;
-                return (
-                  <button
-                    key={league}
-                    className="league-card"
-                    onClick={() => handleLeagueSelect(league)}
-                  >
-                    <div className="league-card-img">
-                      <img src={LEAGUE_IMAGES[league]} alt={league} loading="lazy" />
-                    </div>
-                    <div className="league-card-info">
-                      <h3>{league}</h3>
-                      <span>{count} camisetas</span>
-                    </div>
-                  </button>
-                );
-              })}
+              {leagues.map((league) => (
+                <button
+                  key={league}
+                  className="league-card"
+                  onClick={() => handleLeagueSelect(league)}
+                >
+                  <div className="league-card-img">
+                    <img src={LEAGUE_IMAGES[league]} alt={`Logo ${league}`} loading="lazy" onError={handleBadgeError} />
+                  </div>
+                  <div className="league-card-info">
+                    <h3>{league}</h3>
+                    <span>{leagueCounts[league]} camisetas</span>
+                  </div>
+                </button>
+              ))}
             </div>
           </div>
         )}

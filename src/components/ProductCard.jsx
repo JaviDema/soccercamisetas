@@ -10,13 +10,26 @@ function getBadgeClass(type) {
   return 'badge badge-home';
 }
 
+// CORREGIDO: fallback cuando la imagen no carga
+const handleImgError = (e) => {
+  e.currentTarget.style.display = 'none';
+};
+
 export default function ProductCard({ product, onQuickView }) {
   const { team, type, image } = product;
 
   return (
-    <div className="product-card" onClick={onQuickView}>
+    <article className="product-card" onClick={onQuickView} role="button" tabIndex={0}
+      onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onQuickView(); } }}
+    >
       <div className="image-container">
-        <img src={image} alt={`${team} ${type}`} loading="lazy" decoding="async" />
+        <img
+          src={image}
+          alt={`Camiseta ${team} - ${type}`}
+          loading="lazy"
+          decoding="async"
+          onError={handleImgError}
+        />
         <span className={getBadgeClass(type)}>{type}</span>
       </div>
       <div className="product-info">
@@ -35,6 +48,6 @@ export default function ProductCard({ product, onQuickView }) {
           Pedir por Instagram
         </a>
       </div>
-    </div>
+    </article>
   );
 }
