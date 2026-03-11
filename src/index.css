@@ -6,11 +6,14 @@
   --text-secondary: #6B7280;
   --text-muted: #9CA3AF;
   --primary: #111827;
-  --whatsapp: #25D366;
-  --whatsapp-hover: #1DA851;
+  /* CORREGIDO: renombrado whatsapp -> instagram con color de marca */
+  --instagram: #E1306C;
+  --instagram-hover: #C13584;
   --badge-new: #F59E0B;
   --badge-retro: #8B5CF6;
   --badge-player: #3B82F6;
+  /* CORREGIDO: variable --badge-nino no existia */
+  --badge-nino: #10B981;
   --border: #E5E7EB;
   --border-hover: #D1D5DB;
   --radius-card: 16px;
@@ -21,6 +24,19 @@
   --shadow-lg: 0 8px 30px rgba(0,0,0,0.1);
   --transition: 0.2s ease;
   --header-h: 56px;
+}
+
+/* CORREGIDO: clase sr-only para labels accesibles ocultos visualmente */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* ===== RESET ===== */
@@ -44,6 +60,11 @@ button { font-family: inherit; }
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+/* CORREGIDO: .accent no existia (usado en hero h1 y footer) */
+.accent {
+  color: var(--instagram);
 }
 
 /* ===== HEADER ===== */
@@ -70,6 +91,10 @@ button { font-family: inherit; }
   color: var(--text);
   letter-spacing: -0.5px;
 }
+/* CORREGIDO: .logo-dot no existia */
+.logo-dot {
+  color: var(--instagram);
+}
 .header-right {
   display: flex;
   align-items: center;
@@ -92,11 +117,12 @@ button { font-family: inherit; }
   color: var(--text);
   background: rgba(0,0,0,0.04);
 }
-.header-wa {
+/* CORREGIDO: .header-wa -> .header-ig (JSX usa header-ig) */
+.header-ig {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: var(--whatsapp);
+  background: var(--instagram);
   color: #fff;
   font-size: 0.78rem;
   font-weight: 600;
@@ -104,8 +130,8 @@ button { font-family: inherit; }
   border-radius: var(--radius-pill);
   transition: background var(--transition);
 }
-.header-wa:hover { background: var(--whatsapp-hover); }
-.header-wa svg { width: 16px; height: 16px; }
+.header-ig:hover { background: var(--instagram-hover); }
+.header-ig svg { width: 16px; height: 16px; }
 
 /* ===== TRUST BAR ===== */
 .trust-bar {
@@ -136,6 +162,18 @@ button { font-family: inherit; }
   padding: 32px 0 24px;
   text-align: center;
 }
+/* CORREGIDO: .hero-badge no existia */
+.hero-badge {
+  display: inline-block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 4px 14px;
+  border-radius: var(--radius-pill);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
 .hero h1 {
   font-size: clamp(1.5rem, 4vw, 2.2rem);
   font-weight: 800;
@@ -150,6 +188,21 @@ button { font-family: inherit; }
   margin: 0 auto 20px;
   line-height: 1.5;
 }
+/* CORREGIDO: .hero-cta no existia */
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--instagram);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 12px 28px;
+  border-radius: var(--radius-pill);
+  transition: background var(--transition);
+}
+.hero-cta:hover { background: var(--instagram-hover); }
+.hero-cta svg { width: 18px; height: 18px; }
 
 /* ===== HOW TO ORDER ===== */
 .how-to-order {
@@ -170,6 +223,12 @@ button { font-family: inherit; }
   background: var(--surface);
   border-radius: var(--radius-card);
   border: 1px solid var(--border);
+}
+/* CORREGIDO: .step-icon no existia */
+.step-icon {
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 4px;
 }
 .step-num {
   display: inline-flex;
@@ -418,22 +477,36 @@ button { font-family: inherit; }
 .badge-away { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
 .badge-retro { background: var(--badge-retro); color: #fff; }
 .badge-player { background: var(--badge-player); color: #fff; }
+/* CORREGIDO: .badge-nino no existia */
+.badge-nino { background: var(--badge-nino); color: #fff; }
+
 .product-info {
   padding: 12px;
 }
 .product-info h3 {
-  margin: 0 0 10px;
+  margin: 0 0 4px;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: -0.2px;
   line-height: 1.3;
 }
-.btn-whatsapp {
+/* CORREGIDO: .product-price no existia */
+.product-price {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+.product-price strong {
+  font-size: 0.95rem;
+  color: var(--text);
+}
+/* CORREGIDO: .btn-whatsapp -> .btn-instagram (JSX usa btn-instagram) */
+.btn-instagram {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 6px;
-  background: var(--whatsapp);
+  background: var(--instagram);
   color: white;
   text-decoration: none;
   padding: 9px;
@@ -446,8 +519,8 @@ button { font-family: inherit; }
   border: none;
   cursor: pointer;
 }
-.btn-whatsapp:hover { background: var(--whatsapp-hover); }
-.btn-whatsapp svg { width: 14px; height: 14px; }
+.btn-instagram:hover { background: var(--instagram-hover); }
+.btn-instagram svg { width: 14px; height: 14px; }
 
 /* ===== QUICK VIEW MODAL ===== */
 .modal-overlay {
@@ -469,6 +542,8 @@ button { font-family: inherit; }
   overflow-y: auto;
   animation: slideUp 0.25s ease;
   padding: 0;
+  /* CORREGIDO: faltaba position:relative para que modal-close (absolute) funcione */
+  position: relative;
 }
 .modal-close {
   position: absolute;
@@ -511,6 +586,13 @@ button { font-family: inherit; }
   color: var(--text-secondary);
   margin-bottom: 12px;
 }
+/* CORREGIDO: .modal-price no existia */
+.modal-price {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 16px;
+}
 .modal-detail-row {
   display: flex;
   gap: 12px;
@@ -545,12 +627,13 @@ button { font-family: inherit; }
   background: var(--bg);
   border-radius: var(--radius-btn);
 }
-.modal-wa-btn {
+/* CORREGIDO: .modal-wa-btn -> .modal-ig-btn (JSX usa modal-ig-btn) */
+.modal-ig-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: var(--whatsapp);
+  background: var(--instagram);
   color: white;
   text-decoration: none;
   padding: 14px;
@@ -561,7 +644,7 @@ button { font-family: inherit; }
   width: 100%;
   transition: background var(--transition);
 }
-.modal-wa-btn:hover { background: var(--whatsapp-hover); }
+.modal-ig-btn:hover { background: var(--instagram-hover); }
 
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
@@ -570,6 +653,21 @@ button { font-family: inherit; }
 .info-section {
   padding: 48px 0;
   border-top: 1px solid var(--border);
+}
+/* CORREGIDO: .info-section-title no existia */
+.info-section-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 0 0 4px;
+  letter-spacing: -0.3px;
+}
+/* CORREGIDO: .info-section-subtitle no existia */
+.info-section-subtitle {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0 0 24px;
 }
 .trust-badges {
   display: flex;
@@ -611,6 +709,13 @@ button { font-family: inherit; }
   text-align: center;
   font-size: 1.1rem;
   font-weight: 700;
+  margin: 0 0 4px;
+}
+/* CORREGIDO: .faq-subtitle no existia */
+.faq-subtitle {
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
   margin: 0 0 16px;
 }
 details {
@@ -660,27 +765,53 @@ details p {
   font-size: 0.75rem;
   margin: 0 0 8px;
 }
+/* CORREGIDO: .footer-brand no existia */
+.footer-brand {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+/* CORREGIDO: .footer-tagline no existia */
+.footer-tagline {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
 .footer-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
+  margin-bottom: 12px;
 }
 .footer-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   color: var(--text-secondary);
   font-size: 0.75rem;
   font-weight: 500;
   transition: color var(--transition);
 }
 .footer-links a:hover { color: var(--text); }
+/* CORREGIDO: .footer-divider no existia */
+.footer-divider {
+  width: 60px;
+  height: 1px;
+  background: var(--border);
+  margin: 12px auto;
+}
 
-/* ===== FLOATING WHATSAPP ===== */
-.floating-wa {
+/* ===== FLOATING INSTAGRAM ===== */
+/* CORREGIDO: .floating-wa -> .floating-ig (JSX usa floating-ig) */
+.floating-ig {
   position: fixed;
   bottom: 20px;
   right: 20px;
   width: 52px;
   height: 52px;
-  background: var(--whatsapp);
+  background: var(--instagram);
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -689,14 +820,14 @@ details p {
   justify-content: center;
   cursor: pointer;
   z-index: 900;
-  box-shadow: 0 4px 14px rgba(37,211,102,0.35);
+  box-shadow: 0 4px 14px rgba(225,48,108,0.35);
   transition: transform var(--transition), box-shadow var(--transition);
 }
-.floating-wa:hover {
+.floating-ig:hover {
   transform: scale(1.08);
-  box-shadow: 0 6px 20px rgba(37,211,102,0.45);
+  box-shadow: 0 6px 20px rgba(225,48,108,0.45);
 }
-.floating-wa svg { width: 26px; height: 26px; }
+.floating-ig svg { width: 26px; height: 26px; }
 
 /* ===== NO RESULTS ===== */
 .no-results {
@@ -734,7 +865,9 @@ details p {
   .product-grid { gap: 8px; }
   .product-info { padding: 10px; }
   .product-info h3 { font-size: 0.78rem; }
-  .btn-whatsapp { font-size: 0.7rem; padding: 8px; }
-  .header-wa span { display: none; }
-  .header-wa { padding: 7px 10px; }
+  /* CORREGIDO: .btn-whatsapp -> .btn-instagram en responsive */
+  .btn-instagram { font-size: 0.7rem; padding: 8px; }
+  /* CORREGIDO: .header-wa -> .header-ig en responsive */
+  .header-ig span { display: none; }
+  .header-ig { padding: 7px 10px; }
 }

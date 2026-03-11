@@ -13,7 +13,7 @@ function App() {
         <div className="trust-bar-inner">
           <div className="trust-item"><span>✓</span> Calidad Thai AAA+</div>
           <div className="trust-item"><span>📦</span> Envío gratis a España</div>
-          <div className="trust-item"><span>💬</span> Atención por Instagram</div>
+          <div className="trust-item"><span>📩</span> Atención por Instagram</div>
         </div>
       </div>
 
@@ -44,7 +44,7 @@ function App() {
               <p>Busca tu equipo en el catálogo</p>
             </div>
             <div className="step-card">
-              <span className="step-icon">💬</span>
+              <span className="step-icon">📩</span>
               <div className="step-num">2</div>
               <h3>Escríbenos por Instagram</h3>
               <p>Dinos qué camiseta quieres</p>
