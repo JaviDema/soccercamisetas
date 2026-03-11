@@ -18,7 +18,7 @@ export default function InfoSection() {
             <p>A toda España. Entrega en 10-15 días laborables con seguimiento</p>
           </div>
           <div className="trust-badge">
-            <div className="trust-badge-icon">�</div>
+            <div className="trust-badge-icon">📩</div>
             <h3>Atención directa</h3>
             <p>Respondemos por Instagram en menos de 2 horas</p>
           </div>
