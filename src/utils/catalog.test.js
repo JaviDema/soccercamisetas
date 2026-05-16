@@ -11,10 +11,12 @@ const sampleProducts = [
 describe('catalog utils', () => {
   it('builds a normalized catalog with counts, ordering, and deduplication', () => {
     const { normalizedProducts, leagueCounts, leagues, teamsByLeague } = buildCatalog(sampleProducts);
-    const madrid = normalizedProducts.find((product) => product.team === 'Real Madrid');
+    const madridProducts = normalizedProducts.filter((product) => product.team === 'Real Madrid');
+    const madrid = madridProducts[0];
     const arsenal = normalizedProducts.find((product) => product.team === 'Arsenal');
 
     expect(normalizedProducts).toHaveLength(3);
+    expect(madridProducts).toHaveLength(1);
     expect(madrid.normalizedType).toBe('Home');
     expect(arsenal.typeCategory).toBe('retro');
     expect(madrid.searchIndex).toContain('real madrid la liga home 24/25');
