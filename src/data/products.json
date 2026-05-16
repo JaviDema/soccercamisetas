@@ -420,30 +420,6 @@
     "price": 19.99
   },
   {
-    "id": 2010,
-    "league": "Premier League",
-    "team": "Manchester United",
-    "type": "Home 25/26",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United",
-    "price": 19.99
-  },
-  {
-    "id": 2011,
-    "league": "Premier League",
-    "team": "Manchester United",
-    "type": "Away 25/26",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United",
-    "price": 19.99
-  },
-  {
-    "id": 2012,
-    "league": "Premier League",
-    "team": "Manchester United",
-    "type": "Third 25/26",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United",
-    "price": 19.99
-  },
-  {
     "id": 2013,
     "league": "Premier League",
     "team": "Chelsea",
@@ -609,13 +585,6 @@
     "image": "/images/products/2034_Cardiff_City_HOME_2526.jpg"
   },
   {
-    "id": 2035,
-    "league": "Otras Ligas",
-    "team": "Sheffield United",
-    "type": "Home 25/26",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Sheffield+United"
-  },
-  {
     "id": 2036,
     "league": "Premier League",
     "team": "Sheffield Wednesday",
@@ -635,13 +604,6 @@
     "team": "Sunderland",
     "type": "Home 25/26",
     "image": "/images/products/2038_Sunderland_HOME_2526.jpg"
-  },
-  {
-    "id": 2039,
-    "league": "Premier League",
-    "team": "Swansea City",
-    "type": "Home 25/26",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Swansea+City"
   },
   {
     "id": 2040,
@@ -1295,13 +1257,6 @@
     "image": "/images/products/6028_Camerún_HOME_2526.jpg"
   },
   {
-    "id": 6029,
-    "league": "Selecciones",
-    "team": "Dinamarca",
-    "type": "Home 25/26",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Dinamarca"
-  },
-  {
     "id": 6030,
     "league": "Selecciones",
     "team": "Suecia",
@@ -1551,13 +1506,6 @@
     "team": "FC Barcelona 2006",
     "type": "RETRO",
     "image": "/images/products/9005_Barcelona_2006_RETRO.jpg"
-  },
-  {
-    "id": 9006,
-    "league": "Retro",
-    "team": "Manchester United 1999",
-    "type": "RETRO",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United+1999"
   },
   {
     "id": 9007,
@@ -2426,62 +2374,6 @@
     "price": 18
   },
   {
-    "id": 9160,
-    "league": "La Liga",
-    "team": "Cultural Leonesa",
-    "type": "Home",
-    "image": "/images/products/album_222988663.jpg",
-    "price": 18
-  },
-  {
-    "id": 9161,
-    "league": "La Liga",
-    "team": "Cultural Leonesa",
-    "type": "Away",
-    "image": "/images/products/album_222988622.jpg",
-    "price": 18
-  },
-  {
-    "id": 9162,
-    "league": "La Liga",
-    "team": "Real Murcia",
-    "type": "Away",
-    "image": "/images/products/album_218379772.jpg",
-    "price": 18
-  },
-  {
-    "id": 9163,
-    "league": "La Liga",
-    "team": "Cartagena",
-    "type": "Home",
-    "image": "/images/products/album_218379684.jpg",
-    "price": 18
-  },
-  {
-    "id": 9164,
-    "league": "La Liga",
-    "team": "AD Ceuta FC",
-    "type": "Home",
-    "image": "/images/products/album_218379617.jpg",
-    "price": 18
-  },
-  {
-    "id": 9165,
-    "league": "La Liga",
-    "team": "AD Ceuta FC",
-    "type": "Away",
-    "image": "/images/products/album_218379605.jpg",
-    "price": 18
-  },
-  {
-    "id": 9166,
-    "league": "La Liga",
-    "team": "Albacete",
-    "type": "Third",
-    "image": "/images/products/album_218287222.jpg",
-    "price": 18
-  },
-  {
     "id": 9167,
     "league": "Otras Ligas",
     "team": "FC Famalicao",
@@ -2791,14 +2683,6 @@
     "team": "Colo Colo",
     "type": "Third",
     "image": "/images/products/album_216054813.jpg",
-    "price": 18
-  },
-  {
-    "id": 9209,
-    "league": "Selecciones",
-    "team": "Universidad De Chile",
-    "type": "Third",
-    "image": "/images/products/album_214586649.jpg",
     "price": 18
   },
   {
@@ -4930,22 +4814,6 @@
     "price": 19.99
   },
   {
-    "id": 9612,
-    "league": "Otras Ligas",
-    "team": "CF Montrea",
-    "type": "Home",
-    "image": "/images/products/album_189777897.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9613,
-    "league": "Otras Ligas",
-    "team": "Austin",
-    "type": "Home",
-    "image": "/images/products/album_189777833.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9614,
     "league": "Otras Ligas",
     "team": "Atlanta United",
@@ -5135,14 +5003,6 @@
     "team": "Benfica",
     "type": "Third",
     "image": "/images/products/album_200808889.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9653,
-    "league": "Otras Ligas",
-    "team": "Galatasarays",
-    "type": "Third",
-    "image": "/images/products/album_209233869.jpg",
     "price": 19.99
   },
   {
