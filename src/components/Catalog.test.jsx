@@ -24,10 +24,10 @@ describe('Catalog', () => {
     fireEvent.change(screen.getByPlaceholderText(/buscar equipo/i), { target: { value: 'Arsenal' } });
 
     expect(screen.getByText('2 resultados')).toBeTruthy();
-    expect(document.querySelectorAll('.product-card')).toHaveLength(2);
+    expect(screen.getAllByRole('article')).toHaveLength(2);
 
     fireEvent.click(screen.getByRole('button', { name: 'Retro' }));
-    expect(document.querySelectorAll('.product-card')).toHaveLength(1);
+    expect(screen.getAllByRole('article')).toHaveLength(1);
   });
 
   it('navigates from league to team to products', () => {
@@ -38,7 +38,7 @@ describe('Catalog', () => {
     fireEvent.click(premierButton);
     fireEvent.click(screen.getByRole('button', { name: /Arsenal/ }));
 
-    expect(container.querySelectorAll('.product-card')).toHaveLength(2);
+    expect(screen.getAllByRole('article')).toHaveLength(2);
     expect(screen.getByRole('button', { name: 'Volver' })).toBeTruthy();
   });
 });

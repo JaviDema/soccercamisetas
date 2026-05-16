@@ -26,6 +26,6 @@ describe('catalog utils', () => {
   });
 
   it('builds a badge path from a sanitized team name', () => {
-    expect(getBadgePath('Atlético Madrid!')).toBe('/images/escudos/Atlético_Madrid.png');
+    expect(getBadgePath('Atletico Madrid!')).toBe('/images/escudos/Atletico_Madrid.png');
   });
 });
