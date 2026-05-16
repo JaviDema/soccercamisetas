@@ -4,70 +4,80 @@
     "league": "La Liga",
     "team": "Real Madrid",
     "type": "Home 25/26",
-    "image": "/images/products/1001_Real_Madrid_HOME_2526.jpg"
+    "image": "/images/products/1001_Real_Madrid_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1002,
     "league": "La Liga",
     "team": "Real Madrid",
     "type": "Away 25/26",
-    "image": "/images/products/1002_Real_Madrid_AWAY_2526.jpg"
+    "image": "/images/products/1002_Real_Madrid_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1003,
     "league": "La Liga",
     "team": "Real Madrid",
     "type": "Third 25/26",
-    "image": "/images/products/1003_Real_Madrid_3ª_EQUIPACIÓN_2526.jpg"
+    "image": "/images/products/1003_Real_Madrid_3ª_EQUIPACIÓN_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1004,
     "league": "La Liga",
     "team": "FC Barcelona",
     "type": "Home 25/26",
-    "image": "/images/products/1004_FC_Barcelona_HOME_2526.jpg"
+    "image": "/images/products/1004_FC_Barcelona_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1005,
     "league": "La Liga",
     "team": "FC Barcelona",
     "type": "Away 25/26",
-    "image": "/images/products/1005_FC_Barcelona_AWAY_2526.jpg"
+    "image": "/images/products/1005_FC_Barcelona_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1006,
     "league": "La Liga",
     "team": "FC Barcelona",
     "type": "Third 25/26",
-    "image": "/images/products/1006_FC_Barcelona_3ª_EQUIPACIÓN_2526.jpg"
+    "image": "/images/products/1006_FC_Barcelona_3ª_EQUIPACIÓN_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1007,
     "league": "La Liga",
     "team": "Atlético de Madrid",
     "type": "Home 25/26",
-    "image": "/images/products/1007_Atletico_Madrid_HOME_2526.jpg"
+    "image": "/images/products/1007_Atletico_Madrid_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1008,
     "league": "La Liga",
     "team": "Atlético de Madrid",
     "type": "Away 25/26",
-    "image": "/images/products/1008_Atletico_Madrid_AWAY_2526.jpg"
+    "image": "/images/products/1008_Atletico_Madrid_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1009,
     "league": "La Liga",
     "team": "Atlético de Madrid",
     "type": "Third 25/26",
-    "image": "/images/products/1009_Atletico_Madrid_3ª_EQUIPACIÓN_2526.jpg"
+    "image": "/images/products/1009_Atletico_Madrid_3ª_EQUIPACIÓN_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1010,
     "league": "La Liga",
     "team": "Sevilla FC",
     "type": "Home 25/26",
-    "image": "/images/products/1010_Sevilla_FC_HOME_2526.jpg"
+    "image": "/images/products/1010_Sevilla_FC_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1011,
@@ -81,7 +91,8 @@
     "league": "La Liga",
     "team": "Real Betis",
     "type": "Home 25/26",
-    "image": "/images/products/1012_Real_Betis_HOME_2526.jpg"
+    "image": "/images/products/1012_Real_Betis_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1013,
@@ -102,42 +113,48 @@
     "league": "La Liga",
     "team": "Real Sociedad",
     "type": "Away 25/26",
-    "image": "/images/products/1015_Real_Sociedad_AWAY_2526.jpg"
+    "image": "/images/products/1015_Real_Sociedad_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1016,
     "league": "La Liga",
     "team": "Athletic Bilbao",
     "type": "Home 25/26",
-    "image": "/images/products/1016_Athletic_Bilbao_HOME_2526.jpg"
+    "image": "/images/products/1016_Athletic_Bilbao_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1017,
     "league": "La Liga",
     "team": "Athletic Bilbao",
     "type": "Away 25/26",
-    "image": "/images/products/1017_Athletic_Bilbao_AWAY_2526.jpg"
+    "image": "/images/products/1017_Athletic_Bilbao_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1018,
     "league": "La Liga",
     "team": "Valencia CF",
     "type": "Home 25/26",
-    "image": "/images/products/1018_Valencia_CF_HOME_2526.jpg"
+    "image": "/images/products/1018_Valencia_CF_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1019,
     "league": "La Liga",
     "team": "Valencia CF",
     "type": "Away 25/26",
-    "image": "/images/products/1019_Valencia_CF_AWAY_2526.jpg"
+    "image": "/images/products/1019_Valencia_CF_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1020,
     "league": "La Liga",
     "team": "Villarreal CF",
     "type": "Home 25/26",
-    "image": "/images/products/1020_Villarreal_CF_HOME_2526.jpg"
+    "image": "/images/products/1020_Villarreal_CF_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1021,
@@ -151,7 +168,8 @@
     "league": "La Liga",
     "team": "Girona",
     "type": "Home 25/26",
-    "image": "/images/products/1022_Girona_HOME_2526.jpg"
+    "image": "/images/products/1022_Girona_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1023,
@@ -172,21 +190,24 @@
     "league": "La Liga",
     "team": "Celta de Vigo",
     "type": "Home 25/26",
-    "image": "/images/products/1025_Celta_de_Vigo_HOME_2526.jpg"
+    "image": "/images/products/1025_Celta_de_Vigo_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1026,
     "league": "La Liga",
     "team": "RCD Mallorca",
     "type": "Home 25/26",
-    "image": "/images/products/1026_RCD_Mallorca_HOME_2526.jpg"
+    "image": "/images/products/1026_RCD_Mallorca_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1027,
     "league": "La Liga",
     "team": "Rayo Vallecano",
     "type": "Home 25/26",
-    "image": "/images/products/1027_Rayo_Vallecano_HOME_2526.jpg"
+    "image": "/images/products/1027_Rayo_Vallecano_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1028,
@@ -221,7 +242,8 @@
     "league": "La Liga",
     "team": "Real Valladolid",
     "type": "Home 25/26",
-    "image": "/images/products/1032_Real_Valladolid_HOME_2526.jpg"
+    "image": "/images/products/1032_Real_Valladolid_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1033,
@@ -249,7 +271,8 @@
     "league": "La Liga",
     "team": "Elche CF",
     "type": "Home 25/26",
-    "image": "/images/products/1036_Elche_CF_HOME_2526.jpg"
+    "image": "/images/products/1036_Elche_CF_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 1037,
@@ -333,14 +356,16 @@
     "league": "Premier League",
     "team": "Arsenal",
     "type": "Home 25/26",
-    "image": "/images/products/2001_Arsenal_HOME_2526.jpg"
+    "image": "/images/products/2001_Arsenal_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2002,
     "league": "Premier League",
     "team": "Arsenal",
     "type": "Away 25/26",
-    "image": "/images/products/2002_Arsenal_AWAY_2526.jpg"
+    "image": "/images/products/2002_Arsenal_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2003,
@@ -375,63 +400,72 @@
     "league": "Premier League",
     "team": "Manchester City",
     "type": "Home 25/26",
-    "image": "/images/products/2007_Manchester_City_HOME_2526.jpg"
+    "image": "/images/products/2007_Manchester_City_HOME_2526.jpg",
+    "price": 18
   },
   {
     "id": 2008,
     "league": "Premier League",
     "team": "Manchester City",
     "type": "Away 25/26",
-    "image": "/images/products/2008_Manchester_City_AWAY_2526.jpg"
+    "image": "/images/products/2008_Manchester_City_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2009,
     "league": "Premier League",
     "team": "Manchester City",
     "type": "Third 25/26",
-    "image": "/images/products/2009_Manchester_City_3ª_EQUIPACIÓN_2526.jpg"
+    "image": "/images/products/2009_Manchester_City_3ª_EQUIPACIÓN_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2010,
     "league": "Premier League",
     "team": "Manchester United",
     "type": "Home 25/26",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United"
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United",
+    "price": 19.99
   },
   {
     "id": 2011,
     "league": "Premier League",
     "team": "Manchester United",
     "type": "Away 25/26",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United"
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United",
+    "price": 19.99
   },
   {
     "id": 2012,
     "league": "Premier League",
     "team": "Manchester United",
     "type": "Third 25/26",
-    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United"
+    "image": "https://placehold.co/600x600/f0f0f0/999?text=Manchester+United",
+    "price": 19.99
   },
   {
     "id": 2013,
     "league": "Premier League",
     "team": "Chelsea",
     "type": "Home 25/26",
-    "image": "/images/products/2013_Chelsea_HOME_2526.jpg"
+    "image": "/images/products/2013_Chelsea_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2014,
     "league": "Premier League",
     "team": "Chelsea",
     "type": "Away 25/26",
-    "image": "/images/products/2014_Chelsea_AWAY_2526.jpg"
+    "image": "/images/products/2014_Chelsea_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2015,
     "league": "Premier League",
     "team": "Chelsea",
     "type": "Third 25/26",
-    "image": "/images/products/2015_Chelsea_3ª_EQUIPACIÓN_2526.jpg"
+    "image": "/images/products/2015_Chelsea_3ª_EQUIPACIÓN_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2016,
@@ -452,28 +486,32 @@
     "league": "Premier League",
     "team": "Newcastle United",
     "type": "Home 25/26",
-    "image": "/images/products/2018_Newcastle_United_HOME_2526.jpg"
+    "image": "/images/products/2018_Newcastle_United_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2019,
     "league": "Premier League",
     "team": "Newcastle United",
     "type": "Away 25/26",
-    "image": "/images/products/2019_Newcastle_United_AWAY_2526.jpg"
+    "image": "/images/products/2019_Newcastle_United_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2020,
     "league": "Premier League",
     "team": "Aston Villa",
     "type": "Home 25/26",
-    "image": "/images/products/2020_Aston_Villa_HOME_2526.jpg"
+    "image": "/images/products/2020_Aston_Villa_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2021,
     "league": "Premier League",
     "team": "Aston Villa",
     "type": "Away 25/26",
-    "image": "/images/products/2021_Aston_Villa_AWAY_2526.jpg"
+    "image": "/images/products/2021_Aston_Villa_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2022,
@@ -501,21 +539,24 @@
     "league": "Premier League",
     "team": "Crystal Palace",
     "type": "Home 25/26",
-    "image": "/images/products/2025_Crystal_Palace_HOME_2526.jpg"
+    "image": "/images/products/2025_Crystal_Palace_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2026,
     "league": "Premier League",
     "team": "Everton",
     "type": "Home 25/26",
-    "image": "/images/products/2026_Everton_HOME_2526.jpg"
+    "image": "/images/products/2026_Everton_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2027,
     "league": "Premier League",
     "team": "Fulham",
     "type": "Home 25/26",
-    "image": "/images/products/2027_Fulham_HOME_2526.jpg"
+    "image": "/images/products/2027_Fulham_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2028,
@@ -536,7 +577,8 @@
     "league": "Premier League",
     "team": "Nottingham Forest",
     "type": "Home 25/26",
-    "image": "/images/products/2030_Nottingham_Forest_HOME_2526.jpg"
+    "image": "/images/products/2030_Nottingham_Forest_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 2031,
@@ -634,42 +676,48 @@
     "league": "Serie A",
     "team": "AC Milan",
     "type": "Home 25/26",
-    "image": "/images/products/3001_AC_Milan_HOME_2526.jpg"
+    "image": "/images/products/3001_AC_Milan_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3002,
     "league": "Serie A",
     "team": "AC Milan",
     "type": "Away 25/26",
-    "image": "/images/products/3002_AC_Milan_AWAY_2526.jpg"
+    "image": "/images/products/3002_AC_Milan_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3003,
     "league": "Serie A",
     "team": "AC Milan",
     "type": "Third 25/26",
-    "image": "/images/products/3003_AC_Milan_3ª_EQUIPACIÓN_2526.jpg"
+    "image": "/images/products/3003_AC_Milan_3ª_EQUIPACIÓN_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3004,
     "league": "Serie A",
     "team": "Inter Milan",
     "type": "Home 25/26",
-    "image": "/images/products/3004_Inter_Milan_HOME_2526.jpg"
+    "image": "/images/products/3004_Inter_Milan_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3005,
     "league": "Serie A",
     "team": "Inter Milan",
     "type": "Away 25/26",
-    "image": "/images/products/3005_Inter_Milan_AWAY_2526.jpg"
+    "image": "/images/products/3005_Inter_Milan_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3006,
     "league": "Serie A",
     "team": "Inter Milan",
     "type": "Third 25/26",
-    "image": "/images/products/3006_Inter_Milan_3ª_EQUIPACIÓN_2526.jpg"
+    "image": "/images/products/3006_Inter_Milan_3ª_EQUIPACIÓN_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3007,
@@ -704,21 +752,24 @@
     "league": "Serie A",
     "team": "Napoli",
     "type": "Away 25/26",
-    "image": "/images/products/3011_Napoli_AWAY_2526.jpg"
+    "image": "/images/products/3011_Napoli_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3012,
     "league": "Serie A",
     "team": "AS Roma",
     "type": "Home 25/26",
-    "image": "/images/products/3012_AS_Roma_HOME_2526.jpg"
+    "image": "/images/products/3012_AS_Roma_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3013,
     "league": "Serie A",
     "team": "AS Roma",
     "type": "Away 25/26",
-    "image": "/images/products/3013_AS_Roma_AWAY_2526.jpg"
+    "image": "/images/products/3013_AS_Roma_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3014,
@@ -739,14 +790,16 @@
     "league": "Serie A",
     "team": "Atalanta",
     "type": "Home 25/26",
-    "image": "/images/products/3016_Atalanta_HOME_2526.jpg"
+    "image": "/images/products/3016_Atalanta_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3017,
     "league": "Serie A",
     "team": "Fiorentina",
     "type": "Home 25/26",
-    "image": "/images/products/3017_Fiorentina_HOME_2526.jpg"
+    "image": "/images/products/3017_Fiorentina_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 3018,
@@ -795,28 +848,32 @@
     "league": "Bundesliga",
     "team": "Bayern Munich",
     "type": "Home 25/26",
-    "image": "/images/products/4001_Bayern_Munich_HOME_2526.jpg"
+    "image": "/images/products/4001_Bayern_Munich_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 4002,
     "league": "Bundesliga",
     "team": "Bayern Munich",
     "type": "Away 25/26",
-    "image": "/images/products/4002_Bayern_Munich_AWAY_2526.jpg"
+    "image": "/images/products/4002_Bayern_Munich_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 4003,
     "league": "Bundesliga",
     "team": "Bayern Munich",
     "type": "Third 25/26",
-    "image": "/images/products/4003_Bayern_Munich_3ª_EQUIPACIÓN_2526.jpg"
+    "image": "/images/products/4003_Bayern_Munich_3ª_EQUIPACIÓN_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 4004,
     "league": "Bundesliga",
     "team": "Borussia Dortmund",
     "type": "Home 25/26",
-    "image": "/images/products/4004_Borussia_Dortmund_HOME_2526.jpg"
+    "image": "/images/products/4004_Borussia_Dortmund_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 4005,
@@ -858,7 +915,8 @@
     "league": "Bundesliga",
     "team": "RB Leipzig",
     "type": "Away 25/26",
-    "image": "/images/products/4010_RB_Leipzig_AWAY_2526.jpg"
+    "image": "/images/products/4010_RB_Leipzig_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 4011,
@@ -879,7 +937,8 @@
     "league": "Bundesliga",
     "team": "Borussia Mönchengladbach",
     "type": "Home 25/26",
-    "image": "/images/products/4013_Borussia_Mönchengladbach_HOME_2526.jpg"
+    "image": "/images/products/4013_Borussia_Mönchengladbach_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 4014,
@@ -935,7 +994,8 @@
     "league": "Otras Ligas",
     "team": "Hamburger SV",
     "type": "Home 25/26",
-    "image": "/images/products/4021_Hamburger_SV_HOME_2526.jpg"
+    "image": "/images/products/4021_Hamburger_SV_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 4022,
@@ -956,7 +1016,8 @@
     "league": "Ligue 1",
     "team": "Paris Saint-Germain",
     "type": "Home 25/26",
-    "image": "/images/products/5001_Paris_Saint-Germain_HOME_2526.jpg"
+    "image": "/images/products/5001_Paris_Saint-Germain_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 5002,
@@ -970,21 +1031,24 @@
     "league": "Ligue 1",
     "team": "Paris Saint-Germain",
     "type": "Third 25/26",
-    "image": "/images/products/5003_Paris_Saint-Germain_3ª_EQUIPACIÓN_2526.jpg"
+    "image": "/images/products/5003_Paris_Saint-Germain_3ª_EQUIPACIÓN_2526.jpg",
+    "price": 18
   },
   {
     "id": 5004,
     "league": "Ligue 1",
     "team": "Olympique Marseille",
     "type": "Home 25/26",
-    "image": "/images/products/5004_Olympique_Marseille_HOME_2526.jpg"
+    "image": "/images/products/5004_Olympique_Marseille_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 5005,
     "league": "Ligue 1",
     "team": "Olympique Marseille",
     "type": "Away 25/26",
-    "image": "/images/products/5005_Olympique_Marseille_AWAY_2526.jpg"
+    "image": "/images/products/5005_Olympique_Marseille_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 5006,
@@ -1026,7 +1090,8 @@
     "league": "Ligue 1",
     "team": "Paris FC",
     "type": "Home 25/26",
-    "image": "/images/products/5011_Paris_FC_HOME_2526.jpg"
+    "image": "/images/products/5011_Paris_FC_HOME_2526.jpg",
+    "price": 18
   },
   {
     "id": 6001,
@@ -1131,14 +1196,16 @@
     "league": "Selecciones",
     "team": "Argentina",
     "type": "Home 25/26",
-    "image": "/images/products/6015_Argentina_HOME_2526.jpg"
+    "image": "/images/products/6015_Argentina_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 6016,
     "league": "Selecciones",
     "team": "Argentina",
     "type": "Away 25/26",
-    "image": "/images/products/6016_Argentina_AWAY_2526.jpg"
+    "image": "/images/products/6016_Argentina_AWAY_2526.jpg",
+    "price": 18
   },
   {
     "id": 6017,
@@ -1166,7 +1233,8 @@
     "league": "Selecciones",
     "team": "Colombia",
     "type": "Home 25/26",
-    "image": "/images/products/6020_Colombia_HOME_2526.jpg"
+    "image": "/images/products/6020_Colombia_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 6021,
@@ -1187,7 +1255,8 @@
     "league": "Selecciones",
     "team": "Chile",
     "type": "Home 25/26",
-    "image": "/images/products/6023_Chile_HOME_2526.jpg"
+    "image": "/images/products/6023_Chile_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 6024,
@@ -1208,7 +1277,8 @@
     "league": "Selecciones",
     "team": "Nigeria",
     "type": "Home 25/26",
-    "image": "/images/products/6026_Nigeria_HOME_2526.jpg"
+    "image": "/images/products/6026_Nigeria_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 6027,
@@ -1257,35 +1327,40 @@
     "league": "Otras Ligas",
     "team": "Ajax",
     "type": "Home 25/26",
-    "image": "/images/products/7001_Ajax_HOME_2526.jpg"
+    "image": "/images/products/7001_Ajax_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7002,
     "league": "Otras Ligas",
     "team": "Ajax",
     "type": "Away 25/26",
-    "image": "/images/products/7002_Ajax_AWAY_2526.jpg"
+    "image": "/images/products/7002_Ajax_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7003,
     "league": "Otras Ligas",
     "team": "Benfica",
     "type": "Home 25/26",
-    "image": "/images/products/7003_Benfica_HOME_2526.jpg"
+    "image": "/images/products/7003_Benfica_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7004,
     "league": "Otras Ligas",
     "team": "Benfica",
     "type": "Away 25/26",
-    "image": "/images/products/7004_Benfica_AWAY_2526.jpg"
+    "image": "/images/products/7004_Benfica_AWAY_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7005,
     "league": "Otras Ligas",
     "team": "FC Porto",
     "type": "Home 25/26",
-    "image": "/images/products/7005_FC_Porto_HOME_2526.jpg"
+    "image": "/images/products/7005_FC_Porto_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7006,
@@ -1299,7 +1374,8 @@
     "league": "Otras Ligas",
     "team": "Celtic",
     "type": "Home 25/26",
-    "image": "/images/products/7007_Celtic_HOME_2526.jpg"
+    "image": "/images/products/7007_Celtic_HOME_2526.jpg",
+    "price": 18
   },
   {
     "id": 7008,
@@ -1313,7 +1389,8 @@
     "league": "Otras Ligas",
     "team": "Besiktas",
     "type": "Home 25/26",
-    "image": "/images/products/7009_Besiktas_HOME_2526.jpg"
+    "image": "/images/products/7009_Besiktas_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7010,
@@ -1341,7 +1418,8 @@
     "league": "Otras Ligas",
     "team": "Inter Miami",
     "type": "Home 25/26",
-    "image": "/images/products/7013_Inter_Miami_HOME_2526.jpg"
+    "image": "/images/products/7013_Inter_Miami_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7014,
@@ -1369,21 +1447,24 @@
     "league": "Otras Ligas",
     "team": "Flamengo",
     "type": "Home 25/26",
-    "image": "/images/products/7017_Flamengo_HOME_2526.jpg"
+    "image": "/images/products/7017_Flamengo_HOME_2526.jpg",
+    "price": 18
   },
   {
     "id": 7018,
     "league": "Otras Ligas",
     "team": "Palmeiras",
     "type": "Home 25/26",
-    "image": "/images/products/7018_Palmeiras_HOME_2526.jpg"
+    "image": "/images/products/7018_Palmeiras_HOME_2526.jpg",
+    "price": 18
   },
   {
     "id": 7019,
     "league": "Otras Ligas",
     "team": "Corinthians",
     "type": "Home 25/26",
-    "image": "/images/products/7019_Corinthians_HOME_2526.jpg"
+    "image": "/images/products/7019_Corinthians_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7020,
@@ -1411,7 +1492,8 @@
     "league": "Otras Ligas",
     "team": "Colo Colo",
     "type": "Home 25/26",
-    "image": "/images/products/7023_Colo-Colo_HOME_2526.jpg"
+    "image": "/images/products/7023_Colo-Colo_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7024,
@@ -1425,7 +1507,8 @@
     "league": "Otras Ligas",
     "team": "PSV Eindhoven",
     "type": "Home 25/26",
-    "image": "/images/products/7025_PSV_Eindhoven_HOME_2526.jpg"
+    "image": "/images/products/7025_PSV_Eindhoven_HOME_2526.jpg",
+    "price": 19.99
   },
   {
     "id": 7026,
@@ -2151,14 +2234,6 @@
     "price": 18
   },
   {
-    "id": 9132,
-    "league": "Selecciones",
-    "team": "Argentina",
-    "type": "Away",
-    "image": "/images/products/album_224245771.jpg",
-    "price": 18
-  },
-  {
     "id": 9133,
     "league": "Selecciones",
     "team": "Morocco",
@@ -2340,30 +2415,6 @@
     "team": "Atlético Mineiro",
     "type": "Home",
     "image": "/images/products/album_225189700.jpg",
-    "price": 18
-  },
-  {
-    "id": 9156,
-    "league": "Otras Ligas",
-    "team": "Palmeiras",
-    "type": "Home",
-    "image": "/images/products/album_225073748.jpg",
-    "price": 18
-  },
-  {
-    "id": 9157,
-    "league": "Premier League",
-    "team": "Manchester City",
-    "type": "Home",
-    "image": "/images/products/album_225073713.jpg",
-    "price": 18
-  },
-  {
-    "id": 9158,
-    "league": "Otras Ligas",
-    "team": "Flamengo",
-    "type": "Home",
-    "image": "/images/products/album_224956057.jpg",
     "price": 18
   },
   {
@@ -2647,27 +2698,11 @@
     "price": 18
   },
   {
-    "id": 9194,
-    "league": "Ligue 1",
-    "team": "Paris FC",
-    "type": "Home",
-    "image": "/images/products/album_210419894.jpg",
-    "price": 18
-  },
-  {
     "id": 9195,
     "league": "Ligue 1",
     "team": "Paris FC",
     "type": "Away",
     "image": "/images/products/album_210419865.jpg",
-    "price": 18
-  },
-  {
-    "id": 9196,
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "type": "Third",
-    "image": "/images/products/album_206570316.jpg",
     "price": 18
   },
   {
@@ -2732,14 +2767,6 @@
     "team": "Rangers",
     "type": "Third",
     "image": "/images/products/album_204445775.jpg",
-    "price": 18
-  },
-  {
-    "id": 9205,
-    "league": "Otras Ligas",
-    "team": "Celtic",
-    "type": "Home",
-    "image": "/images/products/album_200445027.jpg",
     "price": 18
   },
   {
@@ -3343,14 +3370,6 @@
     "price": 19.99
   },
   {
-    "id": 9289,
-    "league": "La Liga",
-    "team": "Atlético de Madrid",
-    "type": "Third",
-    "image": "/images/products/album_214584611.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9290,
     "league": "Otras Ligas",
     "team": "Sporting de Gijón",
@@ -3428,14 +3447,6 @@
     "team": "CD Tenerife",
     "type": "Away",
     "image": "/images/products/album_210419649.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9300,
-    "league": "La Liga",
-    "team": "Elche CF",
-    "type": "Home",
-    "image": "/images/products/album_209233815.jpg",
     "price": 19.99
   },
   {
@@ -3575,14 +3586,6 @@
     "price": 19.99
   },
   {
-    "id": 9318,
-    "league": "La Liga",
-    "team": "Sevilla FC",
-    "type": "Home",
-    "image": "/images/products/album_206570202.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9319,
     "league": "La Liga",
     "team": "Sevilla FC",
@@ -3607,22 +3610,6 @@
     "price": 19.99
   },
   {
-    "id": 9322,
-    "league": "La Liga",
-    "team": "Real Valladolid",
-    "type": "Home",
-    "image": "/images/products/album_205547102.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9323,
-    "league": "La Liga",
-    "team": "Real Sociedad",
-    "type": "Away",
-    "image": "/images/products/album_205547080.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9324,
     "league": "Otras Ligas",
     "team": "Deportivo de La Coruna",
@@ -3636,22 +3623,6 @@
     "team": "CD Leganes",
     "type": "Home",
     "image": "/images/products/album_205546874.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9326,
-    "league": "La Liga",
-    "team": "FC Barcelona",
-    "type": "Third",
-    "image": "/images/products/album_205546781.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9327,
-    "league": "La Liga",
-    "team": "Real Betis",
-    "type": "Home",
-    "image": "/images/products/album_204445744.jpg",
     "price": 19.99
   },
   {
@@ -3679,27 +3650,11 @@
     "price": 19.99
   },
   {
-    "id": 9331,
-    "league": "La Liga",
-    "team": "FC Barcelona",
-    "type": "Away",
-    "image": "/images/products/album_202609330.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9332,
     "league": "La Liga",
     "team": "RCD Mallorca",
     "type": "Away",
     "image": "/images/products/album_202608587.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9333,
-    "league": "La Liga",
-    "team": "RCD Mallorca",
-    "type": "Home",
-    "image": "/images/products/album_202608533.jpg",
     "price": 19.99
   },
   {
@@ -3719,43 +3674,11 @@
     "price": 19.99
   },
   {
-    "id": 9336,
-    "league": "La Liga",
-    "team": "Celta de Vigo",
-    "type": "Home",
-    "image": "/images/products/album_201726824.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9337,
     "league": "La Liga",
     "team": "Rayo Vallecano",
     "type": "Away",
     "image": "/images/products/album_201726251.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9338,
-    "league": "La Liga",
-    "team": "Rayo Vallecano",
-    "type": "Home",
-    "image": "/images/products/album_201726226.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9339,
-    "league": "La Liga",
-    "team": "Villarreal CF",
-    "type": "Home",
-    "image": "/images/products/album_201609468.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9340,
-    "league": "La Liga",
-    "team": "Athletic Bilbao",
-    "type": "Away",
-    "image": "/images/products/album_201157526.jpg",
     "price": 19.99
   },
   {
@@ -3767,30 +3690,6 @@
     "price": 19.99
   },
   {
-    "id": 9342,
-    "league": "La Liga",
-    "team": "Athletic Bilbao",
-    "type": "Home",
-    "image": "/images/products/album_200808651.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9343,
-    "league": "La Liga",
-    "team": "Atlético de Madrid",
-    "type": "Away",
-    "image": "/images/products/album_198551642.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9344,
-    "league": "La Liga",
-    "team": "FC Barcelona",
-    "type": "Home",
-    "image": "/images/products/album_197818923.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9345,
     "league": "La Liga",
     "team": "Girona",
@@ -3799,43 +3698,11 @@
     "price": 19.99
   },
   {
-    "id": 9346,
-    "league": "La Liga",
-    "team": "Girona",
-    "type": "Home",
-    "image": "/images/products/album_197152695.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9347,
     "league": "La Liga",
     "team": "Girona",
     "type": "Third",
     "image": "/images/products/album_197152671.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9348,
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "type": "Third",
-    "image": "/images/products/album_197152467.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9349,
-    "league": "La Liga",
-    "team": "Valencia CF",
-    "type": "Away",
-    "image": "/images/products/album_197152442.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9350,
-    "league": "La Liga",
-    "team": "Valencia CF",
-    "type": "Home",
-    "image": "/images/products/album_197152432.jpg",
     "price": 19.99
   },
   {
@@ -3855,38 +3722,6 @@
     "price": 19.99
   },
   {
-    "id": 9353,
-    "league": "La Liga",
-    "team": "Atlético de Madrid",
-    "type": "Home",
-    "image": "/images/products/album_190852301.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9354,
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "type": "Away",
-    "image": "/images/products/album_189778144.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9355,
-    "league": "La Liga",
-    "team": "Real Madrid",
-    "type": "Home",
-    "image": "/images/products/album_186396265.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9357,
-    "league": "Premier League",
-    "team": "Manchester City",
-    "type": "Third",
-    "image": "/images/products/album_215295336.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9358,
     "league": "Premier League",
     "team": "Tottenham Hotspur",
@@ -3900,22 +3735,6 @@
     "team": "Crystal Palace",
     "type": "Third",
     "image": "/images/products/album_214585073.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9360,
-    "league": "Premier League",
-    "team": "Chelsea",
-    "type": "Third",
-    "image": "/images/products/album_214584996.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9361,
-    "league": "Premier League",
-    "team": "Fulham",
-    "type": "Home",
-    "image": "/images/products/album_210862088.jpg",
     "price": 19.99
   },
   {
@@ -3951,27 +3770,11 @@
     "price": 19.99
   },
   {
-    "id": 9366,
-    "league": "Premier League",
-    "team": "Aston Villa",
-    "type": "Home",
-    "image": "/images/products/album_206581980.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9367,
     "league": "Premier League",
     "team": "Aston Villa",
     "type": "Third",
     "image": "/images/products/album_206581956.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9368,
-    "league": "Premier League",
-    "team": "Crystal Palace",
-    "type": "Home",
-    "image": "/images/products/album_206581796.jpg",
     "price": 19.99
   },
   {
@@ -4047,35 +3850,11 @@
     "price": 19.99
   },
   {
-    "id": 9378,
-    "league": "Premier League",
-    "team": "Everton",
-    "type": "Home",
-    "image": "/images/products/album_203492513.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9379,
     "league": "Premier League",
     "team": "Leeds United F.C.",
     "type": "Home",
     "image": "/images/products/album_203492446.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9380,
-    "league": "Premier League",
-    "team": "Newcastle United",
-    "type": "Home",
-    "image": "/images/products/album_202524352.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9381,
-    "league": "Premier League",
-    "team": "Newcastle United",
-    "type": "Away",
-    "image": "/images/products/album_202524341.jpg",
     "price": 19.99
   },
   {
@@ -4087,27 +3866,11 @@
     "price": 19.99
   },
   {
-    "id": 9383,
-    "league": "Premier League",
-    "team": "Arsenal",
-    "type": "Away",
-    "image": "/images/products/album_201157505.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9384,
     "league": "Premier League",
     "team": "Tottenham Hotspur",
     "type": "Home",
     "image": "/images/products/album_200809282.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9385,
-    "league": "Premier League",
-    "team": "Chelsea",
-    "type": "Home",
-    "image": "/images/products/album_200809008.jpg",
     "price": 19.99
   },
   {
@@ -4124,30 +3887,6 @@
     "team": "Bradford City A.F.C.2025/26 Third Jersey",
     "type": "Third",
     "image": "/images/products/album_199252218.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9388,
-    "league": "Premier League",
-    "team": "Aston Villa",
-    "type": "Away",
-    "image": "/images/products/album_197913688.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9389,
-    "league": "Premier League",
-    "team": "Manchester United",
-    "type": "Third",
-    "image": "/images/products/album_197818432.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9390,
-    "league": "Premier League",
-    "team": "Arsenal",
-    "type": "Home",
-    "image": "/images/products/album_197153228.jpg",
     "price": 19.99
   },
   {
@@ -4175,67 +3914,11 @@
     "price": 19.99
   },
   {
-    "id": 9394,
-    "league": "Premier League",
-    "team": "Nottingham Forest",
-    "type": "Home",
-    "image": "/images/products/album_194633802.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9395,
-    "league": "Premier League",
-    "team": "Manchester United",
-    "type": "Home",
-    "image": "/images/products/album_194436892.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9396,
-    "league": "Premier League",
-    "team": "Manchester United",
-    "type": "Away",
-    "image": "/images/products/album_192298308.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9397,
     "league": "Otras Ligas",
     "team": "AFC Richmond",
     "type": "Home",
     "image": "/images/products/album_191121883.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9398,
-    "league": "Premier League",
-    "team": "Chelsea",
-    "type": "Away",
-    "image": "/images/products/album_189543950.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9399,
-    "league": "Premier League",
-    "team": "Manchester City",
-    "type": "Away",
-    "image": "/images/products/album_189225288.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9409,
-    "league": "Serie A",
-    "team": "Napoli",
-    "type": "Away",
-    "image": "/images/products/album_214585729.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9410,
-    "league": "Serie A",
-    "team": "Inter Milan",
-    "type": "Third",
-    "image": "/images/products/album_214585324.jpg",
     "price": 19.99
   },
   {
@@ -4295,27 +3978,11 @@
     "price": 19.99
   },
   {
-    "id": 9418,
-    "league": "Serie A",
-    "team": "AS Roma",
-    "type": "Away",
-    "image": "/images/products/album_210419583.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9419,
     "league": "Serie A",
     "team": "Genoa CFC",
     "type": "Home",
     "image": "/images/products/album_206581699.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9420,
-    "league": "Serie A",
-    "team": "AS Roma",
-    "type": "Home",
-    "image": "/images/products/album_202524141.jpg",
     "price": 19.99
   },
   {
@@ -4327,35 +3994,11 @@
     "price": 19.99
   },
   {
-    "id": 9422,
-    "league": "Serie A",
-    "team": "Fiorentina",
-    "type": "Home",
-    "image": "/images/products/album_201608953.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9423,
-    "league": "Serie A",
-    "team": "Atalanta",
-    "type": "Home",
-    "image": "/images/products/album_201157519.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9424,
     "league": "Serie A",
     "team": "Cagliari Calcio",
     "type": "Third",
     "image": "/images/products/album_199252240.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9425,
-    "league": "Serie A",
-    "team": "Inter Milan",
-    "type": "Home",
-    "image": "/images/products/album_197152617.jpg",
     "price": 19.99
   },
   {
@@ -4388,54 +4031,6 @@
     "team": "Inter Milan",
     "type": "Home Niño",
     "image": "/images/products/9429_Inter_Milan_HOME_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9430,
-    "league": "Serie A",
-    "team": "AC Milan",
-    "type": "Third",
-    "image": "/images/products/album_194634167.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9431,
-    "league": "Serie A",
-    "team": "Inter Milan",
-    "type": "Away",
-    "image": "/images/products/album_194633902.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9432,
-    "league": "Serie A",
-    "team": "AC Milan",
-    "type": "Away",
-    "image": "/images/products/album_194437259.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9433,
-    "league": "Serie A",
-    "team": "AC Milan",
-    "type": "Home",
-    "image": "/images/products/album_191121897.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9436,
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "type": "Third",
-    "image": "/images/products/album_206581863.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9437,
-    "league": "Otras Ligas",
-    "team": "Hamburger SV",
-    "type": "Home",
-    "image": "/images/products/album_205547024.jpg",
     "price": 19.99
   },
   {
@@ -4479,14 +4074,6 @@
     "price": 19.99
   },
   {
-    "id": 9443,
-    "league": "Bundesliga",
-    "team": "RB Leipzig",
-    "type": "Away",
-    "image": "/images/products/album_201609233.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9444,
     "league": "Bundesliga",
     "team": "FC St. Pauli",
@@ -4527,14 +4114,6 @@
     "price": 19.99
   },
   {
-    "id": 9449,
-    "league": "Bundesliga",
-    "team": "Borussia Mönchengladbach",
-    "type": "Home",
-    "image": "/images/products/album_199248506.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9450,
     "league": "Bundesliga",
     "team": "FC St. Pauli",
@@ -4548,14 +4127,6 @@
     "team": "Borussia Mönchengladbach",
     "type": "Third",
     "image": "/images/products/album_197913732.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9452,
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "type": "Away",
-    "image": "/images/products/album_197153015.jpg",
     "price": 19.99
   },
   {
@@ -4583,14 +4154,6 @@
     "price": 19.99
   },
   {
-    "id": 9456,
-    "league": "Bundesliga",
-    "team": "Bayern Munich",
-    "type": "Home",
-    "image": "/images/products/album_195634231.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9457,
     "league": "Otras Ligas",
     "team": "1. FC Union Berlin",
@@ -4599,35 +4162,11 @@
     "price": 19.99
   },
   {
-    "id": 9458,
-    "league": "Bundesliga",
-    "team": "Borussia Dortmund",
-    "type": "Home",
-    "image": "/images/products/album_189922767.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9469,
     "league": "Ligue 1",
     "team": "AS Monaco",
     "type": "Home",
     "image": "/images/products/album_203492786.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9470,
-    "league": "Ligue 1",
-    "team": "Olympique Marseille",
-    "type": "Away",
-    "image": "/images/products/album_203492359.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9471,
-    "league": "Ligue 1",
-    "team": "Olympique Marseille",
-    "type": "Home",
-    "image": "/images/products/album_202608752.jpg",
     "price": 19.99
   },
   {
@@ -4660,14 +4199,6 @@
     "team": "Lille OSC",
     "type": "Away",
     "image": "/images/products/album_200445800.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9476,
-    "league": "Ligue 1",
-    "team": "Paris Saint-Germain",
-    "type": "Home",
-    "image": "/images/products/album_194633782.jpg",
     "price": 19.99
   },
   {
@@ -4732,30 +4263,6 @@
     "team": "Hungary",
     "type": "Home",
     "image": "/images/products/album_214585280.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9486,
-    "league": "Selecciones",
-    "team": "Colombia",
-    "type": "Home",
-    "image": "/images/products/album_214585022.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9487,
-    "league": "Selecciones",
-    "team": "Argentina",
-    "type": "Home",
-    "image": "/images/products/album_214584282.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9488,
-    "league": "Selecciones",
-    "team": "Chile",
-    "type": "Home",
-    "image": "/images/products/album_206581809.jpg",
     "price": 19.99
   },
   {
@@ -4884,14 +4391,6 @@
     "team": "Uzbekistan",
     "type": "Home",
     "image": "/images/products/album_194633661.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9505,
-    "league": "Selecciones",
-    "team": "Nigeria",
-    "type": "Home",
-    "image": "/images/products/album_194436826.jpg",
     "price": 19.99
   },
   {
@@ -5303,14 +4802,6 @@
     "price": 19.99
   },
   {
-    "id": 9560,
-    "league": "Otras Ligas",
-    "team": "Corinthians",
-    "type": "Home",
-    "image": "/images/products/album_193053992.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9561,
     "league": "Otras Ligas",
     "team": "Fortaleza FC",
@@ -5503,14 +4994,6 @@
     "price": 19.99
   },
   {
-    "id": 9620,
-    "league": "Otras Ligas",
-    "team": "Inter Miami",
-    "type": "Home",
-    "image": "/images/products/album_186702452.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9621,
     "league": "Otras Ligas",
     "team": "LA Galaxy",
@@ -5556,14 +5039,6 @@
     "team": "Universidad De Chile",
     "type": "Home",
     "image": "/images/products/album_186396495.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9631,
-    "league": "Otras Ligas",
-    "team": "Colo Colo",
-    "type": "Home",
-    "image": "/images/products/album_184415547.jpg",
     "price": 19.99
   },
   {
@@ -5623,14 +5098,6 @@
     "price": 19.99
   },
   {
-    "id": 9644,
-    "league": "Otras Ligas",
-    "team": "Benfica",
-    "type": "Away",
-    "image": "/images/products/album_202524185.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9645,
     "league": "Otras Ligas",
     "team": "FC Porto",
@@ -5647,27 +5114,11 @@
     "price": 19.99
   },
   {
-    "id": 9647,
-    "league": "Otras Ligas",
-    "team": "FC Porto",
-    "type": "Home",
-    "image": "/images/products/album_201608851.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9648,
     "league": "Otras Ligas",
     "team": "Sporting CP",
     "type": "Home",
     "image": "/images/products/album_201158021.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9649,
-    "league": "Otras Ligas",
-    "team": "Benfica",
-    "type": "Home",
-    "image": "/images/products/album_201157645.jpg",
     "price": 19.99
   },
   {
@@ -5724,14 +5175,6 @@
     "team": "FC Shakhtar Donetsk",
     "type": "Home",
     "image": "/images/products/album_199248703.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9660,
-    "league": "Otras Ligas",
-    "team": "Besiktas",
-    "type": "Home",
-    "image": "/images/products/album_199248469.jpg",
     "price": 19.99
   },
   {
@@ -5871,27 +5314,11 @@
     "price": 19.99
   },
   {
-    "id": 9678,
-    "league": "Otras Ligas",
-    "team": "Ajax",
-    "type": "Away",
-    "image": "/images/products/album_206582045.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9679,
     "league": "Otras Ligas",
     "team": "PSV Eindhoven",
     "type": "Home Niño",
     "image": "/images/products/9679_PSV_Eindhoven_HOME_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9680,
-    "league": "Otras Ligas",
-    "team": "PSV Eindhoven",
-    "type": "Home",
-    "image": "/images/products/album_201609147.jpg",
     "price": 19.99
   },
   {
@@ -5908,14 +5335,6 @@
     "team": "Feyenoord Rotterdam",
     "type": "Home",
     "image": "/images/products/album_199248900.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9683,
-    "league": "Otras Ligas",
-    "team": "Ajax",
-    "type": "Home",
-    "image": "/images/products/album_198551621.jpg",
     "price": 19.99
   },
   {
@@ -5999,22 +5418,6 @@
     "price": 19.99
   },
   {
-    "id": 9694,
-    "league": "Premier League",
-    "team": "Newcastle United",
-    "type": "Third 25/26",
-    "image": "/images/products/9694_Newcastle_United_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9695,
-    "league": "Premier League",
-    "team": "Aston Villa",
-    "type": "Third 25/26",
-    "image": "/images/products/9695_Aston_Villa_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9696,
     "league": "Premier League",
     "team": "Aston Villa",
@@ -6095,14 +5498,6 @@
     "price": 19.99
   },
   {
-    "id": 9706,
-    "league": "Premier League",
-    "team": "Crystal Palace",
-    "type": "Third 25/26",
-    "image": "/images/products/9706_Crystal_Palace_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9707,
     "league": "Premier League",
     "team": "Crystal Palace",
@@ -6119,14 +5514,6 @@
     "price": 19.99
   },
   {
-    "id": 9709,
-    "league": "Premier League",
-    "team": "Everton",
-    "type": "Third 25/26",
-    "image": "/images/products/9709_Everton_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9710,
     "league": "Premier League",
     "team": "Fulham",
@@ -6140,14 +5527,6 @@
     "team": "Leicester City",
     "type": "Away 25/26",
     "image": "/images/products/9711_Leicester_City_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9712,
-    "league": "Premier League",
-    "team": "Nottingham Forest",
-    "type": "Away 25/26",
-    "image": "/images/products/9712_Nottingham_Forest_AWAY_2526.jpg",
     "price": 19.99
   },
   {
@@ -6212,14 +5591,6 @@
     "team": "Atlético de Madrid",
     "type": "Third Niño",
     "image": "/images/products/9720_Atletico_de_Madrid_3RD_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9721,
-    "league": "La Liga",
-    "team": "Sevilla FC",
-    "type": "Third 25/26",
-    "image": "/images/products/9721_Sevilla_FC_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -6319,14 +5690,6 @@
     "price": 19.99
   },
   {
-    "id": 9734,
-    "league": "La Liga",
-    "team": "Girona",
-    "type": "Away 25/26",
-    "image": "/images/products/9734_Girona_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9735,
     "league": "La Liga",
     "team": "Girona",
@@ -6383,14 +5746,6 @@
     "price": 19.99
   },
   {
-    "id": 9742,
-    "league": "La Liga",
-    "team": "Celta de Vigo",
-    "type": "Away 25/26",
-    "image": "/images/products/9742_Celta_de_Vigo_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9743,
     "league": "La Liga",
     "team": "Celta de Vigo",
@@ -6412,14 +5767,6 @@
     "team": "Celta de Vigo",
     "type": "Third Niño",
     "image": "/images/products/9745_Celta_de_Vigo_3RD_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9746,
-    "league": "La Liga",
-    "team": "RCD Mallorca",
-    "type": "Away 25/26",
-    "image": "/images/products/9746_RCD_Mallorca_AWAY_2526.jpg",
     "price": 19.99
   },
   {
@@ -6452,14 +5799,6 @@
     "team": "RCD Mallorca",
     "type": "Third Niño",
     "image": "/images/products/9750_RCD_Mallorca_3RD_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9751,
-    "league": "La Liga",
-    "team": "Rayo Vallecano",
-    "type": "Away 25/26",
-    "image": "/images/products/9751_Rayo_Vallecano_AWAY_2526.jpg",
     "price": 19.99
   },
   {
@@ -6799,14 +6138,6 @@
     "price": 19.99
   },
   {
-    "id": 9794,
-    "league": "La Liga",
-    "team": "Real Murcia",
-    "type": "Away 25/26",
-    "image": "/images/products/9794_Real_Murcia_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9795,
     "league": "La Liga",
     "team": "Albacete",
@@ -6820,14 +6151,6 @@
     "team": "Albacete",
     "type": "Away 25/26",
     "image": "/images/products/9796_Albacete_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9797,
-    "league": "La Liga",
-    "team": "Albacete",
-    "type": "Third 25/26",
-    "image": "/images/products/9797_Albacete_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -6855,14 +6178,6 @@
     "price": 19.99
   },
   {
-    "id": 9801,
-    "league": "La Liga",
-    "team": "Cartagena",
-    "type": "Home 25/26",
-    "image": "/images/products/9801_Cartagena_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9802,
     "league": "Serie A",
     "team": "AC Milan",
@@ -6884,14 +6199,6 @@
     "team": "Inter Milan",
     "type": "Third Niño",
     "image": "/images/products/9804_Inter_Milan_3RD_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9805,
-    "league": "Serie A",
-    "team": "Napoli",
-    "type": "Third 25/26",
-    "image": "/images/products/9805_Napoli_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -6940,14 +6247,6 @@
     "team": "Lazio",
     "type": "Third 25/26",
     "image": "/images/products/9811_Lazio_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9812,
-    "league": "Serie A",
-    "team": "Atalanta",
-    "type": "Third 25/26",
-    "image": "/images/products/9812_Atalanta_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -7047,14 +6346,6 @@
     "price": 19.99
   },
   {
-    "id": 9825,
-    "league": "Bundesliga",
-    "team": "Borussia Mönchengladbach",
-    "type": "Away 25/26",
-    "image": "/images/products/9825_Borussia_Monchengladbach_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9826,
     "league": "Bundesliga",
     "team": "St. Pauli",
@@ -7076,14 +6367,6 @@
     "team": "Paris Saint-Germain",
     "type": "Third Niño",
     "image": "/images/products/9828_Paris_SaintGermain_3RD_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9829,
-    "league": "Ligue 1",
-    "team": "Olympique Marseille",
-    "type": "Third 25/26",
-    "image": "/images/products/9829_Olympique_Marseille_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -7191,14 +6474,6 @@
     "price": 19.99
   },
   {
-    "id": 9843,
-    "league": "Otras Ligas",
-    "team": "Hamburger SV",
-    "type": "Away 25/26",
-    "image": "/images/products/9843_Hamburger_SV_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9844,
     "league": "Otras Ligas",
     "team": "Ajax",
@@ -7212,14 +6487,6 @@
     "team": "Ajax",
     "type": "Third Niño",
     "image": "/images/products/9845_Ajax_3RD_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9846,
-    "league": "Otras Ligas",
-    "team": "Benfica",
-    "type": "Third 25/26",
-    "image": "/images/products/9846_Benfica_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -7263,59 +6530,11 @@
     "price": 19.99
   },
   {
-    "id": 9852,
-    "league": "Otras Ligas",
-    "team": "Inter Miami",
-    "type": "Away 25/26",
-    "image": "/images/products/9852_Inter_Miami_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9853,
-    "league": "Otras Ligas",
-    "team": "Inter Miami",
-    "type": "Third 25/26",
-    "image": "/images/products/9853_Inter_Miami_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9854,
-    "league": "Otras Ligas",
-    "team": "LA Galaxy",
-    "type": "Away 25/26",
-    "image": "/images/products/9854_LA_Galaxy_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9855,
-    "league": "Otras Ligas",
-    "team": "Boca Juniors",
-    "type": "Away 25/26",
-    "image": "/images/products/9855_Boca_Juniors_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9856,
     "league": "Otras Ligas",
     "team": "Boca Juniors",
     "type": "Away Niño",
     "image": "/images/products/9856_Boca_Juniors_AWAY_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9857,
-    "league": "Otras Ligas",
-    "team": "River Plate",
-    "type": "Away 25/26",
-    "image": "/images/products/9857_River_Plate_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9858,
-    "league": "Otras Ligas",
-    "team": "River Plate",
-    "type": "Third 25/26",
-    "image": "/images/products/9858_River_Plate_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -7327,59 +6546,11 @@
     "price": 19.99
   },
   {
-    "id": 9860,
-    "league": "Otras Ligas",
-    "team": "Flamengo",
-    "type": "Away 25/26",
-    "image": "/images/products/9860_Flamengo_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9861,
-    "league": "Otras Ligas",
-    "team": "Flamengo",
-    "type": "Third 25/26",
-    "image": "/images/products/9861_Flamengo_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9862,
     "league": "Otras Ligas",
     "team": "Flamengo",
     "type": "Third Niño",
     "image": "/images/products/9862_Flamengo_3RD_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9863,
-    "league": "Otras Ligas",
-    "team": "Palmeiras",
-    "type": "Away 25/26",
-    "image": "/images/products/9863_Palmeiras_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9864,
-    "league": "Otras Ligas",
-    "team": "Palmeiras",
-    "type": "Third 25/26",
-    "image": "/images/products/9864_Palmeiras_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9865,
-    "league": "Otras Ligas",
-    "team": "Corinthians",
-    "type": "Away 25/26",
-    "image": "/images/products/9865_Corinthians_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9866,
-    "league": "Otras Ligas",
-    "team": "Corinthians",
-    "type": "Third 25/26",
-    "image": "/images/products/9866_Corinthians_3RD_2526.png",
     "price": 19.99
   },
   {
@@ -7471,30 +6642,6 @@
     "price": 19.99
   },
   {
-    "id": 9878,
-    "league": "Otras Ligas",
-    "team": "Colo Colo",
-    "type": "Away 25/26",
-    "image": "/images/products/9878_Colo_Colo_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9879,
-    "league": "Otras Ligas",
-    "team": "Colo Colo",
-    "type": "Third 25/26",
-    "image": "/images/products/9879_Colo_Colo_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9880,
-    "league": "Otras Ligas",
-    "team": "PSV Eindhoven",
-    "type": "Away 25/26",
-    "image": "/images/products/9880_PSV_Eindhoven_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9881,
     "league": "Otras Ligas",
     "team": "PSV Eindhoven",
@@ -7516,14 +6663,6 @@
     "team": "Feyenoord",
     "type": "Third Niño",
     "image": "/images/products/9883_Feyenoord_3RD_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9884,
-    "league": "Otras Ligas",
-    "team": "Vasco Da Gama",
-    "type": "Home 25/26",
-    "image": "/images/products/9884_Vasco_Da_Gama_HOME_2526.jpg",
     "price": 19.99
   },
   {
@@ -7559,43 +6698,11 @@
     "price": 19.99
   },
   {
-    "id": 9889,
-    "league": "Otras Ligas",
-    "team": "Botafogo",
-    "type": "Home 25/26",
-    "image": "/images/products/9889_Botafogo_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9890,
-    "league": "Otras Ligas",
-    "team": "Botafogo",
-    "type": "Away 25/26",
-    "image": "/images/products/9890_Botafogo_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9891,
-    "league": "Otras Ligas",
-    "team": "Botafogo",
-    "type": "Third 25/26",
-    "image": "/images/products/9891_Botafogo_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9892,
     "league": "Otras Ligas",
     "team": "Braga",
     "type": "Home 25/26",
     "image": "/images/products/9892_Braga_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9893,
-    "league": "Otras Ligas",
-    "team": "Braga",
-    "type": "Away 25/26",
-    "image": "/images/products/9893_Braga_AWAY_2526.jpg",
     "price": 19.99
   },
   {
@@ -7615,46 +6722,6 @@
     "price": 19.99
   },
   {
-    "id": 9896,
-    "league": "Otras Ligas",
-    "team": "Monterrey",
-    "type": "Home 25/26",
-    "image": "/images/products/9896_Monterrey_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9897,
-    "league": "Otras Ligas",
-    "team": "Monterrey",
-    "type": "Away 25/26",
-    "image": "/images/products/9897_Monterrey_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9898,
-    "league": "Otras Ligas",
-    "team": "Fluminense",
-    "type": "Home 25/26",
-    "image": "/images/products/9898_Fluminense_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9899,
-    "league": "Otras Ligas",
-    "team": "Fluminense",
-    "type": "Away 25/26",
-    "image": "/images/products/9899_Fluminense_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9900,
-    "league": "Otras Ligas",
-    "team": "Fluminense",
-    "type": "Third 25/26",
-    "image": "/images/products/9900_Fluminense_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9901,
     "league": "Otras Ligas",
     "team": "Fluminense",
@@ -7663,27 +6730,11 @@
     "price": 19.99
   },
   {
-    "id": 9902,
-    "league": "Otras Ligas",
-    "team": "Atlético Mineiro",
-    "type": "Home 25/26",
-    "image": "/images/products/9902_Atletico_Mineiro_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9903,
     "league": "Otras Ligas",
     "team": "Atlético Mineiro",
     "type": "Away 25/26",
     "image": "/images/products/9903_Atletico_Mineiro_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9904,
-    "league": "Otras Ligas",
-    "team": "Atlético Mineiro",
-    "type": "Third 25/26",
-    "image": "/images/products/9904_Atletico_Mineiro_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -7711,22 +6762,6 @@
     "price": 19.99
   },
   {
-    "id": 9908,
-    "league": "Otras Ligas",
-    "team": "Santos",
-    "type": "Home 25/26",
-    "image": "/images/products/9908_Santos_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9909,
-    "league": "Otras Ligas",
-    "team": "Santos",
-    "type": "Away 25/26",
-    "image": "/images/products/9909_Santos_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9910,
     "league": "Otras Ligas",
     "team": "Santos",
@@ -7743,22 +6778,6 @@
     "price": 19.99
   },
   {
-    "id": 9912,
-    "league": "Otras Ligas",
-    "team": "Tigres UANL",
-    "type": "Home 25/26",
-    "image": "/images/products/9912_Tigres_UANL_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9913,
-    "league": "Otras Ligas",
-    "team": "Tigres UANL",
-    "type": "Away 25/26",
-    "image": "/images/products/9913_Tigres_UANL_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9914,
     "league": "Otras Ligas",
     "team": "Tigres UANL",
@@ -7767,75 +6786,11 @@
     "price": 19.99
   },
   {
-    "id": 9915,
-    "league": "Otras Ligas",
-    "team": "Cruzeiro",
-    "type": "Home 25/26",
-    "image": "/images/products/9915_Cruzeiro_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9916,
-    "league": "Otras Ligas",
-    "team": "Cruzeiro",
-    "type": "Away 25/26",
-    "image": "/images/products/9916_Cruzeiro_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9917,
-    "league": "Otras Ligas",
-    "team": "Cruzeiro",
-    "type": "Third 25/26",
-    "image": "/images/products/9917_Cruzeiro_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9918,
     "league": "Otras Ligas",
     "team": "Cruzeiro",
     "type": "Third Niño",
     "image": "/images/products/9918_Cruzeiro_3RD_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9919,
-    "league": "Otras Ligas",
-    "team": "New York Red Bulls",
-    "type": "Home 25/26",
-    "image": "/images/products/9919_New_York_Red_Bulls_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9920,
-    "league": "Otras Ligas",
-    "team": "Los Angeles FC",
-    "type": "Away 25/26",
-    "image": "/images/products/9920_Los_Angeles_FC_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9921,
-    "league": "Otras Ligas",
-    "team": "Cordoba CF",
-    "type": "Home 25/26",
-    "image": "/images/products/9921_Cordoba_CF_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9922,
-    "league": "Otras Ligas",
-    "team": "Cordoba CF",
-    "type": "Away 25/26",
-    "image": "/images/products/9922_Cordoba_CF_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9923,
-    "league": "Otras Ligas",
-    "team": "Cordoba CF",
-    "type": "Third 25/26",
-    "image": "/images/products/9923_Cordoba_CF_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -7855,35 +6810,11 @@
     "price": 19.99
   },
   {
-    "id": 9926,
-    "league": "Otras Ligas",
-    "team": "Burgos CF",
-    "type": "Away 25/26",
-    "image": "/images/products/9926_Burgos_CF_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9927,
     "league": "Otras Ligas",
     "team": "Burgos CF",
     "type": "Third 25/26",
     "image": "/images/products/9927_Burgos_CF_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9928,
-    "league": "Otras Ligas",
-    "team": "Hercules CF",
-    "type": "Home 25/26",
-    "image": "/images/products/9928_Hercules_CF_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9929,
-    "league": "Otras Ligas",
-    "team": "Parma Calcio",
-    "type": "Home 25/26",
-    "image": "/images/products/9929_Parma_Calcio_HOME_2526.jpg",
     "price": 19.99
   },
   {
@@ -7900,78 +6831,6 @@
     "team": "Parma Calcio",
     "type": "Third 25/26",
     "image": "/images/products/9931_Parma_Calcio_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9932,
-    "league": "Otras Ligas",
-    "team": "Vitoria",
-    "type": "Home 25/26",
-    "image": "/images/products/9932_Vitoria_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9933,
-    "league": "Otras Ligas",
-    "team": "Vitoria",
-    "type": "Away 25/26",
-    "image": "/images/products/9933_Vitoria_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9934,
-    "league": "Otras Ligas",
-    "team": "Vitoria",
-    "type": "Third 25/26",
-    "image": "/images/products/9934_Vitoria_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9935,
-    "league": "Otras Ligas",
-    "team": "Sport Recife",
-    "type": "Home 25/26",
-    "image": "/images/products/9935_Sport_Recife_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9936,
-    "league": "Otras Ligas",
-    "team": "Sport Recife",
-    "type": "Away 25/26",
-    "image": "/images/products/9936_Sport_Recife_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9937,
-    "league": "Otras Ligas",
-    "team": "Sport Recife",
-    "type": "Third 25/26",
-    "image": "/images/products/9937_Sport_Recife_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9938,
-    "league": "Otras Ligas",
-    "team": "S.C Internacional",
-    "type": "Home 25/26",
-    "image": "/images/products/9938_SC_Internacional_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9939,
-    "league": "Otras Ligas",
-    "team": "S.C Internacional",
-    "type": "Away 25/26",
-    "image": "/images/products/9939_SC_Internacional_AWAY_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9940,
-    "league": "Otras Ligas",
-    "team": "S.C Internacional",
-    "type": "Third 25/26",
-    "image": "/images/products/9940_SC_Internacional_3RD_2526.jpg",
     "price": 19.99
   },
   {
@@ -7999,14 +6858,6 @@
     "price": 19.99
   },
   {
-    "id": 9944,
-    "league": "Otras Ligas",
-    "team": "Bahia",
-    "type": "Third 25/26",
-    "image": "/images/products/9944_Bahia_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9945,
     "league": "Otras Ligas",
     "team": "Bahia",
@@ -8023,14 +6874,6 @@
     "price": 19.99
   },
   {
-    "id": 9947,
-    "league": "Otras Ligas",
-    "team": "Grêmio",
-    "type": "Home 25/26",
-    "image": "/images/products/9947_Gremio_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9948,
     "league": "Otras Ligas",
     "team": "Grêmio",
@@ -8039,35 +6882,11 @@
     "price": 19.99
   },
   {
-    "id": 9949,
-    "league": "Otras Ligas",
-    "team": "Grêmio",
-    "type": "Third 25/26",
-    "image": "/images/products/9949_Gremio_3RD_2526.jpg",
-    "price": 19.99
-  },
-  {
     "id": 9950,
     "league": "Otras Ligas",
     "team": "Grêmio",
     "type": "Home Niño",
     "image": "/images/products/9950_Gremio_HOME_NINO.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9951,
-    "league": "Otras Ligas",
-    "team": "FC Alverca",
-    "type": "Home 25/26",
-    "image": "/images/products/9951_FC_Alverca_HOME_2526.jpg",
-    "price": 19.99
-  },
-  {
-    "id": 9952,
-    "league": "Otras Ligas",
-    "team": "FC Alverca",
-    "type": "Away 25/26",
-    "image": "/images/products/9952_FC_Alverca_AWAY_2526.jpg",
     "price": 19.99
   }
 ]
