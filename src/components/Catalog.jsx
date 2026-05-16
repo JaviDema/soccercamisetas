@@ -11,7 +11,6 @@ const TYPE_FILTERS = [
   { value: 'third', label: 'Tercera' },
   { value: 'kids', label: 'Niño' },
   { value: 'retro', label: 'Retro' },
-  { value: 'player', label: 'Player' },
 ];
 
 const SORT_OPTIONS = [
@@ -93,6 +92,7 @@ export default function Catalog() {
     }
     setSearch('');
     setTypeFilter('all');
+    setSortBy('relevance');
   };
 
   const handleBackToCatalog = () => {
@@ -122,27 +122,31 @@ export default function Catalog() {
             />
           </div>
 
-          <div className="catalog-toolbar" aria-label="Ordenar y filtrar resultados">
-            <label className="sr-only" htmlFor="catalog-sort">Ordenar resultados</label>
-            <select id="catalog-sort" value={sortBy} onChange={(event) => setSortBy(event.target.value)}>
-              {SORT_OPTIONS.map((option) => (
-                <option key={option.value} value={option.value}>{option.label}</option>
-              ))}
-            </select>
-          </div>
+          {shouldRenderProducts && (
+            <>
+              <div className="catalog-toolbar" aria-label="Ordenar y filtrar resultados">
+                <label className="sr-only" htmlFor="catalog-sort">Ordenar resultados</label>
+                <select id="catalog-sort" value={sortBy} onChange={(event) => setSortBy(event.target.value)}>
+                  {SORT_OPTIONS.map((option) => (
+                    <option key={option.value} value={option.value}>{option.label}</option>
+                  ))}
+                </select>
+              </div>
 
-          <div className="type-chips" role="group" aria-label="Filtro por tipo de camiseta">
-            {TYPE_FILTERS.map((filter) => (
-              <button
-                key={filter.value}
-                type="button"
-                className={`type-chip ${typeFilter === filter.value ? 'active' : ''}`}
-                onClick={() => setTypeFilter(filter.value)}
-              >
-                {filter.label}
-              </button>
-            ))}
-          </div>
+              <div className="type-chips" role="group" aria-label="Filtro por tipo de camiseta">
+                {TYPE_FILTERS.map((filter) => (
+                  <button
+                    key={filter.value}
+                    type="button"
+                    className={`type-chip ${typeFilter === filter.value ? 'active' : ''}`}
+                    onClick={() => setTypeFilter(filter.value)}
+                  >
+                    {filter.label}
+                  </button>
+                ))}
+              </div>
+            </>
+          )}
         </div>
 
         <nav className="league-nav-inner" aria-label="Filtro por liga">

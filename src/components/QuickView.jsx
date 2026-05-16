@@ -1,14 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import { InstagramIcon, INSTAGRAM_URL } from './Icons';
 
-// CORREGIDO: fallback cuando la imagen no carga
 const handleImgError = (e) => {
   e.currentTarget.style.display = 'none';
 };
 
 export default function QuickView({ product, onClose }) {
   const { team, type, image } = product;
-  // CORREGIDO: useRef para focus trap en el modal (accesibilidad)
   const closeRef = useRef(null);
 
   useEffect(() => {
@@ -25,7 +23,7 @@ export default function QuickView({ product, onClose }) {
   return (
     <div className="modal-overlay" onClick={onClose} role="dialog" aria-modal="true" aria-label={`Detalles de ${team} ${type}`}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose} aria-label="Cerrar" ref={closeRef}>✕</button>
+        <button type="button" className="modal-close" onClick={onClose} aria-label="Cerrar" ref={closeRef}>✕</button>
 
         <div className="modal-image">
           <img src={image} alt={`Camiseta ${team} - ${type}`} onError={handleImgError} />
